@@ -1,0 +1,11 @@
+@font-face {
+    font-family: lemon;
+    src: url(../../assets/fonts/LEMONMILK-Light.otf);
+}
+
+.navbar-c{
+    background-color: white;
+    font-family: lemon;
+}
+
+
