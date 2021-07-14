@@ -1,0 +1,18 @@
+@font-face {
+    font-family: lemon;
+    src: url(../../assets/fonts/LEMONMILK-Light.otf);
+}
+
+.frase-main{
+    font-family: lemon;
+    margin-top: 40px;
+    text-align: right;
+
+}
+
+.refill-img{
+    width: auto;
+    height: 450px;
+    justify-content: center;
+    margin-left: 40 px;
+}

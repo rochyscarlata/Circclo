@@ -13,12 +13,12 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto ">
             <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#link">Nosotros</Nav.Link>
-            <Nav.Link href="#link">Productos</Nav.Link>
+            <Nav.Link href="#nosotros">Nosotros</Nav.Link>
+            <Nav.Link href="#productos">Productos</Nav.Link>
 
 
-            <Nav.Link href="#link">FAQ</Nav.Link>
-            <Nav.Link href="#link">Contacto</Nav.Link>
+            <Nav.Link href="#faq">FAQ</Nav.Link>
+            <Nav.Link href="#contacto">Contacto</Nav.Link>
             
             <NavDropdown title="ESP" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">ENG</NavDropdown.Item>

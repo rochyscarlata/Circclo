@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/navbar/Navbar";
 import Main from "../components/main/Main";
-
+import Footer from '../components/footer/Footer'
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 // import LangProvider from "./context/langContext";
 
@@ -16,6 +16,8 @@ function Router() {
           </Route>
          
         </Switch>
+        <Footer/>
+
       </BrowserRouter>
     // </LangProvider>
   );
