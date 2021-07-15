@@ -3,5 +3,9 @@
     "nav.inicio" : "Home",
     "nav.nosotros" : "Us",
     "nav.productos" : "Products",
-    "nav.contacto" : "Contact"
+    "nav.contacto" : "Contact",
+    "pasos.como" : " How it works ?",
+    "paso.uno" : " Request your order by takepedido / circclo.com or whatsapp business",
+    "paso.dos" : "Schedule the visit of your Circclo. Indicate the products you need to replenish. Pay by transfer with any card / payment method or cash.",
+    "paso.tres" : "Receive your product replacement, exchange empty containers for full ones and"
 }

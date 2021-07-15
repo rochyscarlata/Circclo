@@ -1,5 +1,5 @@
 import React, {useContext} from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container, Row, Col, Button} from 'react-bootstrap'
 import Refill from '../../assets/img/refill.png'
 import { IntlProvider, FormattedMessage } from 'react-intl';
 import MensajesIngles from '../../lang/en-US.json'
@@ -23,6 +23,12 @@ function Main() {
                     defaultMessage="Hola"
                     /> 
                 </h1>
+                <br></br>
+                <div className="divbtn">
+                <Button className="btn-revolucion"> Sumate a la revolucion</Button>
+
+                </div>
+                <br></br>
                 {/* <h1  className="frase-mainx">inteligentes</h1><h1  className="frase-mainz">a productos de primera necesidad</h1> */}
                 </Col>
                 <Col >

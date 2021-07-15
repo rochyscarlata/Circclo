@@ -20,3 +20,12 @@
     }
 
   }
+
+  @media (max-width:320px){
+   
+    .logonav{
+        width: 170px;
+        height: 30px;
+    }
+
+  }

@@ -1,0 +1,40 @@
+@font-face {
+    font-family: lemon;
+    src: url(../../assets/fonts/LEMONMILK-Light.otf);
+}
+
+
+.contenedor-hiw{
+    font-family: lemon;
+}
+.howit{
+    color: #038910;
+}
+.badge{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.paso1{
+    width: 200px;
+    height: 200px;
+}
+.paso2{
+    width: 250px;
+    height: 200px;
+}
+.paso3{
+    width: 200px;
+    height: 200px;
+}
+
+.pasos-descrip{
+    font-size: 20px;
+    font-family: ace;
+}
+
+@media screen and (device-width: 414px) {
+    .howit{
+        font-size: 20px !important;
+    }
+  }
