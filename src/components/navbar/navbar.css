@@ -9,3 +9,14 @@
 }
 
 
+
+@media (max-width:375px){
+    .navbar-c{
+       position: inherit;
+    }
+    .logonav{
+        width: 200px;
+        height: 40px;
+    }
+
+  }

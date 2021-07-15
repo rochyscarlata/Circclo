@@ -1,18 +1,52 @@
 @font-face {
-    font-family: lemon;
-    src: url(../../assets/fonts/LEMONMILK-Light.otf);
+  font-family: lemon;
+  src: url(../../assets/fonts/LEMONMILK-Light.otf);
 }
 
-.frase-main{
-    font-family: lemon;
-    margin-top: 40px;
-    text-align: right;
+.frase-main {
+  font-family: lemon;
+  margin-top: 40px;
+  text-align: end;
+  padding-left: 0px !important;
+}
+.frase-mainx {
+  font-family: lemon;
+  text-align: end;
+  color: #038910 !important;
+  padding-left: 0px !important;
+}
+.frase-mainz {
+  padding-left: 0px !important;
 
+  font-family: lemon;
+  text-align: end;
 }
 
-.refill-img{
+.refill-img {
+  width: auto;
+  height: 450px;
+}
+
+@media screen and (max-width: 375px) {
+  .frase-main {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+  .refill-img {
     width: auto;
-    height: 450px;
-    justify-content: center;
-    margin-left: 40 px;
+    height: 250px;
+    margin-left: 40px !important;
+  }
 }
+
+@media screen and (max-width: 414px) {
+    .frase-main {
+      font-size: 40px !important;
+      text-align: center !important;
+    }
+    .refill-img {
+      width: auto;
+      height: 350px;
+      margin-left: 70px;
+    }
+  }

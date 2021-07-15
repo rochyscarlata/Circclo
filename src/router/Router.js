@@ -3,11 +3,9 @@ import NavBar from "../components/navbar/Navbar";
 import Main from "../components/main/Main";
 import Footer from '../components/footer/Footer'
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-// import LangProvider from "./context/langContext";
 
 function Router() {
   return (
-    // <LangProvider>
       <BrowserRouter>
         <NavBar />
         <Switch>
@@ -19,7 +17,6 @@ function Router() {
         <Footer/>
 
       </BrowserRouter>
-    // </LangProvider>
   );
 }
 
