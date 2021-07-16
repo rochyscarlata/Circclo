@@ -33,6 +33,11 @@
     font-size: 20px;
     font-family: ace;
 }
+.marquesina{
+    color: white;
+    font-family: lemon;
+    padding-top: 4px;
+}
 
 @media screen and (device-width: 414px) {
     .howit{

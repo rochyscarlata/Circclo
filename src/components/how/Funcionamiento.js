@@ -45,6 +45,7 @@ const Funcionamiento = () => {
 
             </div>
       </div>
+     
     </div>
   );
 };

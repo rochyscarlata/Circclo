@@ -1,0 +1,20 @@
+.contenedor{
+    display: grid;
+}
+.titulos-count{
+    font-family: lemon;
+    color: #038910;
+    text-align: center;
+}
+
+
+.padre-count{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.contador{
+    font-size: 2rem;
+    /* align-items: center !important;
+    justify-content: center !important; */
+}
