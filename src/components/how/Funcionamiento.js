@@ -18,7 +18,7 @@ const Funcionamiento = () => {
           <FormattedMessage id="pasos.como" deffaultMessage="Como funciona?" /></h1>
           <br></br>
       <div class="row text-center">
-        <div class="col-xs-4 col-md-4 col-sm-4">
+        <div class="col">
             <span class="badge rounded-pill bg-success ">1</span>
             <br></br>
             
@@ -27,7 +27,7 @@ const Funcionamiento = () => {
             <h3 className="pasos-descrip"> 
             <FormattedMessage id="paso.uno" deffaultMessage="Paso 1" /></h3>
             </div>
-        <div class="col-xs-4 col-md-4 col-sm-4">
+        <div class="col">
             <span class="badge rounded-pill bg-success">2</span>
             <br></br>
             <img src={Paso2} className="paso2"></img>
@@ -35,13 +35,13 @@ const Funcionamiento = () => {
             <h3 className="pasos-descrip">
                  <FormattedMessage id="paso.dos" deffaultMessage="Paso dos" /></h3>
         </div>
-        <div class="col-xs-4 col-md-4 col-sm-4">
+        <div class="col">
             <span class="badge rounded-pill bg-success">3</span>
             <br></br>
             <img src={Paso3} className="paso3"></img>
             <br></br>
             <h3 className="pasos-descrip">
-                <FormattedMessage id="pasos.tres" deffaultMessage="Como funciona?" /></h3>
+                <FormattedMessage id="paso.tres" deffaultMessage="Como funciona?" /></h3>
 
             </div>
       </div>

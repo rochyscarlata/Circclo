@@ -6,6 +6,7 @@
 
 .contenedor-hiw{
     font-family: lemon;
+    min-width: auto;
 }
 .howit{
     color: #038910;
@@ -36,5 +37,12 @@
 @media screen and (device-width: 414px) {
     .howit{
         font-size: 20px !important;
+    }
+    .paso1{
+        width: 150px !important;
+        height: 170px;
+    }
+    .pasos-descrip{
+        margin: auto;
     }
   }
