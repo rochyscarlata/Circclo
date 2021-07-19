@@ -37,7 +37,7 @@ const LangProvider = ({children}) => {
 				establecerLocale('en-US');
 				localStorage.setItem('lang', 'en-US');
 				break;
-			default:
+			default :
 				establecerMensajes(MensajesEspañol);
 				establecerLocale('es-AR');
 				localStorage.setItem('lang', 'es-AR');

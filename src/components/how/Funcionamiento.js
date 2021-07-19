@@ -15,7 +15,10 @@ const Funcionamiento = () => {
     <div class="container contenedor-hiw">
         <br></br>
       <h1 className="text-center howit">
-          <FormattedMessage id="pasos.como" deffaultMessage="Como funciona?" /></h1>
+          <FormattedMessage 
+          id="pasos.como"
+          deffaultMessage="Como funciona?" />
+          </h1>
           <br></br>
       <div class="row text-center">
         <div class="col">
@@ -25,7 +28,7 @@ const Funcionamiento = () => {
             <img src={Paso1} className="paso1"></img>
             <br></br>
             <h3 className="pasos-descrip"> 
-            <FormattedMessage id="paso.uno" deffaultMessage="Paso 1" /></h3>
+            <FormattedMessage id="paso.uno" defaultMessage="Solicitá tu pedido por takepedido/circclo.com o whatsapp business" /></h3>
             </div>
         <div class="col">
             <span class="badge rounded-pill bg-success">2</span>
@@ -33,7 +36,7 @@ const Funcionamiento = () => {
             <img src={Paso2} className="paso2"></img>
             <br></br>
             <h3 className="pasos-descrip">
-                 <FormattedMessage id="paso.dos" deffaultMessage="Paso dos" /></h3>
+                 <FormattedMessage id="paso.dos" defaultMessage="Agenda la visita de tu Circclo. Indica los productos que necesitas reponer. Paga a través de transferencia con cualquier tarjeta/método de pago o efectivo." /></h3>
         </div>
         <div class="col">
             <span class="badge rounded-pill bg-success">3</span>
@@ -41,7 +44,7 @@ const Funcionamiento = () => {
             <img src={Paso3} className="paso3"></img>
             <br></br>
             <h3 className="pasos-descrip">
-                <FormattedMessage id="paso.tres" deffaultMessage="Como funciona?" /></h3>
+                <FormattedMessage id="paso.tres" defaultMessage="Recibe tu reposicion de productos, intercambia los envases vacíos por los llenos y" /></h3>
 
             </div>
       </div>

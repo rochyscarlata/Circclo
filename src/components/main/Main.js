@@ -20,7 +20,7 @@ function Main() {
                 <h1 className="frase-main">
                     <FormattedMessage  
                     id="frase.main"
-                    defaultMessage="Hola"
+                    defaultMessage="Soluciones inteligentes a productos de primera necesidad"
                     /> 
                 </h1>
                 <br></br>
