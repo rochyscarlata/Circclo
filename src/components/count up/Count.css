@@ -1,5 +1,10 @@
 .contenedor{
     display: grid;
+    /* background-color: #E0F8E6; */
+    /* background-image: url('../../assets/img/botella.jpg') ;
+
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 .titulos-count{
     font-family: lemon;
@@ -12,9 +17,12 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    font-family: lemon;
+
 }
 .contador{
     font-size: 2rem;
+    font-family: lemon;
     /* align-items: center !important;
     justify-content: center !important; */
 }

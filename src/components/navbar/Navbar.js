@@ -9,6 +9,8 @@ import {
 } from "react-bootstrap";
 import LogoVyN from "../../assets/logos/circclovyn.png";
 import { FormattedMessage } from "react-intl";
+import { NavLink, Link } from "react-router-dom";
+
 import "./navbar.css";
 import { langContext } from "../../context/langContext";
 
@@ -18,26 +20,27 @@ function NavBar() {
   return (
     <Navbar expand="xl" className="navbar-c">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img src={LogoVyN} alt="logo" className="logonav" width="230" height="40" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto ">
-            <Nav.Link href="#home">
+            <NavLink to="/" className="nav-link" activeClassName="active">
               <FormattedMessage id="nav.inicio" deffaultMessage="Inicio" />
-            </Nav.Link>
+            </NavLink>
             <Nav.Link href="#nosotros">
               <FormattedMessage id="nav.nosotros" deffaultMessage="Nosotros" />
             </Nav.Link>
-            <Nav.Link href="#productos">
+            <Link to={{ pathname: "https://takepedido.com/circclo" }} target="_blank"  className="nav-link">
               <FormattedMessage
                 id="nav.productos"
                 deffaultMessage="Productos"
               />
-            </Nav.Link>
+              
+            </Link>
 
-            <Nav.Link href="#faq">FAQ</Nav.Link>
+            <NavLink to="/faq" className="nav-link" >FAQ</NavLink>
             <Nav.Link href="#contacto">
               <FormattedMessage id="nav.contacto" deffaultMessage="Contacto" />
             </Nav.Link>

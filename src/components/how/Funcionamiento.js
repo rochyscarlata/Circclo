@@ -14,11 +14,11 @@ const Funcionamiento = () => {
   return (
     <div class="container contenedor-hiw">
         <br></br>
-      <h1 className="text-center howit">
+      <h3 className="text-center howit">
           <FormattedMessage 
           id="pasos.como"
           deffaultMessage="Como funciona?" />
-          </h1>
+          </h3>
           <br></br>
       <div class="row text-center">
         <div class="col">

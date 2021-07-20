@@ -1,0 +1,53 @@
+.logoCloro{
+    margin: 30px;
+}
+.logoBeleza{
+    margin: 30px;
+}
+.logoFrau{
+    margin: 30px;
+}
+.logoLimplus{
+    margin: 30px;
+}
+/* .textoProductoras{
+    text-align: center;
+}
+.textoProductorash2{
+    text-align: center;
+} */
+.textoProductoras {
+    text-align: center;
+    font-family: Ace;
+    font-weight: 800;
+    color: #038910;
+}
+.textoProductorash2{
+    text-align: center;
+    font-family: Ace;
+    font-weight: 800;
+}
+/* .logos{
+    margin-left: 150px;
+} */
+.productorasLogo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .logos{
+        margin-left: 0;
+    }
+    /* .logoBeleza{
+        margin: 50px;
+    } */
+    .textoProductoras{
+        font-size: 30px;
+    }
+    .textoProductorash2{
+        font-size: 25px;
+        
+    }
+  }

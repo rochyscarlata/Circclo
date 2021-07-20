@@ -5,7 +5,11 @@ import Footer from "../components/footer/Footer";
 import Marquee from "react-fast-marquee";
 import Funcionamiento from "../components/how/Funcionamiento";
 import Count from '../components/count up/Count'
+import Prodcutoras from "../components/empresas/Productoras";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Preguntas from "../components/preguntas/Preguntas.js";
+import Secdos from "../components/gallery/Secdos";
+import Home from "../components/home/Home";
 
 function Router() {
   return (
@@ -13,26 +17,23 @@ function Router() {
       <NavBar />
       <Switch>
         <Route exact path="/">
-          <Main />
+          <Home />
         </Route>
       </Switch>
+  
+
+    
+      <blockquote>  </blockquote>
+
+      
+
       <Switch>
-        <Funcionamiento />  
+        <Route exact path="/faq">
+        <Preguntas />  
+
+        </Route>
       </Switch>
-      <br/>
-      <Switch>
-        <Count />  
-      </Switch>
-      <br/>
-      {/* <marquee width="100%" direction="left" height="30px" bgcolor="#038910" className="marquesina" loop="infinite">
-        This is a sample scrolling text that has scrolls texts to left.
-        This is a sample scrolling text that has scrolls texts to left.
-        This is a sample scrolling text that has scrolls texts to left. This is a sample scrolling text that has scrolls texts to left.
-        This is a sample scrolling text that has scrolls texts to left. This is a sample scrolling text that has scrolls texts to left.
-</marquee> */}
- <Marquee>
-     Empresas productoras locales?  o algun texto ? Empresas productoras locales?  o algun texto ? Empresas productoras locales?  o algun texto ? Empresas productoras locales?  o algun texto ?
-  </Marquee>
+      <br></br>
       <Footer />
     </BrowserRouter>
   );
