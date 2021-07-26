@@ -3,11 +3,58 @@
     "nav.inicio" : "Inicio",
     "nav.nosotros" : "Nosotros",
     "nav.productos" : "Productos",
+    "nav.historia" : "Historia",
     "nav.contacto" : "Contacto",
     "pasos.como" : " ¿ Como funciona ?",
     "paso.uno" : "Solicitá tu pedido por takepedido/circclo.com o whatsapp business",
     "paso.dos" : "Agenda la visita de tu Circclo. Indica los productos que necesitas reponer. Paga a través de transferencia con cualquier tarjeta/método de pago o efectivo.",
-    "paso.tres" : "Recibe tu reposicion de productos, intercambia los envases vacíos por los llenos y"
+    "paso.tres" : "Recibe tu reposicion de productos, intercambia los envases vacíos por los llenos y",
+
+    "nos.nosotros" : "Sobre nosotros",
+    "nos.titulo" : "Somos una empresa social que busca revolucionar la manera en que consumimos día a día.",
+    "nos.subtitulo" : "Nuestra meta es acercar al consumidor mejores productos, con menos intermediarios y a un precio justo. Apostamos por el triple impacto y pronto nos certificaremos como Empresa B:",
+    "nos.economico" : "Economico",
+    "nos.economicoDescrip" : "Somos una empresa privada que busca rentabilidad como consecuencia del impacto social y ambiental",
+    "nos.social" : "Social",
+    "nos.socialDescrip" : "Fomentamos las economías locales y el comercio justo, eliminando las largas cadenas de intermediarios.", 
+    "nos.ambiental" : "Ambiental",
+    "nos.ambientalDescrip" : "Nuestros envases están diseñados para durar para toda la vida. Evitando que se produzca más plástico y se generen más desechos.",
+    "nos.proposito" : "Propósito",
+    "nos.propositoDescrip" : "Brindar soluciones inteligentes para productos de primera necesidad mediante la eliminación del plástico de un solo uso.",
+    "nos.equipo" : "Equipo",
+    "nos.equipoDescrip" : "“Nadie se está haciendo cargo de esto” por eso decidimos tomar cartas al asunto, Somos jóvenes con ganas de cambiar lo que está mal.", 
+    "nos.vision" : "Visión",
+    "nos.visionDescrip" : "Un ecosistema de reutilización global:  Con nuestra marca, socios minoristas y operativos, estamos construyendo un ecosistema global para el movimiento de reutilización que mantiene la conveniencia y la asequibilidad que disfrutamos con un estilo de vida desechable. Circclo tiene la misión de eliminar la idea del desperdicio de una manera que sea accesible para todos.",
+    "nos.objetivo" : "Nuestro objetivo es hacer que la devolución de envases retornables sea tan fácil y accesible como tirar algo.",
+    "nos.reconocimientos" : "Reconocimientos: MILESTONES RECORD TRACK",
+
+
+    "hist.titulo" : "Historia",
+    "hist.consumo" :"¿Somos conscientes de nuestro consumo?",
+    "hist.consumoDescrip1" : "La filosofía de consumo “Comprar, usar, desechar” es uno de los problemas más generalizados y de rápido crecimiento que enfrenta nuestro planeta en la actualidad. ¿Alguna vez nos detuvimos a pensar cuánto plástico generamos en nuestros hogares e por el uso de productos de limpieza básicos? (Detergente,Limpiador de Pisos, Jabón para la ropa,  entre otros).",
+    "hist.consumoDescrip2" : "Vivimos en un mundo donde consumimos una cantidad y una variedad cada vez mayor de artículos desechables; de los cuales del 100% sólo un 2% se recicla efectivamente.",
+    "hist.consumoDescrip3": "Esta filosofía de consumo de “Comprar, usar, descartar” se ha apoderado de nuestra vida cotidiana porque nos brinda una comodidad incomparable a un precio accesible.",
+    "hist.consumoDescrip4": "Para ayudar a resolver los aspectos negativos de vivir una vida desechable, Y manteniendo sus virtudes de facilidad y accesibilidad, nos hemos asociado con fabricantes líderes a nivel provincial para reinventar sus productos.",
+    "hist.basura" : "La basura no desaparece",
+    "hist.basuraDescrip1" : "No existe el desperdicio en el mundo natural. Es una invención puramente humana, y bastante moderna. Antes de la década de 1950, los productos generalmente se fabricaban para ser de alta calidad y reutilizables; modelos como “el lechero” fueron populares.",
+    "hist.basuraDescrip2" : "Luego vino la comercialización de materiales complejos (como los plásticos) que la naturaleza no tiene la capacidad de absorber.",
+    "hist.reuso" : "Reciclar (Sólo) no es la respuesta",
+    "hist.reusoDescrip1" : "La reutilización de un objeto ahorra tiempo, energía y recursos.",
+    "hist.reusoDescrip2" : "Consideremos el ejemplo de “El lechero”, donde los consumidores compraban leche en botellas de vidrio duraderas, que luego se recolectaban y rellenaban cuando estaban vacías. Esta reutilización eliminó la necesidad de nueva energía, tiempo y recursos para fabricar otra botella para la próxima compra de leche.",
+    "hist.reusoDescrip3" : "El reciclaje es importante porque considera que los “residuos” son un recurso útil, para la fabricación. Sin embargo, a diferencia de la reutilización, requiere que un objeto se descomponga nivel material para usarse en una nueva producción. Cambiar la forma de un objeto requiere energía y recursos, al igual que recolectar y clasificar el material para su procesamiento.",
+    "hist.circular" : "Economía circular",
+    "hist.circularDescrip1" : "La mayoría de los productos actuales son “lineales”, es decir, se desechan  después de su uso (generalmente único). Este modelo unidireccional envía recursos valiosos a la basura.", 
+    "hist.circularDescrip2" : "En un sistema “circular”, esa línea se convierte en un círculo que mantiene los recursos en uso y recorriendo el sistema durante el mayor tiempo posible.",
+    "hist.circularDescrip3" : "El objetivo de la economía circular es hacer que nuestros productos vuelvan de ser inútiles a útiles.",
+    "hist.futuro" : "El futuro de cómo consumimos",
+    "hist.futuroDescrip1" : "Tomamos decisiones todos los días, con nuestro dinero, para el futuro que queremos. Inclinemos esa decisión por los productos que son regenerativos y circulares, en lugar de destructivos y lineales, y comparta nuestro sueño: que un día podamos recordar el concepto de desperdicio como una anomalía que agradecemos haber superado.",
+    "hist.futuroDescrip2" : "“El poder de cambio que necesitamos para nuestro planeta está en manos de los consumidores. Tu compra significa un voto a la marca que consumís. Vota consciente”",
+
+
+
+
+    "count.envases" : "Envases Reciclados",
+    "count.hogares" : "Hogares Alcanzados"
 
 
 }

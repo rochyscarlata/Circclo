@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import {
   Navbar,
   Container,
@@ -21,33 +21,62 @@ function NavBar() {
     <Navbar expand="xl" className="navbar-c">
       <Container>
         <Navbar.Brand href="/">
-          <img src={LogoVyN} alt="logo" className="logonav" width="230" height="40" />
+          <img
+            src={LogoVyN}
+            alt="logo"
+            className="logonav"
+            width="230"
+            height="40"
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto ">
-            <NavLink to="/" className="nav-link" activeClassName="active">
-              <FormattedMessage id="nav.inicio" deffaultMessage="Inicio" />
+            <NavLink to="/" className="nav-link" activeClassName="">
+              <FormattedMessage id="nav.inicio" defaultMessage="Inicio" />
             </NavLink>
-            <Nav.Link href="#nosotros">
-              <FormattedMessage id="nav.nosotros" deffaultMessage="Nosotros" />
-            </Nav.Link>
-            <Link to={{ pathname: "https://takepedido.com/circclo" }} target="_blank"  className="nav-link">
-              <FormattedMessage
-                id="nav.productos"
-                deffaultMessage="Productos"
-              />
-              
+
+
+            <NavLink to="/Nosotros" className="nav-link">
+              <FormattedMessage id="nav.nosotros" defaultMessage="Nosotros" />
+            </NavLink>
+
+
+            <Link
+              to={{ pathname: "https://takepedido.com/circclo" }}
+              target="_blank"
+              className="nav-link"
+            >
+              <FormattedMessage id="nav.productos" defaultMessage="Productos" />
             </Link>
 
-            <NavLink to="/faq" className="nav-link" >FAQ</NavLink>
+
+            <NavLink to="/historia" className="nav-link">
+              <FormattedMessage id="nav.historia" defaultMessage="Historia" />
+            </NavLink>
+
+
+            <NavLink to="/faq" className="nav-link">
+              FAQ
+            </NavLink>
+
+
             <Nav.Link href="#contacto">
-              <FormattedMessage id="nav.contacto" deffaultMessage="Contacto" />
+              <FormattedMessage id="nav.contacto" defaultMessage="Contacto" />
             </Nav.Link>
 
+
             <NavDropdown title="ESP" id="basic-nav-dropdown">
-              <NavDropdown.Item onClick={()=> idioma.establecerLenguaje('en-US')}>ENG</NavDropdown.Item>
-              <NavDropdown.Item onClick={()=> idioma.establecerLenguaje('es-AR')}>ESP</NavDropdown.Item>
+              <NavDropdown.Item
+                onClick={() => idioma.establecerLenguaje("en-US")}
+              >
+                ENG
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                onClick={() => idioma.establecerLenguaje("es-AR")}
+              >
+                ESP
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

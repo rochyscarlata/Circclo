@@ -1,37 +1,65 @@
-import React from 'react'
-import Marquee from 'react-fast-marquee';
-import Count from '../count up/Count';
-import Prodcutoras from '../empresas/Productoras';
-import Secdos from '../gallery/Secdos';
-import Funcionamiento from '../how/Funcionamiento';
-import Main from '../main/Main';
+import React from "react";
+import Marquee from "react-fast-marquee";
+import Count from "../count up/Count";
+import Prodcutoras from "../empresas/Productoras";
+import Secdos from "../gallery/Secdos";
+import Funcionamiento from "../how/Funcionamiento";
+import Main from "../main/Main";
 
-import './Home.css'
+import "./Home.css";
 
 const Home = () => {
-    return ( 
-        <>
-        <Main/>
-        <br/>
-        <Secdos/>
-        <br/>
-        <Marquee className="marque">
-        <p className="text-marque"> Pay for the product not for the packaging <i class="fas fa-exclamation-circle"></i></p> <p className="text-marque">Pay for the product not for the packaging <i class="fas fa-exclamation-circle"></i></p>  <p className="text-marque">Pay for the product not for the packaging <i class="fas fa-exclamation-circle"></i> </p> <p className="text-marque">Pay for the product not for the packaging <i class="fas fa-exclamation-circle"></i> </p>
-        </Marquee>
-        <blockquote></blockquote>
+  return (
+    <>
+      <div class="icon-bar">
+        <a href="#" class="facebook">
+        <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="#" class="twitter">
+          <i class="fab fa-twitter-square"></i>
+        </a>
+        <a href="#" class="linkedin">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="#" class="linkedin">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <Main />
+      <br />
+      <Secdos />
+      <br />
+      <Marquee className="marque" gradientWidth="no">
+        <p className="text-marque">
+          ¡Por el momento servicio disponible en Yerba Buena!
+          <i class="fas fa-exclamation-circle"></i>
+        </p>{" "}
+        <p className="text-marque">
+          #RetornandoNuestrosEnvasesNuncaSeConviertenEnBasura{" "}
+          <i class="fas fa-exclamation-circle"></i>
+        </p>{" "}
+        <p className="text-marque">
+          ¡Por el momento servicio disponible en “Yerba Buena”!{" "}
+          <i class="fas fa-exclamation-circle"></i>{" "}
+        </p>{" "}
+        <p className="text-marque">
+          #RetornandoNuestrosEnvasesNuncaSeConviertenEnBasura
+          <i class="fas fa-exclamation-circle"></i>{" "}
+        </p>
+      </Marquee>
+      <blockquote></blockquote>
 
-        <Funcionamiento/>
-        
-                <br/>
-        <blockquote></blockquote>
+      <Funcionamiento />
 
-        <Count/>
-        <br/>
-        <blockquote></blockquote>
-        <Prodcutoras/>
+      <br />
+      <blockquote></blockquote>
 
-        </>
-     );
-}
- 
+      <Count />
+      <br />
+      <blockquote></blockquote>
+      <Prodcutoras />
+    </>
+  );
+};
+
 export default Home;

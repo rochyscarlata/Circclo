@@ -18,13 +18,13 @@
 } */
 .textoProductoras {
     text-align: center;
-    font-family: Ace;
+    font-family: coco;
     font-weight: 800;
     color: #038910;
 }
 .textoProductorash2{
     text-align: center;
-    font-family: Ace;
+    font-family: coco;
     font-weight: 800;
 }
 /* .logos{
@@ -35,7 +35,10 @@
     display: flex;
     justify-content: center;
 }
-
+.empresas-produc{
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+}
 @media (max-width: 600px) {
     .logos{
         margin-left: 0;
@@ -51,3 +54,7 @@
         
     }
   }
+ 
+
+  /* carrousel */
+ 

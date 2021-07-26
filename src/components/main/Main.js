@@ -1,11 +1,12 @@
 import React, {useContext} from 'react'
-import {Container, Row, Col, Button} from 'react-bootstrap'
+import {Container, Row, Col, Button, Navbar} from 'react-bootstrap'
 import Refill from '../../assets/img/refill.png'
+import Video from '../../assets/img/video.mp4'
 import { IntlProvider, FormattedMessage } from 'react-intl';
 import MensajesIngles from '../../lang/en-US.json'
 import MensajesEspañol from '../../lang/es-AR.json'
 import { langContext } from '../../context/langContext';
-
+import NavBar from '../navbar/Navbar'
 import './Main.css'
 function Main() {
 
@@ -13,8 +14,10 @@ function Main() {
     console.log(idioma);
 
     return (
-        <Container >
+       
+        <Container fluid="md" >
             <br></br>
+           
             <Row>
                 <Col >
                 <h1 className="frase-main">
@@ -31,12 +34,16 @@ function Main() {
                 <br></br>
                 {/* <h1  className="frase-mainx">inteligentes</h1><h1  className="frase-mainz">a productos de primera necesidad</h1> */}
                 </Col>
-                <Col >
-                <img src={Refill} className="refill-img"  ></img>
+                <Col className="contenedor-gif">
+                {/* <img src={Refill}   ></img> */}
+                <video  autoPlay loop="true" className="refill-img">
+                    <source src={Video}  type="video/mp4"></source>
+                </video>
                 </Col>
             </Row>
             <br></br>
         </Container>
+       
     )
 }
 

@@ -1,0 +1,94 @@
+@font-face {
+    font-family: coco;
+    src: url(../../assets/fonts/Cocogoose\ Pro\ Thin-trial.ttf);
+    font-weight: 500;
+  }
+
+.titulo-hist{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.divider{
+    border: 1px solid #e6e6e9;
+}
+.historia{
+    margin-top: 20px;
+    justify-content: center;
+    font-family: lemon;
+    color: #038910;
+}
+.titulo-consumo{
+    color: #038910;
+    font-family: Ace;
+    font-weight: 700 !important;
+}
+.descrip-consumo{
+    font-family: coco;
+    font-size: 15px;
+    font-weight: 700 !important;
+    color: black;
+
+
+}
+.descrip-consumos{
+    margin-top: 5px;
+    font-family: coco;
+    font-size: 15px;
+    font-weight: 700 !important;
+    color: black;
+}
+.descrip-basura{
+    font-family: coco;
+    font-size: 15px;
+    font-weight: 700 !important;
+    color: black;
+}
+.descrip-reuso{
+    font-family: coco;
+    font-size: 15px;
+    font-weight: 700 !important;
+    color: black;
+}
+/* .columna-img{
+    justify-content: flex-end;
+} */
+
+.img-consumo{
+    width: 400px;
+    margin-top: 0%;
+}
+.columna-img{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.columna-img2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.descrip-circular{
+    margin-bottom: 7px;
+    font-family: coco;
+    font-size: 15px;
+    font-weight: 700 !important;
+    color: black;
+
+}
+
+
+
+@media (max-width: 600px) {
+    .img-consumo{
+        width: 300px;
+        margin-bottom: 17px;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+    .columna-img{
+        justify-content: center;
+    display: flex;
+    align-items: center;
+    }
+}

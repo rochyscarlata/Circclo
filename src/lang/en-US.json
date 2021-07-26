@@ -3,9 +3,37 @@
     "nav.inicio" : "Home",
     "nav.nosotros" : "Us",
     "nav.productos" : "Products",
+    "nav.historia" : "History",
     "nav.contacto" : "Contact",
     "pasos.como" : " How it works ?",
     "paso.uno" : " Request your order by takepedido / circclo.com or whatsapp business",
     "paso.dos" : "Schedule the visit of your Circclo. Indicate the products you need to replenish. Pay by transfer with any card / payment method or cash.",
-    "paso.tres" : "Receive your product replacement, exchange empty containers for full ones and"
+    "paso.tres" : "Receive your product replacement, exchange empty containers for full ones and",
+
+    "nos.nosotros" : "About us",
+    "nos.titulo" : "We are a social company that seeks to revolutionize the way we consume every day.",
+    "nos.subtitulo" : "Our goal is to bring better products to the consumer, with fewer intermediaries and a fair price. We’ll have the “B company” certification thanks to our triple impact focus:",
+    "nos.economico" : "Economic",
+    "nos.economicoDescrip" : "We are a for-profit company that puts people at the center of the business",
+    "nos.social" : "Social",
+    "nos.socialDescrip" : " For everything to work, we are in alliance with responsible manufacturers and sustainable logistics providers, promoting local trade and empowering local economies.", 
+    "nos.ambiental" : "Sustainable",
+    "nos.ambientalDescrip" : " Our smart packaging is designed to last forever, without polluting or generating waste.",
+    "nos.proposito" : "Proposal",
+    "nos.propositoDescrip" : "Bring smart solutions for home basic products through eliminating single use plastic.",
+    "nos.equipo" : "Team:",
+    "nos.equipoDescrip" : "Our generation is going to determine how the world keeps moving forward. There is only one way: CHANGE.", 
+    "nos.vision" : "Vision",
+    "nos.visionDescrip" : "A Global Re-Use Ecosystem: With our brand, retail and operational partners, we are building a global ecosystem for the reuse movement that maintains the convenience and affordability that we have come to enjoy with a throw away lifestyle. Circclo is on a mission to Eliminate the Idea of Waste in an approachable way that is accessible to all.",
+    "nos.reconocimientos" : "Milestones record track",
+
+
+
+
+
+
+
+    "count.envases" : "Recycled Packaging",
+    "count.hogares" : "Homes Reached"
+
 }

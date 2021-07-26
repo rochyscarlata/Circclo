@@ -1,0 +1,165 @@
+
+
+/* Nosotros */
+
+.nosotros {
+  color: #038910;
+  font-family: lemon;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.titulos-padre {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: Ace;
+}
+
+.titulos-centrados {
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+}
+.ecosocam {
+  color: #038910;
+  font-family: lemon;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.descripciones {
+  font-size: 12px;
+}
+
+
+/* Proposito */
+.proposito-padre {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: Ace;
+  margin-top: 50px;
+}
+.proposito {
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card-proposito {
+  background-color: #038910;
+  color: white;
+}
+.img-proposito {
+  margin-top: 40px;
+  justify-content: center;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  font-family: Lemon;
+  font-weight: 300 !important;
+}
+
+/* Equipo */
+.equipo-padre {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.equipo {
+  justify-content: center;
+  width: 800px;
+}
+.equipo-img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.equipo-texto{
+    font-family: Ace;
+}
+.imagen-equipo {
+  justify-content: center;
+}
+
+/* Vision */
+
+.vision-padre {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.vision {
+  width: 900px;
+  justify-content: center;
+  align-items: center;
+}
+.vision-titulo {
+  font-family: coco;
+  color: #038910;
+  font-weight: bold;
+}
+.vision-texto {
+  font-family: Ace;
+}
+.objetivo {
+  color: #038910;
+  background-color: #deeaff;
+  font-family: Ace;
+  border: none;
+}
+
+/* Reconocimientos */
+
+.reconocimientos-padre{
+    align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.reconocimientos{
+    width: 600px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.jije-img{
+    margin-top: 30px;
+}
+
+
+
+/* responsive */
+@media (max-width: 600px) {
+  .img-proposito {
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 180px;
+  }
+  /* ..equipo-img{
+        width: 200px;
+    } */
+  .imagen-equipo {
+    width: 200px;
+    height: auto;
+  }
+    .jije-img{
+        margin-top: 0px;
+    }
+    .climate-launch{
+        margin-top: 30px;
+
+    }
+    
+}

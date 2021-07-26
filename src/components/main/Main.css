@@ -2,7 +2,10 @@
   font-family: lemon;
   src: url(../../assets/fonts/LEMONMILK-Light.otf);
 }
-
+/* .contenedor-main{
+  width: auto;
+  height: auto;
+} */
 .frase-main {
   font-family: lemon;
   margin-top: 40px;
@@ -39,10 +42,25 @@
   background-color: #038910 !important;
   font-family: lemon;
 }
-.refill-img {
-  width: auto;
-  height: 450px;
+.contenedor-gif{
+  justify-content: end;
+ 
+
 }
+.refill-img {
+  width: 380px;
+  height: 550px;
+  margin-left: 0%;
+  margin-top: -30px;
+  /* justify-content: end;
+  float: right;
+  right: 0; */
+}
+
+
+
+
+
 
 @media screen and (device-width: 320px) {
   .frase-main {
@@ -51,8 +69,37 @@
   }
   .refill-img {
     width: auto;
-    height: 250px;
-    margin-left: 55px !important;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 35px;
+  }
+  .div-btn{
+    display: flex;
+    align-items: center !important;
+    align-self: center !important;
+    justify-content: center !important;
+  }
+  .btn-revolucion{
+    margin-right: 45px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: center !important;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+  }
+}
+
+@media screen and (device-width: 360px) {
+  .frase-main {
+    font-size: 20px !important;
+    text-align: center !important;
+  }
+  .refill-img {
+    width: auto;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 25px;
   }
   .div-btn{
     display: flex;
@@ -78,8 +125,9 @@
   }
   .refill-img {
     width: auto;
-    height: 250px;
-    margin-left: 70px !important;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 35px;
   }
   .div-btn{
     display: flex;
@@ -115,8 +163,9 @@
   }
   .refill-img {
     width: auto;
-    height: 350px;
-    margin-left: 70px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 55px;
   }
 }
 
@@ -136,9 +185,11 @@
       margin-right: 60px;
     }
     .refill-img {
-      width: auto;
-      height: 350px;
-      margin-left: 70px;
+      width:auto;
+      height: 550px;
+      padding-left: 0%;
+      margin-top: 10px;
+    margin-left: 45px;
     }
     
   }
