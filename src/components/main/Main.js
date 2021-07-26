@@ -32,10 +32,8 @@ function Main() {
 
                 </div>
                 <br></br>
-                {/* <h1  className="frase-mainx">inteligentes</h1><h1  className="frase-mainz">a productos de primera necesidad</h1> */}
                 </Col>
                 <Col className="contenedor-gif">
-                {/* <img src={Refill}   ></img> */}
                 <video  autoPlay loop="true" className="refill-img">
                     <source src={Video}  type="video/mp4"></source>
                 </video>
