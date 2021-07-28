@@ -8,10 +8,10 @@
     justify-content: center;
     display: flex;
     align-items: center;
+
 }
 .preguntas-hijo{
-    justify-content: center;
-    width: 700;
+   text-align: start;
 }
 .preguntasfrec{
     text-align: center;
@@ -20,7 +20,8 @@
 
 }
 .respuestas{
-    font-family: ace;
+    font-family: coco;
+    font-weight: 600;
 }
 
 .acor{
@@ -30,10 +31,19 @@
     color: #038910;
     font-weight: 900 !important;
 }
+.respuestasgrandes{
+    width: 900px;
+}
 .h6{
     color: #038910;
     font-weight: 900;
     font-family: coco;
     text-align: start;
 
+}
+
+@media (max-width: 600px){
+    .respuestasgrandes{
+        width: auto;
+    }
 }

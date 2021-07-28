@@ -2,7 +2,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import Count from "../count up/Count";
 import Prodcutoras from "../empresas/Productoras";
-import Secdos from "../gallery/Secdos";
+import Secdos from "../secdos/Secdos";
 import Funcionamiento from "../how/Funcionamiento";
 import Main from "../main/Main";
 

@@ -42,21 +42,18 @@
   background-color: #038910 !important;
   font-family: lemon;
 }
-.contenedor-gif{
+.refill-img{
   justify-content: end;
- 
+  margin-left: 70px;
+  width: 400px;
+  height: 600px;
+  margin-top: -40px;
 
 }
-.refill-img {
-  width: 380px;
-  height: 550px;
-  margin-left: 0%;
-  margin-top: -30px;
-  /* justify-content: end;
-  float: right;
-  right: 0; */
-}
 
+.columna-main{
+  z-index: -100;
+}
 
 
 
@@ -67,7 +64,7 @@
     font-size: 20px !important;
     text-align: center !important;
   }
-  .refill-img {
+  .contenedor-gif{
     width: auto;
     height: 400px;
     margin-top: 10px;

@@ -5,10 +5,15 @@
     "nav.productos" : "Productos",
     "nav.historia" : "Historia",
     "nav.contacto" : "Contacto",
+    "nav.idioma" : "ESP",
     "pasos.como" : " ¿ Como funciona ?",
     "paso.uno" : "Solicitá tu pedido por takepedido/circclo.com o whatsapp business",
     "paso.dos" : "Agenda la visita de tu Circclo. Indica los productos que necesitas reponer. Paga a través de transferencia con cualquier tarjeta/método de pago o efectivo.",
     "paso.tres" : "Recibe tu reposicion de productos, intercambia los envases vacíos por los llenos y",
+
+    "empresas.titulo" : "¡Fomentamos el comercio local y empoderamos las economías locales! Por un comercio justo y sostenible.",
+    "empresas.subtitulo" : "Empresas que se sumaron al cambio",
+
 
     "nos.nosotros" : "Sobre nosotros",
     "nos.titulo" : "Somos una empresa social que busca revolucionar la manera en que consumimos día a día.",
@@ -54,7 +59,8 @@
 
 
     "count.envases" : "Envases Reciclados",
-    "count.hogares" : "Hogares Alcanzados"
+    "count.hogares" : "Hogares Alcanzados",
+    "img.howit" : "../assets/img/howit.jpg"
 
 
 }

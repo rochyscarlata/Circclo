@@ -8,15 +8,17 @@ import Count from "../components/count up/Count";
 import Prodcutoras from "../components/empresas/Productoras";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Preguntas from "../components/preguntas/Preguntas.js";
-import Secdos from "../components/gallery/Secdos";
+import Secdos from "../components/secdos/Secdos";
 import Home from "../components/home/Home";
 import Nosotros from "../components/nosotros/Nosotros";
 import Historia from "../components/historia/Historia";
-
+import Fade from 'react-reveal'
+import Contacto from "../components/contact/Contacto";
 function Router() {
   return (
     <BrowserRouter>
-      <NavBar />
+    <Fade top>      <NavBar /></Fade>
+
       <Switch>
         <Route exact path="/">
           <Home />
@@ -39,6 +41,11 @@ function Router() {
       <Switch>
         <Route exact path="/faq">
           <Preguntas />
+        </Route>
+      </Switch>
+      <Switch>
+        <Route exact path="/contacto">
+          <Contacto />
         </Route>
       </Switch>
       <br></br>

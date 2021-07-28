@@ -12,7 +12,6 @@ const Preguntas = () => {
       <br></br>
       <div className="preguntas-padre">
        
-    
       <Accordion className="preguntas-hijo">
         <Card>
           <Card.Header >
@@ -27,7 +26,7 @@ const Preguntas = () => {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-        <Card>
+        <Card >
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="1">
               <h6 className="h6">¿De qué Calidad son los productos? ¿De quién son los productos?
@@ -36,8 +35,7 @@ const Preguntas = () => {
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="1">
-            <Card.Body>
-              {" "}
+            <Card.Body className="respuestasgrandes">
               <p className="respuestas">
                 Trabajamos en base a un estándar de calidad con productores
                 locales que tienen experiencia en el rubro hace ya varios años y
@@ -70,7 +68,7 @@ const Preguntas = () => {
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="3">
-            <Card.Body>
+            <Card.Body className="respuestasgrandes">
               <p className="respuestas">
                 Es un envase con un chip RFID incorporado, esta tecnología que
                 nos permite trackear el envase para que nunca lleguen a la
@@ -86,7 +84,7 @@ const Preguntas = () => {
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="4">
-            <Card.Body>
+            <Card.Body className="respuestasgrandes">
               <p className="respuestas">
                 No importa! Tu pago en envases funciona como depósito, cuando
                 quieras dejar de comprar te reintegramos tu dinero.
@@ -104,7 +102,7 @@ const Preguntas = () => {
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="5">
-            <Card.Body>
+            <Card.Body className="respuestasgrandes">
               <p className="respuestas">
                 No. Los envases de CIRCCLO son especificos para los productos
                 que vendemos y para que la retornabilidad sea posible.
@@ -214,7 +212,7 @@ const Preguntas = () => {
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="13">
-            <Card.Body>
+            <Card.Body className="respuestasgrandes">
               <p className="respuestas">
                 En el caso de los countries, los clientes pueden pagar por
                 transferencia y dejar sus envases vacíos en el garage listos
@@ -232,8 +230,8 @@ const Preguntas = () => {
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="14">
-            <Card.Body>
-              <p className="respuestas">
+            <Card.Body className="respuestasgrandes">
+              <p className="respuestas" >
               Siempre y cuando esté dentro de la franja horaria establecida, se puede solicitar un horario aproximado
               </p>
             </Card.Body>
@@ -297,7 +295,7 @@ const Preguntas = () => {
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="18">
-            <Card.Body>
+            <Card.Body className="respuestasgrandes">
               <p className="respuestas">
               En el largo plazo, comprar CIRCCLO es un 40%más económico que comprar en el super, ya que el costo envase descartable está incluido en el precio final y el consumidor lo paga cada vez que realiza una compra.
               </p>

@@ -16,7 +16,7 @@
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    z-index: 100;
+    z-index: 10;
   }
   
   /* Style the icon bar links */

@@ -4,7 +4,7 @@ import Paso2 from '../../assets/img/camion-hiw.png'
 import Paso3 from '../../assets/img/paso3.png'
 import { FormattedMessage } from "react-intl";
 import { langContext } from "../../context/langContext";
-
+import Howit from '../../assets/img/howit.jpg'
 import './Funcionamiento.css'
 
 const Funcionamiento = () => {
@@ -17,7 +17,7 @@ const Funcionamiento = () => {
       <h3 className="text-center howit">
           <FormattedMessage 
           id="pasos.como"
-          deffaultMessage="Como funciona?" />
+          defaultMessage="Como funciona?" />
           </h3>
           <br></br>
       <div class="row text-center">

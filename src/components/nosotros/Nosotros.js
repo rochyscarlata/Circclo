@@ -13,6 +13,8 @@ import Naves from '../../assets/logos/naves.jpg'
 import School from '../../assets/logos/school.png'
 import Unl from '../../assets/logos/unl.png'
 import Jije from '../../assets/logos/jije.jpg'
+import Fade from 'react-reveal/Fade';
+
 // Con color
 import HandsColor from "../../assets/icon/handshakeColor.png";
 import PlanetColor from "../../assets/icon/planetColor.png";
@@ -33,12 +35,15 @@ const Nosotros = () => {
       <br></br>
       <div className="titulos-padre">
         <div className="titulos-centrados">
+        <Fade bottom>
           <h1 className="text-center howit">
+            
             <FormattedMessage
               id="nos.titulo"
               defaultMessage="Somos una empresa social que busca revolucionar la manera en que consumimos día a día."
             />
           </h1>
+          
           <blockquote> </blockquote>
           <br />
           <h5 className="text-center ">
@@ -48,13 +53,14 @@ const Nosotros = () => {
             />
           </h5>
           <br></br>
+          </Fade >
         </div>
       </div>
 
       <div class="row text-center">
         <div class="col">
           <br></br>
-
+          <Fade bottom>
           <img src={PiggyBank} className="" width="100" height="80"></img>
           <br></br>
           <h5 className="ecosocam">
@@ -66,8 +72,10 @@ const Nosotros = () => {
               defaultMessage="Somos una empresa privada que busca rentabilidad como consecuencia del impacto social y ambiental"
             />
           </p>
+          </Fade >
         </div>
         <div class="col">
+        <Fade bottom>
           <br></br>
           <img src={HandShake} className="" width="100" height="80"></img>
           <br></br>
@@ -80,8 +88,10 @@ const Nosotros = () => {
               defaultMessage="Fomentamos las economías locales y el comercio justo, eliminando las largas cadenas de intermediarios."
             />
           </p>
+          </Fade >
         </div>
         <div class="col">
+        <Fade bottom>
           <br></br>
           <img src={Planet} className="mb-1" width="100" height="80"></img>
           <br></br>
@@ -94,6 +104,7 @@ const Nosotros = () => {
               defaultMessage="Nuestros envases están diseñados para durar para toda la vida. Evitando que se produzca más plástico y se generen más desechos."
             />
           </p>
+          </Fade >
         </div>
       </div>
       <br></br>
@@ -101,14 +112,17 @@ const Nosotros = () => {
         <div className="proposito">
           <Row>
             <Col>
+            <Fade left>
               <img
                 src={PlanetColor}
                 width="250"
                 height="200"
                 className="img-proposito"
               />
+              </Fade>
             </Col>
             <Col>
+            <Fade right>
               <h1 className="text-center titulo-proposito">
                 <FormattedMessage
                   id="nos.proposito"
@@ -125,6 +139,7 @@ const Nosotros = () => {
                   </h5>
                 </Card.Body>
               </Card>
+              </Fade>
             </Col>
           </Row>
         </div>
@@ -133,6 +148,7 @@ const Nosotros = () => {
       <br />
       <div className="equipo-padre">
         <div className="equipo">
+          <Fade>
           <h1 className="text-center ">
             <FormattedMessage id="nos.equipo" defaultMessage="Equipo" />
           </h1>
@@ -153,11 +169,13 @@ const Nosotros = () => {
               className="imagen-equipo"
             ></img>
           </div>
+          </Fade>
         </div>
       </div>
       <br />
       <br></br>
       <div className="vision-padre">
+        <Fade>
         <div className="vision">
           <h2 className="vision-titulo text-center">
             <FormattedMessage id="nos.vision" defaultMessage="Visión" />
@@ -171,8 +189,10 @@ const Nosotros = () => {
             />
           </h5>
         </div>
+        </Fade>
       </div>
       <br/>
+      <Fade>
       <Card className="text-center objetivo">
         <Card.Body>
           <div className="objetivo-contenido">
@@ -185,10 +205,11 @@ const Nosotros = () => {
           </div>
         </Card.Body>
       </Card>
+      </Fade>
     <br></br>
 <hr></hr>
         <div className="reconocimientos-padre">
-          <div className="reconocimientos">
+          <Fade>          <div className="reconocimientos">
             <h4>
             <FormattedMessage
               id="nos.reconocimientos"
@@ -241,6 +262,8 @@ const Nosotros = () => {
                 </Col>
             </Row>
           </div>
+          </Fade>
+
         </div>
     </div>
   );

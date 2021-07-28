@@ -1,0 +1,125 @@
+.contacto-padre{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.contacto-hijo{
+    justify-content: center;
+    width: 700;
+}
+.contacto-titulo {
+    color: #038910;
+    font-family: coco;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .contacto-subtitulos{
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+
+  }
+.contacto-subtitulo{
+    font-family: coco;
+    text-align: center;
+  
+    font-weight: 900 !important;
+    color: #000000;
+}
+.contacto-subtitulo2{
+    font-family: coco;
+    text-align: center;
+  
+    font-weight: 900 !important;
+    color: #038910;
+}
+.contacto-items{
+    text-align: center;
+    width: 600px;
+    font-weight: 900 !important;
+    color: #038910;
+}
+.contacto-sumate{
+    text-align: center;
+    font-family: coco;
+    justify-content: center;
+    color: #038910;
+}
+.info-contacto-items{
+    font-family: coco;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.contenido-padre{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.card-padre{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card-hijo{
+    font-family: coco !important;
+    font-weight: 900;
+    font-family: 30px;
+    margin-top: 20px;
+}
+.card-contacto{
+    box-shadow: 2px 1px 2px rgb(165, 165, 165);
+    border-radius: 5px;
+}
+.contenido-form{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 800;
+}
+.formulario-contacto{
+    font-family: Ace;
+    width: 500px;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+.btn-enviar{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.btn-color-enviar{
+    background-color: #038910;
+    border-color: #038910;
+    
+}
+/* .btn-color-enviar:hover{
+    color: #038910;
+    color: aliceblue;
+} */
+
+@media (max-width: 600px){
+    .formulario-contacto{
+        width: auto;
+    }
+    .contacto-subtitulos{
+        width: auto;
+    }
+    .contenido-padre{
+        width: auto;
+    }
+    .card-padre{
+        width: auto;
+    }
+    .contacto-items{
+        width: auto;
+    }
+    .contenedor-hiw{
+        width: auto;
+    }
+}

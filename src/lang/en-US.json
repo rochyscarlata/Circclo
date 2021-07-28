@@ -5,10 +5,14 @@
     "nav.productos" : "Products",
     "nav.historia" : "History",
     "nav.contacto" : "Contact",
+    "nav.idioma" : "ENG",
     "pasos.como" : " How it works ?",
     "paso.uno" : " Request your order by takepedido / circclo.com or whatsapp business",
     "paso.dos" : "Schedule the visit of your Circclo. Indicate the products you need to replenish. Pay by transfer with any card / payment method or cash.",
     "paso.tres" : "Receive your product replacement, exchange empty containers for full ones and",
+
+    "empresas.titulo" : "For everything to work, we are in alliance with responsible manufacturers and sustainable logistics providers, promoting local trade and empowering local economies.",
+    "empresas.subtitulo" : "companies that joined the change",
 
     "nos.nosotros" : "About us",
     "nos.titulo" : "We are a social company that seeks to revolutionize the way we consume every day.",

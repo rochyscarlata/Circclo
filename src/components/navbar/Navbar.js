@@ -17,6 +17,8 @@ import { langContext } from "../../context/langContext";
 function NavBar() {
   const idioma = useContext(langContext);
 
+ 
+
   return (
     <Navbar expand="xl" className="navbar-c">
       <Container>
@@ -55,24 +57,30 @@ function NavBar() {
               <FormattedMessage id="nav.historia" defaultMessage="Historia" />
             </NavLink>
 
-
-            <NavLink to="/faq" className="nav-link">
+            {/* {idioma.establecerLenguaje("es-AR") ?
+            (
+              <NavLink to="/faq" className="nav-link">
+              FAQ
+            </NavLink>
+            ): null} */}
+           
+           <NavLink to="/faq" className="nav-link">
               FAQ
             </NavLink>
 
 
-            <Nav.Link href="#contacto">
+            <Nav.Link href="/contacto">
               <FormattedMessage id="nav.contacto" defaultMessage="Contacto" />
             </Nav.Link>
 
 
-            <NavDropdown title="ESP" id="basic-nav-dropdown">
+            <NavDropdown title={<FormattedMessage id="nav.idioma" defaultMessage="ESP" />} id="basic-nav-dropdown">
               <NavDropdown.Item
                 onClick={() => idioma.establecerLenguaje("en-US")}
               >
                 ENG
               </NavDropdown.Item>
-              <NavDropdown.Item
+              <NavDropdown.Item className="dropdown-abajo"
                 onClick={() => idioma.establecerLenguaje("es-AR")}
               >
                 ESP
