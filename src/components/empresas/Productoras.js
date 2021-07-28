@@ -26,17 +26,17 @@ const Prodcutoras = () => {
           <br/>
      <Marquee className="marque-produc" gradientWidth="no" pauseOnHover>
        
-          <img src={Limplus} width="230" height="auto" className="empresas-produc"></img>
-        <img src={Beleza} width="auto" height="170" className="empresas-produc"></img>
-        <img src={Clorosal} width="230" height="auto" className="empresas-produc"></img>
-        <img src={Frau} width="230" height="auto" className="empresas-produc"></img>
+          <img src={Limplus} width="140" height="auto" className="empresas-produc"></img>
+        <img src={Beleza} width="auto" height="100" className="empresas-produc"></img>
+        <img src={Clorosal} width="130" height="auto" className="empresas-produc"></img>
+        <img src={Frau} width="130" height="auto" className="empresas-produc"></img>
      
-        <img src={Limplus} width="230" height="auto" className="empresas-produc"></img>        
-        <img src={Beleza} width="auto" height="170" className="empresas-produc"></img>
+        <img src={Limplus} width="140" height="auto" className="empresas-produc"></img>        
+        <img src={Beleza} width="auto" height="100" className="empresas-produc"></img>
         
-        <img src={Clorosal} width="230" height="auto" className="empresas-produc"></img>
+        <img src={Clorosal} width="130" height="auto" className="empresas-produc"></img>
         
-        <img src={Frau} width="230" height="auto" className="empresas-produc"></img>
+        <img src={Frau} width="130" height="auto" className="empresas-produc"></img>
         
         
 

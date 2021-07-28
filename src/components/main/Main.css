@@ -44,7 +44,7 @@
 }
 .refill-img{
   justify-content: end;
-  margin-left: 70px;
+  margin-left: 120px;
   width: 400px;
   height: 600px;
   margin-top: -40px;
@@ -70,6 +70,10 @@
     margin-top: 10px;
     margin-left: 35px;
   }
+  .howit{
+    font-size: 25px;
+  }
+  
   .div-btn{
     display: flex;
     align-items: center !important;
@@ -84,6 +88,12 @@
     justify-content: center !important;
     align-content: center !important;
     align-items: center !important;
+  }
+  .refill-img {
+    width: auto;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 15px;
   }
 }
 

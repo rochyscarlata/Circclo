@@ -70,3 +70,9 @@
         margin: auto;
     }
   }
+ @media screen and (device-width: 320px) {
+     .howi-img{
+        width: 300px;
+      }
+     
+ }

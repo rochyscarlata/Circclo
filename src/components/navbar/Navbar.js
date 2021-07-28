@@ -57,22 +57,15 @@ function NavBar() {
               <FormattedMessage id="nav.historia" defaultMessage="Historia" />
             </NavLink>
 
-            {/* {idioma.establecerLenguaje("es-AR") ?
-            (
-              <NavLink to="/faq" className="nav-link">
-              FAQ
-            </NavLink>
-            ): null} */}
            
            <NavLink to="/faq" className="nav-link">
               FAQ
             </NavLink>
 
 
-            <Nav.Link href="/contacto">
+            <NavLink to="/contacto" className="nav-link">
               <FormattedMessage id="nav.contacto" defaultMessage="Contacto" />
-            </Nav.Link>
-
+            </NavLink>
 
             <NavDropdown title={<FormattedMessage id="nav.idioma" defaultMessage="ESP" />} id="basic-nav-dropdown">
               <NavDropdown.Item

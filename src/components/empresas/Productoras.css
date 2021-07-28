@@ -36,8 +36,8 @@
     justify-content: center;
 }
 .empresas-produc{
-    margin-left: 40px !important;
-    margin-right: 40px !important;
+    margin-left: 60px !important;
+    margin-right: 60px !important;
 }
 @media (max-width: 600px) {
     .logos{
