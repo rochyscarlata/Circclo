@@ -11,7 +11,7 @@ const Secdos = () => {
     return ( 
         <Container fluid="md">
 
-            <h1 className="text-center">Aca va la seccion dos q todavia no se que poner</h1>
+            <h1 className="text-center">Aca va la seccion dos q todavia falta definir</h1>
 
 {/* Somos una empresa social que busca revolucionar la manera en que consumimos día a día.
 

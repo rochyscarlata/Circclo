@@ -28,6 +28,10 @@ const Home = () => {
       <Main />
       <br />
       <Secdos />
+   
+      <blockquote></blockquote>
+      <br></br>
+      <Funcionamiento />
       <br />
       <Marquee className="marque" gradientWidth="no">
         <p className="text-marque">
@@ -47,10 +51,6 @@ const Home = () => {
           <i class="fas fa-exclamation-circle"></i>{" "}
         </p>
       </Marquee>
-      <blockquote></blockquote>
-
-      <Funcionamiento />
-
       <br />
       <blockquote></blockquote>
 

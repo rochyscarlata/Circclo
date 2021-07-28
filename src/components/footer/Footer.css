@@ -26,6 +26,7 @@
         color: white;
         cursor: pointer;
   }
+  
   .iconos:hover{
       color: rgb(146, 255, 118);
   }

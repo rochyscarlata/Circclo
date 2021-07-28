@@ -8,6 +8,19 @@
     font-family: lemon;
     min-width: auto;
 }
+.howi-img{
+    width: 780px ;
+    height: 500px;
+}
+.contenedor-como{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+/* .contenedor-how2{
+    width: 300px !important;
+} */
 .howit{
     color: #038910;
 }
@@ -39,6 +52,12 @@
     padding-top: 4px;
 }
 
+@media (max-width: 600px){
+    .howi-img{
+        width: 350px;
+        height: auto;
+    }
+}
 @media screen and (device-width: 414px) {
     .howit{
         font-size: 30px !important;
