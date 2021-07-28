@@ -38,7 +38,7 @@ const Prodcutoras = () => {
         
         <img src={Frau} width="130" height="auto" className="empresas-produc"></img>
         
-        
+        <br></br>
 
       </Marquee>
     </Container>

@@ -47,11 +47,14 @@
         margin: 50px;
     } */
     .textoProductoras{
-        font-size: 30px;
+        font-size: 25px;
     }
     .textoProductorash2{
-        font-size: 25px;
+        font-size: 23px;
         
+    }
+    .marque-produc{
+        margin-bottom: 15px;
     }
   }
  
