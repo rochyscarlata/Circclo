@@ -6,6 +6,7 @@ import { FormattedMessage } from "react-intl";
 import { langContext } from "../../context/langContext";
 import Howit from "../../assets/img/howit.jpg";
 import "./Funcionamiento.css";
+import { Fade } from "react-reveal";
 
 const Funcionamiento = () => {
   const idioma = useContext(langContext);
@@ -14,9 +15,11 @@ const Funcionamiento = () => {
   return (
     <div class="container contenedor-hiw">
       <br></br>
+      <Fade bottom>
       <h3 className="text-center howit">
         <FormattedMessage id="pasos.como" defaultMessage="Como funciona?" />
       </h3>
+      </Fade>
       <br></br>
       <div className="contenedor-como">
         <img src={Howit} className="howi-img" />

@@ -1,27 +1,35 @@
 import React from 'react'
 import BasurayProd from '../../assets/img/basuraconprod.jpg'
 import CirccloProducto from '../../assets/img/circclojabon.jpg'
-import Nadando from '../../assets/img/nadando.png'
-import CirccloProd from '../../assets/img/circcloprod.jpg'
+import Basura from '../../assets/img/botella-playa.jpg'
+import { Parallax } from 'react-parallax';
 import { Container } from 'react-bootstrap'
 
-
+// import Count from '../count up'
 
 const Secdos = () => {
+
+    const insideStyles = {
+        background: "#ececec2f" ,
+        padding: 20,
+        position: "absolute",
+        color: " black",
+        top: "50%",
+        left: "50%",
+        transform: "translate(-50%,-50%)"
+      };
     return ( 
-        <Container fluid="md">
+        <Container fluid>
+  <Parallax  bgImage={Basura} bgImageAlt="the cat" blur={1} strength={100}>
+  <div style={{ height: 700, width: 900 }}>
+        <div style={insideStyles}> 
+          {/* <Count/> */}
+          <h2>En el largo plazo, comprar CIRCCLO es un 40%más económico que comprar en el super, ya que el costo envase descartable está incluido en el precio final y el consumidor lo paga cada vez que realiza una compra.</h2>
+</div>
+      </div>
+  </Parallax>
+            
 
-            <h1 className="text-center">Aca va la seccion dos q todavia falta definir</h1>
-
-{/* Somos una empresa social que busca revolucionar la manera en que consumimos día a día.
-
-Nuestra meta es acercar al consumidor mejores productos, con menos intermediarios y a un precio justo. Apostamos por el triple impacto y pronto nos certificaremos como Empresa B: 
-
-ECONÓMICO Somos una empresa privada que busca rentabilidad como consecuencia del impacto social y ambiental
-
-SOCIAL Fomentamos las economías locales y el comercio justo, eliminando las largas cadenas de intermediarios.
-
-AMBIENTAL Nuestros envases están diseñados para durar para toda la vida. Evitando que se produzca más plástico y se generen más desechos. */}
 
         </Container>
      );

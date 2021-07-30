@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <div class="icon-bar">
         <a href="#" class="facebook">
-        <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-whatsapp"></i>
         </a>
         <a href="#" class="twitter">
           <i class="fab fa-twitter-square"></i>
@@ -25,13 +25,13 @@ const Home = () => {
           <i class="fab fa-instagram"></i>
         </a>
       </div>
-      <Main />
+      <Main id="#home"/>
       <br />
-      <Secdos />
-   
+      <Secdos id="#img"/>
+
       <blockquote></blockquote>
       <br></br>
-      <Funcionamiento />
+      <Funcionamiento id="#how"/>
       <br />
       <Marquee className="marque" gradientWidth="no">
         <p className="text-marque">
@@ -54,11 +54,45 @@ const Home = () => {
       <br />
       <blockquote></blockquote>
 
-      <Count />
+      <Count id="#calculadora"/>
       <br />
       <blockquote></blockquote>
-      <Prodcutoras />
+      <Prodcutoras id="#empresas"/>
       <br></br>
+      {/* <div
+        id="fp-nav"
+        className="right scrol-lindo"
+       
+      >
+        <ul className="fp-slidesNav ">
+          <li>
+            <a href="#home" class="active">
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a href="#img">
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a href="#how">
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a href="#calculadora">
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a href="#empresas">
+              <span></span>
+            </a>
+          </li>
+         
+        </ul>
+      </div> */}
     </>
   );
 };
