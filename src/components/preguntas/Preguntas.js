@@ -7,7 +7,7 @@ const Preguntas = () => {
   return (
     <Container fluid="sm">
       <br></br>
-      <h3 className="preguntasfrec">Preguntas frecuentes</h3>
+      <h2 className="preguntasfrec">Preguntas frecuentes</h2>
       <hr  width="180"></hr>
       <br></br>
       <div className="preguntas-padre">

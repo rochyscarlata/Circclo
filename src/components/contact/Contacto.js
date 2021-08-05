@@ -14,11 +14,11 @@ const Contacto = () => {
       <div className="titulos-padre">
         <div className="contacto-subtitulos">
           <Fade bottom>
-            <h5 className="contacto-subtitulo">
+            <h4 className="contacto-subtitulo">
               Tú ganas dinero cada vez que compras usando envases inteligentes y
               el planeta tiene un desecho menos.
-            </h5>
-            <h5 className="contacto-subtitulo2"> Súmate a la revolución</h5>
+            </h4>
+            <h4 className="contacto-subtitulo2"> Súmate a la revolución</h4>
           </Fade>
           <blockquote> </blockquote>
           <br />

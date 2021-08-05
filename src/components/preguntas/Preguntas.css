@@ -15,12 +15,12 @@
 }
 .preguntasfrec{
     text-align: center;
-    font-family: coco;
+    font-family: gothamNarrowBold;
     font-weight: bolder;
 
 }
 .respuestas{
-    font-family: coco;
+    font-family: gothamNarrowLight;
     font-weight: 600;
 }
 

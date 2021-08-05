@@ -1,6 +1,20 @@
 @font-face {
-  font-family: lemon;
-  src: url(../../assets/fonts/LEMONMILK-Light.otf);
+  font-family: gothamBold;
+  src: url(../../assets/fonts/Gotham-Bold.ttf);
+}
+
+@font-face {
+  font-family: gothamNarrowLight;
+  src: url(../../assets/fonts/GothamNarrow-Light.otf);
+}
+@font-face {
+  font-family: gothamNarrowBook;
+  src: url(../../assets/fonts/GothamXNarrow-Book.otf);
+
+}
+@font-face {
+  font-family: gothamNarrowBold;
+  src: url(../../assets/fonts/GothamNarrow-Bold.otf);
 }
 
 /* carrousel n */
@@ -21,13 +35,20 @@
   height: auto;
 } */
 .frase-main {
-  font-family: lemon;
+  font-family: gothamBold;
   margin-top: 40px;
+  font-size: 3rem;
+  text-transform: uppercase;
   text-align: end;
+  line-height: 58px;
   padding-left: 0px !important;
 }
 .frase-mainx {
-  font-family: lemon;
+  font-family: gothamBold;
+  font-size: 3rem;
+
+  text-transform: uppercase;
+
   text-align: end;
   color: #038910 !important;
   padding-left: 0px !important;
@@ -55,7 +76,8 @@
   border-radius: 10px;
   color: white;
   background-color: #038910 !important;
-  font-family: lemon;
+  font-family: gothamBold;
+  text-transform: uppercase;
   width: 280px;
   height: 55px;
 }
@@ -124,8 +146,15 @@
 
 @media screen and (device-width: 320px) {
   .frase-main {
-    font-size: 20px !important;
+    font-size: 27px !important;
     text-align: center !important;
+    line-height: 30px;
+
+  } .frase-mainx {
+    font-size: 28px !important;
+    text-align: center !important;
+    line-height: 20px;
+
   }
   .contenedor-gif{
     width: auto;
@@ -167,6 +196,14 @@
   .frase-main {
     font-size: 20px !important;
     text-align: center !important;
+    line-height: 40px;
+
+  }
+  .frase-mainx {
+    font-size: 20px !important;
+    text-align: center !important;
+    line-height: 37px;
+
   }
   .refill-img {
     width: auto;
@@ -195,6 +232,14 @@
   .frase-main {
     font-size: 30px !important;
     text-align: center !important;
+    line-height: 40px;
+
+  }
+  .frase-mainx {
+    font-size: 30px !important;
+    text-align: center !important;
+    line-height: 30px !important;
+
   }
   .refill-img {
     width: auto;
@@ -223,6 +268,14 @@
   .frase-main {
     font-size: 40px !important;
     text-align: center !important;
+    line-height: 40px;
+
+  }
+  .frase-mainx {
+    font-size: 40px !important;
+    text-align: center !important;
+    line-height: 40px;
+
   }
   .div-btn{
     display: flex !important;
@@ -246,6 +299,14 @@
     .frase-main {
       font-size: 35px !important;
       text-align: center !important;
+      line-height: 40px;
+
+    }
+    .frase-mainx {
+      font-size: 35px !important;
+      text-align: center !important;
+      line-height: 40px;
+  
     }
     .div-btn{
       display: flex !important;

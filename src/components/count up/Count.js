@@ -23,7 +23,7 @@ const Count = () => {
         <Col sm className="col-contador">
           <div className="padre-count">
             
-          <CountUp className="contador" start={focus ? 0 : null} end={24000} duration={5} z >
+          <CountUp className="contador" start={focus ? 0 : null} end={28000} duration={5} z >
           {({ countUpRef }) => (
                 <VisibilitySensor onChange={(isVisible) => {
                     if (isVisible) { setFocus(true); }
@@ -35,7 +35,7 @@ const Count = () => {
 
           </div>
           <h3 className="titulos-count">
-          <FormattedMessage id="count.envases" defaultMessage="Envases Reciclados" /></h3>
+          <FormattedMessage id="count.envases" defaultMessage="Envases evitados" /></h3>
 
         </Col>
         <br/>
@@ -54,7 +54,7 @@ const Count = () => {
 
 
           </div>
-          <h3 className="titulos-count"><FormattedMessage id="count.hogares" defaultMessage="Hogares Alcanzados" /></h3>
+          <h3 className="titulos-count"><FormattedMessage id="count.hogares" defaultMessage="Hogares que se sumaron" /></h3>
         
         </Col>
       </Row>

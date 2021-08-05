@@ -9,7 +9,7 @@
 }
 .contacto-titulo {
     color: #038910;
-    font-family: coco;
+    font-family: gothamNarrowBold ;
     text-align: center;
     font-weight: 700;
     margin-top: 50px;
@@ -22,14 +22,14 @@
 
   }
 .contacto-subtitulo{
-    font-family: coco;
+    font-family: gothamNarrowLight;
     text-align: center;
   
     font-weight: 900 !important;
     color: #000000;
 }
 .contacto-subtitulo2{
-    font-family: coco;
+    font-family: gothamNarrowLight;
     text-align: center;
   
     font-weight: 900 !important;
@@ -43,12 +43,12 @@
 }
 .contacto-sumate{
     text-align: center;
-    font-family: coco;
+    font-family: gothamNarrowLight;
     justify-content: center;
     color: #038910;
 }
 .info-contacto-items{
-    font-family: coco;
+    font-family: gothamNarrowLight;
     font-weight: 600;
     margin-top: 10px;
 }
@@ -65,7 +65,7 @@
 }
 
 .card-hijo{
-    font-family: coco !important;
+    font-family: gothamNarrowBook !important;
     font-weight: 900;
     font-family: 30px;
     margin-top: 20px;
@@ -81,7 +81,7 @@
     width: 800;
 }
 .formulario-contacto{
-    font-family: Ace;
+    font-family: gothamNarrowBook;
     width: 500px;
     font-weight: 900;
     font-size: 30px;
@@ -97,6 +97,7 @@
     background-color: #038910;
     border-color: #038910;
     margin-bottom: 20px;
+    font-family: gothamNarrowBook;
     
 }
 /* .btn-color-enviar:hover{

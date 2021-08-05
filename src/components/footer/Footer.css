@@ -1,12 +1,9 @@
-@font-face {
-    font-family: ace;
-    src: url(../../assets/fonts/AceSans.otf);
-}
+
 .footer {
     padding-top:30px ;
     color:#f0f9ff;
     background-color:#038910;
-    font-family: coco;
+    font-family: gothamNarrowLight ;
       margin-top: 30px;
   }
   .logo-footer{

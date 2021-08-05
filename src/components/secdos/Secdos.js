@@ -1,37 +1,32 @@
 import React from 'react'
 import BasurayProd from '../../assets/img/basuraconprod.jpg'
 import CirccloProducto from '../../assets/img/circclojabon.jpg'
-import Basura from '../../assets/img/botella-playa.jpg'
-import { Parallax } from 'react-parallax';
+import Basura from '../../assets/img/basural-paralaxx.jpeg'
+import { Background, Parallax } from 'react-parallax';
 import { Container } from 'react-bootstrap'
+import './Secdos.css'
 
 // import Count from '../count up'
 
 const Secdos = () => {
 
-    const insideStyles = {
-        background: "#ececec2f" ,
-        padding: 20,
-        position: "absolute",
-        color: " black",
-        top: "50%",
-        left: "50%",
-        transform: "translate(-50%,-50%)"
-      };
     return ( 
-        <Container fluid>
-                  <h2 className="text-center">(Seccion 2 no definida)</h2>
+        <Container fluid="xxl" className="basural-img">
+           <div  >
+        <div className="contenedor-texto-basural">
+          <div className="texto-basura">
+          <p className="texto-debasura">
+            ¿Alguna vez preguntaste cuantos envases plasticos tiraste a la basura en tu hogar y donde fueron a parar realmente? 
+            #RetornandoLosEnvasesNuncaSeConviertenEnBasura.
+          </p>
+          </div>
+           
+        </div>
+          
+         </div>
+          {/* <img src={Basura} /> */}
 
-  {/* <Parallax  bgImage={Basura} bgImageAlt="the cat" blur={1} strength={100}>
-  <div style={{ height: 700, width: 900 }}>
-        <div style={insideStyles}> 
-          <h2>En el largo plazo, comprar CIRCCLO es un 40%más económico que comprar en el super, ya que el costo envase descartable está incluido en el precio final y el consumidor lo paga cada vez que realiza una compra.</h2>
-</div>
-      </div>
-  </Parallax> */}
-            
-
-
+         
         </Container>
      );
 }

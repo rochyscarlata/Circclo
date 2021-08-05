@@ -16,9 +16,9 @@ const Funcionamiento = () => {
     <div class="container contenedor-hiw">
       <br></br>
       <Fade bottom>
-      <h3 className="text-center howit">
+      <h2 className="text-center howit">
         <FormattedMessage id="pasos.como" defaultMessage="Como funciona?" />
-      </h3>
+      </h2>
       </Fade>
       <br></br>
       <div className="contenedor-como">

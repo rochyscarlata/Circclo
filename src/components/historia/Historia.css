@@ -15,16 +15,16 @@
 .historia{
     margin-top: 20px;
     justify-content: center;
-    font-family: lemon;
+    font-family: gothamNarrowBold;
     color: #038910;
 }
 .titulo-consumo{
     color: #038910;
-    font-family: Ace;
+    font-family: gothamNarrowBold;
     font-weight: 700 !important;
 }
 .descrip-consumo{
-    font-family: coco;
+    font-family: gothamNarrowLight;
     font-size: 15px;
     font-weight: 700 !important;
     color: black;
@@ -33,19 +33,19 @@
 }
 .descrip-consumos{
     margin-top: 5px;
-    font-family: coco;
+    font-family: gothamNarrowLight ;
     font-size: 15px;
     font-weight: 700 !important;
     color: black;
 }
 .descrip-basura{
-    font-family: coco;
+    font-family: gothamNarrowLight ;
     font-size: 15px;
     font-weight: 700 !important;
     color: black;
 }
 .descrip-reuso{
-    font-family: coco;
+    font-family: gothamNarrowLight;
     font-size: 15px;
     font-weight: 700 !important;
     color: black;
@@ -70,7 +70,7 @@
 }
 .descrip-circular{
     margin-bottom: 7px;
-    font-family: coco;
+    font-family: gothamNarrowLight ;
     font-size: 15px;
     font-weight: 700 !important;
     color: black;

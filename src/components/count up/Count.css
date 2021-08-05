@@ -7,7 +7,7 @@
     background-size: cover; */
 }
 .titulos-count{
-    font-family: coco;
+    font-family: gothamNarrowBold;
     font-weight: 800;
     color: #038910;
     text-align: center;
@@ -29,12 +29,12 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    font-family: lemon;
+    font-family: gothamNarrowBold;
 
 }
 .contador{
     font-size: 2rem;
-    font-family: coco;
+    font-family: gothamNarrowLight;
 
     /* align-items: center !important;
     justify-content: center !important; */

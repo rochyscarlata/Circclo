@@ -50,14 +50,20 @@ function Main() {
           <h1 className="frase-main">
             <FormattedMessage
               id="frase.main"
-              defaultMessage="Soluciones inteligentes a productos de primera necesidad"
+              defaultMessage="El futuro de nuestro planeta, no puede ser "
+            />
+          </h1>
+          <h1 className="frase-mainx">
+            <FormattedMessage
+              id="frase.mainx"
+              defaultMessage="descartable."
             />
           </h1>
           <br></br>
           <div className="divbtn">
             <Button className="btn-revolucion" onClick={() => mostrarAlerta()}>
               {" "}
-              Sumate a la revolucion
+              Quiero sumarme!
             </Button>
           </div>
           <br></br>

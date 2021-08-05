@@ -18,29 +18,28 @@ const Prodcutoras = () => {
         {" "}
         <FormattedMessage 
           id="empresas.titulo"
-          defaultMessage="¡Fomentamos el comercio local y empoderamos las economías locales! Por un comercio justo y sostenible." />{" "}
+          defaultMessage="(3) Buscamos fomentar y defender las economías locales para un comercio justo y sostenible. " />{" "}
       </h3>
       <h3 className="textoProductorash2"> <FormattedMessage 
           id="empresas.subtitulo"
-          defaultMessage="Empresas que se sumaron al cambio" /></h3>
+          defaultMessage="Estos son los fabricantes con los que generamos una alianza" /></h3>
           <br/>
-     <Marquee className="marque-produc" gradientWidth="no" pauseOnHover>
-       
-          <img src={Limplus} width="140" height="auto" className="empresas-produc"></img>
+    
+       <div className="contenedor-padre-productoras">
+          <div className="contenedor-hijo-productoras">
+                <img src={Limplus} width="140" height="auto" className="empresas-produc"></img>
         <img src={Beleza} width="auto" height="100" className="empresas-produc"></img>
         <img src={Clorosal} width="130" height="auto" className="empresas-produc"></img>
         <img src={Frau} width="130" height="auto" className="empresas-produc"></img>
      
-        <img src={Limplus} width="140" height="auto" className="empresas-produc"></img>        
-        <img src={Beleza} width="auto" height="100" className="empresas-produc"></img>
+          </div>
+       </div>
         
-        <img src={Clorosal} width="130" height="auto" className="empresas-produc"></img>
-        
-        <img src={Frau} width="130" height="auto" className="empresas-produc"></img>
+     
         
         <br></br>
 
-      </Marquee>
+   
     </Container>
   );
 };

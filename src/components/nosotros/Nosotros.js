@@ -41,7 +41,7 @@ const Nosotros = () => {
             
             <FormattedMessage
               id="nos.titulo"
-              defaultMessage="Somos una empresa social que busca revolucionar la manera en que consumimos día a día."
+              defaultMessage="Somos una empresa de jovenes que busca revolucionar la manera en que consumimos día a día."
             />
           </h1>
           
@@ -59,7 +59,7 @@ const Nosotros = () => {
       </div>
 
       <div class="row text-center">
-        <div class="col">
+        <Col>
           <br></br>
           <Fade bottom>
           <img src={PiggyBank} className="" width="100" height="80"></img>
@@ -74,11 +74,11 @@ const Nosotros = () => {
             />
           </p>
           </Fade >
-        </div>
-        <div class="col">
+        </Col>
+        <Col>
         <Fade bottom>
           <br></br>
-          <img src={HandShake} className="" width="100" height="80"></img>
+          <img src={HandShake} className="hand-shake" width="100" height="90"></img>
           <br></br>
           <h6 className="ecosocam">
             <FormattedMessage id="nos.social" defaultMessage="Social" />
@@ -90,8 +90,8 @@ const Nosotros = () => {
             />
           </p>
           </Fade >
-        </div>
-        <div class="col">
+        </Col>
+        <Col>
         <Fade bottom>
           <br></br>
           <img src={Planet} className="mb-1" width="100" height="80"></img>
@@ -106,7 +106,7 @@ const Nosotros = () => {
             />
           </p>
           </Fade >
-        </div>
+        </Col>
       </div>
       <br></br>
       <div className="proposito-padre">
@@ -147,22 +147,18 @@ const Nosotros = () => {
       </div>
 
       <br />
+      <hr width="100"></hr>
       <div className="equipo-padre">
         <div className="equipo">
           <Fade>
           <h1 className="text-center ">
-            <FormattedMessage id="nos.equipo" defaultMessage="Equipo" />
+            <FormattedMessage id="nos.equipo" defaultMessage="Equipo Circclo" />
           </h1>
           <blockquote> </blockquote>
           <br />
-          <h5 className="text-center equipo-texto">
-            <FormattedMessage
-              id="nos.equipoDescrip"
-              defaultMessage="“Nadie se está haciendo cargo de esto” por eso decidimos tomar cartas al asunto, Somos jóvenes con ganas de cambiar lo que está mal."
-            />
-          </h5>
-          <br></br>
-          <div className="equipo-img">
+          <Row>
+            <Col sm>
+            <div className="equipo-img">
             <img
               src={Equipo}
               width="550"
@@ -170,12 +166,24 @@ const Nosotros = () => {
               className="imagen-equipo"
             ></img>
           </div>
+            </Col>
+            <Col sm>
+            <h5 className="equipo-texto">
+            <FormattedMessage
+              id="nos.equipoDescrip"
+              defaultMessage="somos un equipo de jóvenes profesionales con demasiadas ganas de cambiar lo que esta mal, nos dimos cuenta de que si hay algo que no esta en la agenda de las principales marcas a nivel mundial, es resolver el problema de los plásticos, así que decidimos hacernos cargo. Aunque sea muy dificil y parezca imposible, no vamos a bajar los brazos nunca porque el futuro de este planeta no puede ser descartable."
+            />
+          </h5>
+            </Col>
+          </Row>
+        
+          <br></br>
+          
           </Fade>
         </div>
       </div>
-      <br />
-      <br></br>
-      <div className="vision-padre">
+      
+      {/* <div className="vision-padre">
         <Fade>
         <div className="vision">
           <h2 className="vision-titulo text-center">
@@ -191,9 +199,9 @@ const Nosotros = () => {
           </h5>
         </div>
         </Fade>
-      </div>
+      </div> */}
       <br/>
-      <Fade>
+      {/* <Fade>
       <Card className="text-center objetivo">
         <Card.Body>
           <div className="objetivo-contenido">
@@ -206,7 +214,7 @@ const Nosotros = () => {
           </div>
         </Card.Body>
       </Card>
-      </Fade>
+      </Fade> */}
     <br></br>
 <hr></hr>
         <div className="reconocimientos-padre">
@@ -229,27 +237,20 @@ const Nosotros = () => {
                   <img src={ClimateLaunch} height="120" className="climate-launch"></img>
                 </a>
                 </Col>
-            </Row>
-            <br/>
-            <Row>
-              <Col sm>
-                <a href="https://www.lagaceta.com.ar/nota/862165/actualidad/banco-macro-premio-emprendedores-tucumanos-certamen-naves-federal.html" target="_blank">
-                  <img src={Macro} width="200" className="macro-img"></img>
-                </a>
-              </Col>
-              <Col sm>
+                <Col sm>
               <a  target="_blank" href="https://www.lagaceta.com.ar/nota/862165/actualidad/banco-macro-premio-emprendedores-tucumanos-certamen-naves-federal.html">
                   <img src={Naves} height="120" className="naves-img"></img>
                 </a>
                 </Col>
-                <Col sm>
+            </Row>
+            <br/>
+           
+            <Row>
+            <Col sm>
                 <a href="https://www.lagaceta.com.ar/nota/862165/actualidad/banco-macro-premio-emprendedores-tucumanos-certamen-naves-federal.html" target="_blank">
                   <img src={School} height="120" className="school-img"></img>
                 </a>
                 </Col>
-            </Row>
-            <br/>
-            <Row>
               <Col>
                 <a href="https://www.unl.edu.ar/noticias/news/view/la_jije_2019_premi%C3%B3_a_proyectos_y_emprendimientos_innovadores#.YPghGehKjIU" target="_blank">
 

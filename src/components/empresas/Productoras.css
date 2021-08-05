@@ -18,13 +18,13 @@
 } */
 .textoProductoras {
     text-align: center;
-    font-family: coco;
+    font-family: gothamNarrowLight;
     font-weight: 800;
     color: #038910;
 }
 .textoProductorash2{
     text-align: center;
-    font-family: coco;
+    font-family: gothamNarrowLight;
     font-weight: 800;
 }
 /* .logos{
@@ -33,6 +33,14 @@
 .productorasLogo{
     align-items: center;
     display: flex;
+    justify-content: center;
+}
+.contenedor-padre-productoras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-hijo-productoras{
     justify-content: center;
 }
 .empresas-produc{
@@ -55,6 +63,10 @@
     }
     .marque-produc{
         margin-bottom: 15px;
+    }
+    .empresas-produc{
+        margin-bottom: 15px;
+        margin-top: 15px;
     }
   }
  

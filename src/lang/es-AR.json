@@ -1,5 +1,5 @@
 {
-    "frase.main" : "Soluciones inteligentes a productos de primera necesidad",
+    "frase.main" : "El futuro de nuestro planeta, no puede ser ",
     "nav.inicio" : "Inicio",
     "nav.nosotros" : "Nosotros",
     "nav.productos" : "Productos",
@@ -11,12 +11,12 @@
     "paso.dos" : "Agenda la visita de tu Circclo. Indica los productos que necesitas reponer. Paga a través de transferencia con cualquier tarjeta/método de pago o efectivo.",
     "paso.tres" : "Recibe tu reposicion de productos, intercambia los envases vacíos por los llenos y",
 
-    "empresas.titulo" : "¡Fomentamos el comercio local y empoderamos las economías locales! Por un comercio justo y sostenible.",
-    "empresas.subtitulo" : "Empresas que se sumaron al cambio",
+    "empresas.titulo" : "Buscamos fomentar y defender las economías locales para un comercio justo y sostenible.",
+    "empresas.subtitulo" : "Estos son los fabricantes con los que generamos una alianza",
 
 
     "nos.nosotros" : "Sobre nosotros",
-    "nos.titulo" : "Somos una empresa social que busca revolucionar la manera en que consumimos día a día.",
+    "nos.titulo" : "Somos una empresa de jovenes que busca revolucionar la manera en que consumimos día a día.",
     "nos.subtitulo" : "Nuestra meta es acercar al consumidor mejores productos, con menos intermediarios y a un precio justo. Apostamos por el triple impacto y pronto nos certificaremos como Empresa B:",
     "nos.economico" : "Economico",
     "nos.economicoDescrip" : "Somos una empresa privada que busca rentabilidad como consecuencia del impacto social y ambiental",
@@ -26,8 +26,8 @@
     "nos.ambientalDescrip" : "Nuestros envases están diseñados para durar para toda la vida. Evitando que se produzca más plástico y se generen más desechos.",
     "nos.proposito" : "Propósito",
     "nos.propositoDescrip" : "Brindar soluciones inteligentes para productos de primera necesidad mediante la eliminación del plástico de un solo uso.",
-    "nos.equipo" : "Equipo",
-    "nos.equipoDescrip" : "“Nadie se está haciendo cargo de esto” por eso decidimos tomar cartas al asunto, Somos jóvenes con ganas de cambiar lo que está mal.", 
+    "nos.equipo" : "Equipo Circclo",
+    "nos.equipoDescrip" : "somos un equipo de jóvenes profesionales con demasiadas ganas de cambiar lo que esta mal, nos dimos cuenta de que si hay algo que no esta en la agenda de las principales marcas a nivel mundial, es resolver el problema de los plásticos, así que decidimos hacernos cargo. Aunque sea muy dificil y parezca imposible, no vamos a bajar los brazos nunca porque el futuro de este planeta no puede ser descartable.", 
     "nos.vision" : "Visión",
     "nos.visionDescrip" : "Un ecosistema de reutilización global:  Con nuestra marca, socios minoristas y operativos, estamos construyendo un ecosistema global para el movimiento de reutilización que mantiene la conveniencia y la asequibilidad que disfrutamos con un estilo de vida desechable. Circclo tiene la misión de eliminar la idea del desperdicio de una manera que sea accesible para todos.",
     "nos.objetivo" : "Nuestro objetivo es hacer que la devolución de envases retornables sea tan fácil y accesible como tirar algo.",
@@ -58,8 +58,8 @@
 
 
 
-    "count.envases" : "Envases Reciclados",
-    "count.hogares" : "Hogares Alcanzados",
+    "count.envases" : "Envases evitados",
+    "count.hogares" : "Hogares que se sumaron",
     "img.howit" : "../assets/img/howit.jpg"
 
 

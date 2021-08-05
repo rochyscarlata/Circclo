@@ -1,11 +1,12 @@
 @font-face {
-    font-family: lemon;
-    src: url(../../assets/fonts/LEMONMILK-Light.otf);
+    font-family: gothamNarrowBold;
+    src: url(../../assets/fonts/GothamNarrow-Bold.otf);
 }
 
 .navbar-c{
     background-color: white;
-    font-family: lemon;
+    font-family: gothamNarrowBold;
+    text-transform: uppercase;
     /* mas tarde position: fixed; */
 }
 .nav-link :active{
