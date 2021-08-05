@@ -7,24 +7,26 @@ import Funcionamiento from "../how/Funcionamiento";
 import Main from "../main/Main";
 
 import "./Home.css";
+import Vidriera from "../vidriera/Productos";
 
 const Home = () => {
   return (
     <>
-      <div class="icon-bar">
-        <a href="#" class="facebook">
-          <i class="fab fa-whatsapp"></i>
+      <div className="icon-bar">
+        <a href="wa.link/lazk6f" target="_blank" className="facebook">
+          <i className="fab fa-whatsapp"></i>
         </a>
-        <a href="#" class="twitter">
-          <i class="fab fa-twitter-square"></i>
+        <a href="https://twitter.com/Circclo_arg" className="twitter" target="_blank">
+          <i className="fab fa-twitter-square"></i>
         </a>
-        <a href="#" class="linkedin">
-          <i class="fab fa-linkedin"></i>
+        <a href="https://www.linkedin.com/company/circclo" className="linkedin" target="_blank">
+          <i className="fab fa-linkedin"></i>
         </a>
-        <a href="#" class="linkedin">
-          <i class="fab fa-instagram"></i>
+        <a href="https://www.instagram.com/circclo/" className="linkedin" target="_blank">
+          <i className="fab fa-instagram"></i>
         </a>
       </div>
+      
       <Main id="#home"/>
       <br />
       <Secdos id="#img"/>
@@ -50,8 +52,12 @@ const Home = () => {
           #RetornandoNuestrosEnvasesNuncaSeConviertenEnBasura
           <i class="fas fa-exclamation-circle"></i>{" "}
         </p>
-      </Marquee>
+      </Marquee>     
+       <blockquote></blockquote>
+
       <br />
+      <Vidriera/>
+      <br/>
       <blockquote></blockquote>
 
       <Count id="#calculadora"/>

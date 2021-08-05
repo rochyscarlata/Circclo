@@ -20,14 +20,15 @@ const Secdos = () => {
       };
     return ( 
         <Container fluid>
-  <Parallax  bgImage={Basura} bgImageAlt="the cat" blur={1} strength={100}>
+                  <h2 className="text-center">(Seccion 2 no definida)</h2>
+
+  {/* <Parallax  bgImage={Basura} bgImageAlt="the cat" blur={1} strength={100}>
   <div style={{ height: 700, width: 900 }}>
         <div style={insideStyles}> 
-          {/* <Count/> */}
           <h2>En el largo plazo, comprar CIRCCLO es un 40%más económico que comprar en el super, ya que el costo envase descartable está incluido en el precio final y el consumidor lo paga cada vez que realiza una compra.</h2>
 </div>
       </div>
-  </Parallax>
+  </Parallax> */}
             
 
 

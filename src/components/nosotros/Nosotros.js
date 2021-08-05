@@ -13,6 +13,7 @@ import Naves from '../../assets/logos/naves.jpg'
 import School from '../../assets/logos/school.png'
 import Unl from '../../assets/logos/unl.png'
 import Jije from '../../assets/logos/jije.jpg'
+import Lagaceta from '../../assets/logos/lagaceta.png'
 import Fade from 'react-reveal/Fade';
 
 // Con color
@@ -219,12 +220,12 @@ const Nosotros = () => {
             <br/>
             <Row>
               <Col>
-                <a href="">
+                <a href="https://www.infobae.com/tendencias/2020/08/21/argentina-y-uruguay-participan-en-la-competencia-verde-mas-relevante-del-mundo/" target="_blank">
                   <img src={Climate} width="300" className="climate-img"></img>
                 </a>
               </Col>
               <Col>
-              <a href="https://www.infobae.com/tendencias/2020/08/21/argentina-y-uruguay-participan-en-la-competencia-verde-mas-relevante-del-mundo/">
+              <a href="https://www.infobae.com/tendencias/2020/08/21/argentina-y-uruguay-participan-en-la-competencia-verde-mas-relevante-del-mundo/" target="_blank">
                   <img src={ClimateLaunch} height="120" className="climate-launch"></img>
                 </a>
                 </Col>
@@ -232,17 +233,17 @@ const Nosotros = () => {
             <br/>
             <Row>
               <Col sm>
-                <a href="https://www.lagaceta.com.ar/nota/862165/actualidad/banco-macro-premio-emprendedores-tucumanos-certamen-naves-federal.html">
+                <a href="https://www.lagaceta.com.ar/nota/862165/actualidad/banco-macro-premio-emprendedores-tucumanos-certamen-naves-federal.html" target="_blank">
                   <img src={Macro} width="200" className="macro-img"></img>
                 </a>
               </Col>
               <Col sm>
-              <a>
+              <a  target="_blank" href="https://www.lagaceta.com.ar/nota/862165/actualidad/banco-macro-premio-emprendedores-tucumanos-certamen-naves-federal.html">
                   <img src={Naves} height="120" className="naves-img"></img>
                 </a>
                 </Col>
                 <Col sm>
-                <a>
+                <a href="https://www.lagaceta.com.ar/nota/862165/actualidad/banco-macro-premio-emprendedores-tucumanos-certamen-naves-federal.html" target="_blank">
                   <img src={School} height="120" className="school-img"></img>
                 </a>
                 </Col>
@@ -250,16 +251,22 @@ const Nosotros = () => {
             <br/>
             <Row>
               <Col>
-                <a href="https://www.unl.edu.ar/noticias/news/view/la_jije_2019_premi%C3%B3_a_proyectos_y_emprendimientos_innovadores#.YPghGehKjIU">
+                <a href="https://www.unl.edu.ar/noticias/news/view/la_jije_2019_premi%C3%B3_a_proyectos_y_emprendimientos_innovadores#.YPghGehKjIU" target="_blank">
 
                   <img src={Unl} width="300" className="unl-img"></img>
                 </a>
               </Col>
               <Col>
-              <a>
+              <a href="https://www.unl.edu.ar/noticias/news/view/la_jije_2019_premi%C3%B3_a_proyectos_y_emprendimientos_innovadores#.YPghGehKjIU" target="_blank">
                   <img src={Jije} height="120" className="jije-img"></img>
                 </a>
                 </Col>
+            </Row>
+            <br/>
+            <Row>
+            <div class="col-md-6 offset-md-3"> <a href="https://www.lagaceta.com.ar/nota/824592/actualidad/menos-plastico-idea-premiaron-grupo-tucumanos.html" target="_blank">
+                  <img src={Lagaceta} height="90" className="lagaceta-img"></img>
+                </a></div>
             </Row>
           </div>
           </Fade>

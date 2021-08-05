@@ -45,7 +45,7 @@ function Main() {
     <Container fluid="md">
       <br></br>
 
-      <Row>
+       <Row>
         <Col sm>
           <h1 className="frase-main">
             <FormattedMessage
@@ -61,14 +61,11 @@ function Main() {
             </Button>
           </div>
           <br></br>
-          {/* <h1  className="frase-mainx">inteligentes</h1><h1  className="frase-mainz">a productos de primera necesidad</h1> */}
         </Col>
         <Col sm className="columna-main">
           <img src={Gif} className="refill-img"></img>
 
-          {/* <video  autoPlay loop="true" className="refill-img">
-                    <source src={Video}  type="video/mp4"></source>
-                </video> */}
+         
         </Col>
       </Row>
       <br></br>
