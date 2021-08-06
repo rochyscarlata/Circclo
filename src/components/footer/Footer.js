@@ -20,7 +20,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div class="col-sm item text">
-                        <a className="iconos" href="wa.link/lazk6f" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a className="iconos" href="https://api.whatsapp.com/send?phone=543814620450&text=Hola!%20Quiero%20mas%20info%20sobre%20CIRCCLO" target="_blank"><i class="fab fa-whatsapp"></i></a>
                         <a className="iconos"  href="https://www.instagram.com/circclo/" target="_blank"><i class="fab fa-instagram"></i></a>
                         {/* <a className="iconos" href="https://twitter.com/Circclo_arg" target="_blank"><i class="fab fa-twitter"  ></i></a> */}
                         <a className="iconos"><i class="fab fa-facebook"  href="https://www.facebook.com/Circclo-106836967625926" target="_blank"></i></a>

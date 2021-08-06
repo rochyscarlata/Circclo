@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <div className="icon-bar">
-        <a href="wa.link/lazk6f" target="_blank" className="facebook">
+        <a href="https://api.whatsapp.com/send?phone=543814620450&text=Hola!%20Quiero%20mas%20info%20sobre%20CIRCCLO" target="_blank" className="facebook">
           <i className="fab fa-whatsapp"></i>
         </a>
         
