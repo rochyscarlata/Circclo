@@ -1,8 +1,4 @@
-@font-face {
-    font-family: coco;
-    src: url(../../assets/fonts/Cocogoose\ Pro\ Thin-trial.ttf);
-    font-weight: 800 !important;
-}
+
 
 .preguntas-padre{
     justify-content: center;
@@ -12,6 +8,7 @@
 }
 .preguntas-hijo{
    text-align: start;
+   width: 700px;
 }
 .preguntasfrec{
     text-align: center;
@@ -32,12 +29,12 @@
     font-weight: 900 !important;
 }
 .respuestasgrandes{
-    width: 900px;
+    width: 700px;
 }
 .h6{
     color: #038910;
     font-weight: 900;
-    font-family: coco;
+    font-family: gothamNarrowBold;
     text-align: start;
 
 }

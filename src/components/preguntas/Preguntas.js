@@ -16,31 +16,27 @@ const Preguntas = () => {
         <Card>
           <Card.Header >
             <Accordion.Toggle  variant="link" eventKey="0" className="acor">
-              <h6 className="h6">¿Cuándo puedo hacer mi pedido a domicilio?</h6>
+              <h6 className="h6">¿Que es un envase inteligente?</h6>
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="0">
-            <Card.Body>
-              {" "}
-              <p className="respuestas">Cualquier día de la semana</p>
+            <Card.Body className="respuestasgrandes">
+              <p className="respuestas">Es un envase con un chip RFID incorporado, esta tecnología que nos permite trackear el envase para que nunca lleguen a la basura.</p>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card >
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="1">
-              <h6 className="h6">¿De qué Calidad son los productos? ¿De quién son los productos?
-                ¿Ustedes hacen los productos?
+              <h6 className="h6">¿Cuándo puedo hacer mi pedido a domicilio?
+
               </h6>
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="1">
             <Card.Body className="respuestasgrandes">
               <p className="respuestas">
-                Trabajamos en base a un estándar de calidad con productores
-                locales que tienen experiencia en el rubro hace ya varios años y
-                son 100% confiables. La calidad es similar a las primeras marcas
-                de supermercados.
+              Cualquier día de la semana.
               </p>
             </Card.Body>
           </Accordion.Collapse>
@@ -49,14 +45,13 @@ const Preguntas = () => {
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="2">
               <h6 className="h6">
-                ¿Pago por envases?</h6>
+              ¿De qué Calidad son los productos? ¿Ustedes hacen los productos?</h6>
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="2">
-            <Card.Body>
+            <Card.Body className="respuestasgrandes">
               <p className="respuestas">
-                Sólo en tu primera compra pagas por los envases. Después
-                únicamente por la recarga.
+              Trabajamos en base a un estándar de calidad con productores locales que tienen experiencia en el rubro hace ya varios años y son 100% confiables. La calidad es similar a las primeras marcas de supermercados.
               </p>
             </Card.Body>
           </Accordion.Collapse>
@@ -64,15 +59,13 @@ const Preguntas = () => {
         <Card>
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="3">
-              <h6 className="h6">¿Que es un envase inteligente?</h6>
+              <h6 className="h6">¿Pago por envases?</h6>
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="3">
             <Card.Body className="respuestasgrandes">
               <p className="respuestas">
-                Es un envase con un chip RFID incorporado, esta tecnología que
-                nos permite trackear el envase para que nunca lleguen a la
-                basura.
+              Sólo en tu primera compra pagas por los envases. Después únicamente por la recarga.
               </p>{" "}
             </Card.Body>
           </Accordion.Collapse>
@@ -86,8 +79,7 @@ const Preguntas = () => {
           <Accordion.Collapse eventKey="4">
             <Card.Body className="respuestasgrandes">
               <p className="respuestas">
-                No importa! Tu pago en envases funciona como depósito, cuando
-                quieras dejar de comprar te reintegramos tu dinero.
+              No importa! Tu pago en envases funciona como depósito, cuando quieras dejar de comprar te reintegramos tu dinero.
               </p>
             </Card.Body>
           </Accordion.Collapse>
@@ -97,15 +89,14 @@ const Preguntas = () => {
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="5">
               <h6 className="h6">
-                ¿Puedo darte envases que ya tengo (no son deCIRCCLO)?
+                ¿Puedo darte envases que ya tengo (no son de CIRCCLO)?
               </h6>
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="5">
             <Card.Body className="respuestasgrandes">
               <p className="respuestas">
-                No. Los envases de CIRCCLO son especificos para los productos
-                que vendemos y para que la retornabilidad sea posible.
+              No. Los envases de CIRCCLO son específicos para los productos que vendemos y para que la retornabilidad sea posible.
               </p>{" "}
             </Card.Body>
           </Accordion.Collapse>
@@ -113,13 +104,13 @@ const Preguntas = () => {
         <Card>
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="6">
-              <h6 className="h6">¿El jabón para la ropa es concentrado?</h6>
+              <h6 className="h6">¿Hasta dónde llegamos?</h6>
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="6">
             <Card.Body>
               <p className="respuestas">
-                No. Está hecho para ser utilizado en el formato en que viene.
+              Los envíos se realizan únicamente dentro de Yerba Buena.
               </p>
             </Card.Body>
           </Accordion.Collapse>
@@ -127,36 +118,37 @@ const Preguntas = () => {
         <Card>
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="7">
-              <h6 className="h6">¿El jabón es baja espuma?</h6>
+              <h6 className="h6">¿Puedo elegir un horario?</h6>
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="7">
             <Card.Body>
-              <p className="respuestas">Si.</p>
+              <p className="respuestas">Siempre y cuando esté dentro de la franja horaria establecida, se puede solicitar un horario aproximado.</p>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card>
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="8">
-              <h6 className="h6">¿La lavandina es concentrada?</h6>
+              <h6 className="h6">¿Método de pago?</h6>
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="8">
             <Card.Body>
-              <p className="respuestas">Si.</p>
+              <p className="respuestas">Recibimos cualquier método de pago. Los medios de pago son por transferencia o en efectivo.</p>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card>
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="9">
-              <h6 className="h6">¿Qué graduación tiene el alcohol?</h6>
+              <h6 className="h6">¿Puedo retirar los productos de algún lado?</h6>
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="9">
             <Card.Body>
-              <p className="respuestas">Es alcohol sanitizante al 70%.</p>
+              <p className="respuestas">No. El servicio es únicamente a través de envíos puerta a puerta.
+</p>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
@@ -257,15 +249,14 @@ const Preguntas = () => {
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="16">
               <h6 className="h6">
-              ¿Método de pago?
+              ¿Cuánto más económico es que el supermercado?
               </h6>
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="16">
             <Card.Body>
               <p className="respuestas">
-              Recibimos cualquier método de pago. Los medios de pago son por transferencia o en efectivo.
-              </p>
+              En el largo plazo, comprar Circclo es un 40%más económico que comprar en el super, ya que el costo envase descartable está incluido en el precio final y el consumidor lo paga cada vez que realiza una compra. </p>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
@@ -273,44 +264,11 @@ const Preguntas = () => {
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="17">
               <h6 className="h6">
-              ¿Son biodegradables?
-              </h6>
-            </Accordion.Toggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="17">
-            <Card.Body>
-              <p className="respuestas">
-              No.
-
-              </p>
-            </Card.Body>
-          </Accordion.Collapse>
-        </Card>
-        <Card>
-          <Card.Header>
-            <Accordion.Toggle className="acor" variant="link" eventKey="18">
-              <h6 className="h6">
-              ¿Cuánto más económico es que el super?
-              </h6>
-            </Accordion.Toggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="18">
-            <Card.Body className="respuestasgrandes">
-              <p className="respuestas">
-              En el largo plazo, comprar CIRCCLO es un 40%más económico que comprar en el super, ya que el costo envase descartable está incluido en el precio final y el consumidor lo paga cada vez que realiza una compra.
-              </p>
-            </Card.Body>
-          </Accordion.Collapse>
-        </Card>
-        <Card>
-          <Card.Header>
-            <Accordion.Toggle className="acor" variant="link" eventKey="19">
-              <h6 className="h6">
               ¿Tengo que pedir todo junto?
               </h6>
             </Accordion.Toggle>
           </Card.Header>
-          <Accordion.Collapse eventKey="19">
+          <Accordion.Collapse eventKey="17">
             <Card.Body>
               <p className="respuestas">
               No hace falta. Los productos se pueden pedir a medida que se vayan terminando
@@ -321,39 +279,20 @@ const Preguntas = () => {
         </Card>
         <Card>
           <Card.Header>
-            <Accordion.Toggle className="acor" variant="link" eventKey="29">
+            <Accordion.Toggle className="acor" variant="link" eventKey="18">
               <h6 className="h6">
               ¿Hay costo de envío?
               </h6>
             </Accordion.Toggle>
           </Card.Header>
-          <Accordion.Collapse eventKey="29">
-            <Card.Body>
+          <Accordion.Collapse eventKey="18">
+            <Card.Body >
               <p className="respuestas">
-              Solo en caso de compras menores a $500, se cobra $50 de envio.
-
-              </p>
+              No. Solo en caso de compras menores a $500, se cobra $50 de envio.</p>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-        <Card>
-          <Card.Header>
-            <Accordion.Toggle className="acor" variant="link" eventKey="21">
-              <h6 className="h6">
-              ¿Puedo usar envase de un producto para recargar otro?
-              </h6>
-            </Accordion.Toggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="21">
-            <Card.Body>
-              <p className="respuestas">
-              Si. La compra de envases funciona como depósito.
-
-              </p>
-            </Card.Body>
-          </Accordion.Collapse>
-        </Card>
-
+       
       </Accordion>
      
      </div>

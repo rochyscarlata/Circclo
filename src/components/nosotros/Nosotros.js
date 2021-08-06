@@ -254,12 +254,12 @@ const Nosotros = () => {
               <Col>
                 <a href="https://www.unl.edu.ar/noticias/news/view/la_jije_2019_premi%C3%B3_a_proyectos_y_emprendimientos_innovadores#.YPghGehKjIU" target="_blank">
 
-                  <img src={Unl} width="300" className="unl-img"></img>
+                  <img src={Unl} width="250" className="unl-img"></img>
                 </a>
               </Col>
               <Col>
               <a href="https://www.unl.edu.ar/noticias/news/view/la_jije_2019_premi%C3%B3_a_proyectos_y_emprendimientos_innovadores#.YPghGehKjIU" target="_blank">
-                  <img src={Jije} height="120" className="jije-img"></img>
+                  <img src={Jije} height="100" className="jije-img"></img>
                 </a>
                 </Col>
             </Row>
