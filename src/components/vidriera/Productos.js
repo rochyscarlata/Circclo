@@ -20,7 +20,7 @@ import './Vidriera.css'
 
      return ( 
 <Container fluid>
-        <h2 className="text-center">Nuestros Productos</h2>
+        <h2 className="text-center nuestros-prod">Nuestros Productos</h2>
         <br/>
         <br/>
       <Carousel variant="dark" controls="true">

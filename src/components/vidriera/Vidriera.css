@@ -1,3 +1,6 @@
+.nuestros-prod{
+    font-family: gothamNarrowBold;
+}
 .carousel{
     width: auto;
     height: 400px;
@@ -16,7 +19,7 @@
 }
 .img-jabon{
     width: 700px !important;
-    margin-left: 280px;
+    margin-left: 300px;
 }
 .img-jabonliquido{
     width: 400px !important;
