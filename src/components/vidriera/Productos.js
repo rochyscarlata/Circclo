@@ -1,4 +1,6 @@
 import React from 'react'
+// import Carousel from 'nuka-carousel';
+
 import SimpleImageSlider from "react-simple-image-slider";
 import Jabon from '../../assets/img/jabon.jpg'
 import JabonLiquido from '../../assets/img/jabonliquido.jpg'
@@ -19,11 +21,11 @@ import './Vidriera.css'
      return ( 
 <Container fluid>
         <h2 className="text-center">Nuestros Productos</h2>
-        <h6 className="text-center">(seccion en reparacion)</h6>
-      {/* <Carousel >
+        <br/>
+        <br/>
+      <Carousel variant="dark" controls="true">
   <Carousel.Item >
     <img
-      className="d-block w-100"
       src={Jabon}
       alt="First slide"
       className="img-jabon"
@@ -32,16 +34,16 @@ import './Vidriera.css'
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
       src={JabonLiquido}
       alt="Second slide"
+      className="img-jabonliquido"
+
     />
 
  
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
       src={Detergente}
       alt="Third slide"
       className="img-detergente"
@@ -49,7 +51,34 @@ import './Vidriera.css'
 
    
   </Carousel.Item>
-</Carousel> */}
+  <Carousel.Item>
+    <img
+      src={Agua}
+      alt="Third slide"
+      className="img-detergente"
+    />
+
+   
+  </Carousel.Item>
+  <Carousel.Item >
+    <img
+      src={DetergenteMano}
+      alt="First slide"
+      className="img-jabon"
+    />
+  
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      src={Alcohol}
+      alt="Third slide"
+      className="img-jabon"
+    />
+
+   
+  </Carousel.Item>
+
+</Carousel>
 </Container>
 
 //     

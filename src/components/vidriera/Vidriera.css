@@ -1,4 +1,50 @@
-.img-detergente{
+.carousel{
     width: auto;
-    height: 700px;
+    height: 400px;
+}
+
+.carousel-control-next-icon  {
+    color: black;
+    background-image: url(../../assets/icon/right-arrow.png);
+}
+.carousel-control-prev-icon{
+    background-image: url(../../assets/icon/left-arrow.png);
+
+}
+.carousel-indicators li {
+    background-color: black;
+}
+.img-jabon{
+    width: 700px !important;
+    margin-left: 280px;
+}
+.img-jabonliquido{
+    width: 400px !important;
+    height: 400px;
+    margin-left: 460px;
+}
+
+.img-detergente{
+    width: 380px !important;
+    height: 400px;
+    margin-left: 460px;
+
+}
+
+@media (max-width: 600px){
+    .carousel{
+        height: auto;
+    }
+    .img-jabon{
+        width: auto;
+        margin-left: 0px;
+    }
+    .img-jabonliquido{
+        width: auto !important;
+        margin-left: 0px;
+    }
+    .img-detergente{
+        width: auto !important;
+        margin-left: 0px;
+    }
 }
