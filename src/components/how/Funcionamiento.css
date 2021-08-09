@@ -1,12 +1,12 @@
 
 
 .contenedor-hiw{
-    font-family: lemon;
+    font-family: gothamNarrowLight;
     min-width: auto;
 }
 .howi-img{
-    width: 780px ;
-    height: 500px;
+    width: auto ;
+    height: 600px;
 }
 .contenedor-como{
     justify-content: center;
@@ -19,7 +19,7 @@
 } */
 .howit{
     color: #038910;
-    font-family: gothamNarrowBold;
+    font-family: gothamNarrowLight;
     font-size: 40px;
 }
 .badge{
@@ -52,7 +52,7 @@
 
 @media (max-width: 600px){
     .howi-img{
-        width: 350px;
+        width: 380px;
         height: auto;
     }
     .howit{

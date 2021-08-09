@@ -1,10 +1,8 @@
 import React, { useContext } from "react";
-import Paso1 from "../../assets/img/paso1.png";
-import Paso2 from "../../assets/img/camion-hiw.png";
-import Paso3 from "../../assets/img/paso3.png";
+
 import { FormattedMessage } from "react-intl";
 import { langContext } from "../../context/langContext";
-import Howit from "../../assets/img/howit.jpg";
+import Howit from "../../assets/img/comofunciona.png";
 import "./Funcionamiento.css";
 import { Fade } from "react-reveal";
 
