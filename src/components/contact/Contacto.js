@@ -37,7 +37,12 @@ const Contacto = () => {
             <Col>
               <i class="fas fa-phone-alt fa-2x"></i>
               <br></br>
-              <h6 className="info-contacto-items">3813455763</h6>
+              <h6 className="info-contacto-items">+54 9 3814620450</h6>
+            </Col>
+            <Col>
+              <i class="fas fa-at fa-2x"></i>
+              <br></br>
+              <h6 className="info-contacto-items">circclo.arg@gmail.com</h6>
             </Col>
           </Row>
         </Fade>

@@ -171,7 +171,7 @@ const Nosotros = () => {
             <h5 className="equipo-texto">
             <FormattedMessage
               id="nos.equipoDescrip"
-              defaultMessage="somos un equipo de jóvenes profesionales con demasiadas ganas de cambiar lo que esta mal, nos dimos cuenta de que si hay algo que no esta en la agenda de las principales marcas a nivel mundial, es resolver el problema de los plásticos, así que decidimos hacernos cargo. Aunque sea muy dificil y parezca imposible, no vamos a bajar los brazos nunca porque el futuro de este planeta no puede ser descartable."
+              defaultMessage="Somos un equipo de jóvenes profesionales con demasiadas ganas de cambiar lo que está mal. Nos dimos cuenta de que si hay algo que no está en la agenda de las principales marcas a nivel mundial, es resolver el problema de los plásticos, así que decidimos hacernos cargo. Aunque sea muy difícil y parezca imposible, no vamos a bajar los brazos nunca porque el futuro de este planeta no puede ser descartable."
             />
           </h5>
             </Col>

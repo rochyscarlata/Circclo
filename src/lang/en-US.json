@@ -31,11 +31,26 @@
     "nos.visionDescrip" : "A Global Re-Use Ecosystem: With our brand, retail and operational partners, we are building a global ecosystem for the reuse movement that maintains the convenience and affordability that we have come to enjoy with a throw away lifestyle. Circclo is on a mission to Eliminate the Idea of Waste in an approachable way that is accessible to all.",
     "nos.reconocimientos" : "MILESTONES RECORD TRACK",
 
-
-
-
-
-
+    "hist.titulo" : "History",
+    "hist.consumo" : "Linear Economy",
+    "hist.consumoDescrip1" : "The consumer philosophy “Buy, use, throw away” is one of the more widespread and fast-growing problems facing our planet today. Did we ever stop to think how much plastic we generate in our homes from the use of basic cleaning products? (Detergent, Floor Cleaner, Laundry soap, among others).",
+    "hist.consumoDescrip2" : "We live in a world where we consume a quantity and a variety growing of disposable items; of which 100% only 2% is effectively recycled.",
+    "hist.consumoDescrip3": "This “Buy, Use, Discard” consumer philosophy has taken hold of our daily lives because it gives us incomparable comfort an affordable price.",
+    "hist.consumoDescrip4": "To help resolve the negatives of living a disposable life, And maintaining its virtues of ease and accessibility, we have partnered with leading manufacturers at the provincial level to reinvent their products.",
+    "hist.basura" : "Waste is a Recent Problem",
+    "hist.basuraDescrip1" : "Before the 1950s, products were typically made to be high quality and reusable, and refill models such as “the milkman” were popular. We repaired, repurposed, or reused the things we owned. We cobbled our shoes and mended our clothes, valuing timeless items that were made to last and could be handed down to each generation.",
+    "hist.basuraDescrip2" : "Today, we produce and buy 70 times more stuff than we did in the 1950's, 99% of which becomes waste within the first 12 months of purchase - all this because of the amazing affordability and convenience of using something once and then throwing it away.",
+    "hist.reuso" : "Recycling (Alone) is Not the Answer",
+    "hist.reusoDescrip1" : "We know that recycling is important because it allows us to repurpose waste, breaking down objects to their resulting raw materials to be used in producing something new.",
+    "hist.reusoDescrip2" : "This process requires energy to transport, sort, convert and remanufacture the material into a new product. While better than landfilling or incinerating the things we throw out, it is not the complete solution.",
+    "hist.reusoDescrip3" : "When we reuse an object we save energy and resources, as the object only needs to be transported and cleaned before it can be cycled again.",
+    "hist.circular" : "Circular Economy",
+    "hist.circularDescrip1" : "Most products today are “linear” – thrown away after they’re used (typically once). This one-way model sends valuable resources to our landlills and incerators.",
+    "hist.circularDescrip2" : "In a “circular” system, that line is transformed into a circle and keeps resources in use by cycling through the system over and over.",
+    "hist.circularDescrip3" : "The goal of the circular economy is to keep those circles as tight as possible by reducing the number of steps (and the resulting energy and resources needed) to get our products from useless to useful again.",
+    "hist.futuro" : "Future of Consumption",
+    "hist.futuroDescrip1" : "We envision the future of how we consume as a place where we can buy higher quality, better designed products that we can “throw away” when they are finished with no cleaning, no sorting, and no hassle. In our vision, instead of that bin being a waste or recycling bin it’s a reuse bin, where everything is cleaned, refilled and is reused again and again.",
+    "hist.futuroDescrip2" : "We cast votes every day, with the money we spend, for the future we want. Cast that vote for products that are regenerative and circular, instead of destructive and linear, and share our dream - a healthier planet and a sustainable way to buy the things we love.",
 
     "count.envases" : "Recycled Packaging",
     "count.hogares" : "Homes Reached"
