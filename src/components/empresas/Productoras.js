@@ -18,7 +18,7 @@ const Prodcutoras = () => {
         {" "}
         <FormattedMessage 
           id="empresas.titulo"
-          defaultMessage="(3) Buscamos fomentar y defender las economías locales para un comercio justo y sostenible. " />{" "}
+          defaultMessage="Buscamos fomentar y defender las economías locales para un comercio justo y sostenible. " />{" "}
       </h3>
       <h3 className="textoProductorash2"> <FormattedMessage 
           id="empresas.subtitulo"
