@@ -169,7 +169,7 @@ const Historia = () => {
      </Col>
      <Col sm className="columna-img2">
      <Fade >
-     <img src={Circular} className="img-consumo"></img>
+     <img src={Circular} className="img-circular"></img>
       </Fade>
      </Col>
    </Row>

@@ -32,34 +32,9 @@ import './Vidriera.css'
     />
   
   </Carousel.Item>
-  <Carousel.Item>
-    <img
-      src={JabonLiquido}
-      alt="Second slide"
-      className="img-jabonliquido"
-
-    />
-
  
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      src={Detergente}
-      alt="Third slide"
-      className="img-detergente"
-    />
-
-   
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      src={Agua}
-      alt="Third slide"
-      className="img-detergente"
-    />
-
-   
-  </Carousel.Item>
+ 
+  
   <Carousel.Item >
     <img
       src={DetergenteMano}

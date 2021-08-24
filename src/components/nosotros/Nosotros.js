@@ -127,7 +127,7 @@ const Nosotros = () => {
               <h1 className="text-center titulo-proposito">
                 <FormattedMessage
                   id="nos.proposito"
-                  defaultMessage="Propósito"
+                  defaultMessage="Nuestro propósito"
                 />
               </h1>
               <Card className="text-center card-proposito">
@@ -156,7 +156,7 @@ const Nosotros = () => {
           </h1>
           <blockquote> </blockquote>
           <br />
-          <Row>
+          <Row className="equipo-bg">
             <Col sm>
             <div className="equipo-img">
             <img
@@ -170,8 +170,20 @@ const Nosotros = () => {
             <Col sm>
             <h5 className="equipo-texto">
             <FormattedMessage
-              id="nos.equipoDescrip"
-              defaultMessage="Somos un equipo de jóvenes profesionales con demasiadas ganas de cambiar lo que está mal. Nos dimos cuenta de que si hay algo que no está en la agenda de las principales marcas a nivel mundial, es resolver el problema de los plásticos, así que decidimos hacernos cargo. Aunque sea muy difícil y parezca imposible, no vamos a bajar los brazos nunca porque el futuro de este planeta no puede ser descartable."
+              id="nos.equipoDescrip1"
+              defaultMessage="Somos un equipo de jóvenes profesionales con demasiadas ganas de cambiar lo que está mal. "
+            />
+          </h5>
+          <h5 className="equipo-texto">
+            <FormattedMessage
+              id="nos.equipoDescrip2"
+              defaultMessage="Nos dimos cuenta de que si hay algo que no está en la agenda de las principales marcas a nivel mundial, es resolver el problema de los plásticos, así que decidimos hacernos cargo. "
+            />
+          </h5>
+          <h5 className="equipo-texto">
+            <FormattedMessage
+              id="nos.equipoDescrip3"
+              defaultMessage="Aunque sea muy difícil y parezca imposible, no vamos a bajar los brazos nunca porque el futuro de este planeta no puede ser descartable."
             />
           </h5>
             </Col>

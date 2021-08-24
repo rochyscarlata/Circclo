@@ -2,10 +2,86 @@ import React from "react";
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import "./Contacto.css";
 import Fade from "react-reveal";
+import axios from "axios";
+export default class Contacto extends React.Component {
 
-const Contacto = () => {
-  return (
-    <div class="container contenedor-hiw">
+
+    state={
+      name: '',
+      phone:'',
+      email: '',
+      message:'',
+      sent:false
+    }
+
+    // manejando los input 
+      handleName=(e)=>{
+        this.setState({
+          name: e.target.value
+        })
+      }
+      handlePhone=(e)=>{
+        this.setState({
+          phone: e.target.value
+        })
+      }
+      handleEmail=(e)=>{
+        this.setState({
+          email: e.target.value
+        })
+      }
+      handleMessage=(e)=>{
+        this.setState({
+          message: e.target.value
+        })
+      }
+    // fin de los input 
+
+
+
+    // envio a la api
+    formSubmit=(e)=>{
+      e.preventDefault();
+
+      let data = {
+        name: this.state.name,
+        email: this.state.email,
+        phone: this.state.phone,
+        message: this.state.message
+      }
+
+
+      axios.post('/api/forma', data)
+      .then(res=>{
+        this.setState({
+          sent:true,
+        }, this.resetForm())
+      }).catch(()=>{
+        console.log('El mensaje no se pudo enviar, intente nuevamente mas tarde')
+      })
+
+    }
+
+    // para resetear el formulario
+
+    resetForm=()=>{
+      this.setState({
+        name: '',
+      phone:'',
+      email: '',
+      message:'',
+      })
+
+      setTimeout(()=>{
+        this.setState({
+          sent:false,
+        })
+      },3000)
+    }
+
+  render() {
+    return (
+      <div class="container contenedor-hiw">
       <Fade bottom>
         <h2 className="contacto-titulo">Estemos en contacto</h2>
         <hr width="100"></hr>
@@ -55,17 +131,41 @@ const Contacto = () => {
       <div className="contenido-form">
         <Form className="formulario-contacto">
           <Form.Group className="" controlId="exampleForm.ControlInput1">
-            <Form.Control type="name" placeholder="Nombre y apellido" />
+            <Form.Control 
+              type="name"
+              name="name"
+              placeholder="Nombre y apellido" 
+              value={this.state.name}
+              onChange={this.handleName}
+              />
           </Form.Group>
           <Form.Group className="" controlId="exampleForm.ControlTextarea1">
-            <Form.Control type="number" placeholder="Celular" />
+            <Form.Control 
+            type="number"
+            name="phone" 
+            placeholder="Celular"
+            value={this.state.phone}
+            onChange={this.handlePhone}
+            />
           </Form.Group>
           <Form.Group className="" controlId="exampleForm.ControlInput1">
-            <Form.Control type="email" placeholder="Email" />
+            <Form.Control 
+            type="email" 
+            name="email" 
+            placeholder="Email" 
+            value={this.state.email}
+            onChange={this.handleEmail}
+            />
           </Form.Group>
         
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Control as="textarea" rows={3}  placeholder="Mensaje"/>
+            <Form.Control 
+            as="textarea" 
+            name="message" rows={3}  
+            placeholder="Mensaje"
+            value={this.state.message}
+            onChange={this.handleMessage}
+            />
           </Form.Group>
         </Form>
       </div>
@@ -76,7 +176,6 @@ const Contacto = () => {
 
   
     </div>
-  );
-};
-
-export default Contacto;
+    )
+  }
+}
