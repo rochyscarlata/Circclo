@@ -22,7 +22,7 @@ function NavBar() {
   return (
     <Navbar expand="xl" className="navbar-c">
       <Container>
-        <Navbar.Brand href="/">
+      <Navbar.Brand href="/" className="nav-brand">
           <img
             src={LogoVyN}
             alt="logo"
@@ -32,8 +32,10 @@ function NavBar() {
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto ">
+       
+          <Nav className="mr-auto ">
             <NavLink to="/" className="nav-link" activeClassName="">
               <FormattedMessage id="nav.inicio" defaultMessage="Inicio" />
             </NavLink>
@@ -51,7 +53,17 @@ function NavBar() {
             >
               <FormattedMessage id="nav.productos" defaultMessage="Productos" />
             </Link>
-
+           </Nav> 
+            <Navbar.Brand href="/" className="nav-medio">
+          <img
+            src={LogoVyN}
+            alt="logo"
+            className="logonav"
+            width="230"
+            height="40"
+          />
+        </Navbar.Brand> 
+        <Nav className="ml-auto ">
 
             <NavLink to="/historia" className="nav-link">
               <FormattedMessage id="nav.historia" defaultMessage="Historia" />

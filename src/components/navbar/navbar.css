@@ -23,7 +23,17 @@ Nav:active{
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #038910 !important;
 }
+@media (max-width: 1198px) {
+    .nav-medio{
+        display: none;
+    }
+}
+@media (min-width: 1199px) {
+    .nav-brand{
+        display: none;
+    }
 
+}
 @media (max-width:375px){
     .navbar-c{
        position: inherit;
