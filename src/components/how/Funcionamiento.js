@@ -3,6 +3,9 @@ import React, { useContext } from "react";
 import { FormattedMessage } from "react-intl";
 import { langContext } from "../../context/langContext";
 import Howit from "../../assets/img/comofunciona.png";
+import Paso1 from "../../assets/img/paso1.png"
+import Paso2 from "../../assets/img/paso2.png"
+import Paso3 from "../../assets/img/paso3.png"
 import "./Funcionamiento.css";
 import { Fade } from "react-reveal";
 
@@ -15,77 +18,58 @@ const Funcionamiento = () => {
       <br></br>
       <Fade bottom>
       <h2 className="text-center howit">
-        <FormattedMessage id="pasos.como" defaultMessage="Como funciona?" />
+        <FormattedMessage id="pasos.como" defaultMessage="COMO SOLUCIONAR ESTO?" />
       </h2>
       </Fade>
       <br></br>
-      <div className="contenedor-como">
+      {/* <div className="contenedor-como">
         <img src={Howit} className="howi-img" />
-      </div>
-      <br></br>
-      {/* <div class="row text-center">
+      </div> */}
+       <div class="row text-center">
         <br></br>
         <div class="col">
-          <span class="badge rounded-pill bg-success ">1</span>
+        <img src={Paso1} className="paso1"></img>
+        <br></br>
+
+          <span class="badge rounded-pill bg-success "> PASO 1</span>
           <br></br>
 
-          <br></br>
           <h3 className="pasos-descrip">
             <FormattedMessage
               id="paso.uno"
-              defaultMessage="Solicitá tu pedido por takepedido/circclo.com o whatsapp business"
+              defaultMessage="Hace tu pedido"
             />
           </h3>
         </div>
         <div class="col">
-          <span class="badge rounded-pill bg-success">2</span>
-          <br></br>
+        <img src={Paso2} className="paso1"></img>
+        <br></br>
+
+          <span class="badge rounded-pill bg-success"> PASO 2</span>
           <br></br>
           <h3 className="pasos-descrip">
             <FormattedMessage
               id="paso.dos"
-              defaultMessage="Agenda la visita de tu Circclo. Indica los productos que necesitas reponer. Paga a través de transferencia con cualquier tarjeta/método de pago o efectivo."
+              defaultMessage="Utilizá los productos"
             />
           </h3>
         </div>
         <div class="col">
-          <span class="badge rounded-pill bg-success">3</span>
-          <br></br>
+        <img src={Paso3} className="paso1"></img>
+        <br></br>
+
+          <span class="badge rounded-pill bg-success"> PASO 3</span>
           <br></br>
           <h3 className="pasos-descrip">
             <FormattedMessage
               id="paso.tres"
-              defaultMessage="Recibe tu reposicion de productos, intercambia los envases vacíos por los llenos y"
+              defaultMessage="Pedí tu recarga"
             />
           </h3>
         </div>
       </div>
-      <div className="row text-center ">
-        <br></br>
-        <div className="col contenedor-how2">
-          <span class="badge rounded-pill bg-success ">4</span>
-          <br></br>
-
-          <br></br>
-          <h3 className="pasos-descrip">
-            <FormattedMessage
-              id="paso.uno"
-              defaultMessage="Solicitá tu pedido por takepedido/circclo.com o whatsapp business"
-            />
-          </h3>
-        </div>
-        <div className="col contenedor-how2">
-          <span class="badge rounded-pill bg-success">5</span>
-          <br></br>
-          <br></br>
-          <h3 className="pasos-descrip">
-            <FormattedMessage
-              id="paso.dos"
-              defaultMessage="Agenda la visita de tu Circclo. Indica los productos que necesitas reponer. Paga a través de transferencia con cualquier tarjeta/método de pago o efectivo."
-            />
-          </h3>
-        </div>
-      </div> */}
+     
+      <br></br> 
     </div>
   );
 };

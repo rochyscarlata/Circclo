@@ -14,6 +14,14 @@ const Prodcutoras = () => {
   return (
     <Container fluid="md">
       <br></br>
+     <h1 className="titulo-productoras">
+
+     <FormattedMessage 
+          id="empresas.titulo"
+          defaultMessage="MARCAS QUE NOS ACOMPAñAN" />
+       </h1> 
+      <br></br> 
+     <br></br>
       <h3 className="textoProductoras">
         {" "}
         <FormattedMessage 
@@ -38,7 +46,7 @@ const Prodcutoras = () => {
      
         
         <br></br>
-
+<br></br>
    
     </Container>
   );

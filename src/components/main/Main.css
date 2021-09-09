@@ -10,7 +10,6 @@
 @font-face {
   font-family: gothamNarrowBook;
   src: url(../../assets/fonts/GothamXNarrow-Book.otf);
-
 }
 @font-face {
   font-family: gothamNarrowBold;
@@ -19,17 +18,6 @@
 
 /* carrousel n */
 
-
-
-
-
-
-
-
-
-
-
-
 /* .contenedor-main{
   width: auto;
   height: auto;
@@ -37,20 +25,21 @@
 .frase-main {
   font-family: gothamBold;
   margin-top: 40px;
-  font-size: 3rem;
+  font-size: 60px;
   text-transform: uppercase;
-  text-align: end;
+  text-align: start;
   line-height: 58px;
   padding-left: 0px !important;
+  color: #000000;
 }
 .frase-mainx {
   font-family: gothamBold;
-  font-size: 3rem;
+  font-size: 60px;
 
   text-transform: uppercase;
 
-  text-align: end;
-  color: #18191b;
+  text-align: start;
+  color: #000000;
   padding-left: 0px !important;
 }
 .frase-mainz {
@@ -64,15 +53,15 @@
   align-items: center;
   align-self: center;
   justify-content: center;} */
-.btn-revolucion{
+.btn-revolucion {
   /* display: flex;
   align-items: center;
   align-self: center;
   justify-content: center; */
-  float: right;
+  float: left;
   right: 0;
   border: #038910;
-  border-style: none!important;
+  border-style: none !important;
   border-radius: 10px;
   color: white;
   background-color: #038910 !important;
@@ -81,28 +70,26 @@
   width: 280px;
   height: 55px;
 }
-.btn-revolucion:hover{
-    background-color: #03660d !important;
-    border-color: #038910;
-    border-style: none;
+.btn-revolucion:hover {
+  background-color: #03660d !important;
+  border-color: #038910;
+  border-style: none;
 }
-.btn-revolucion:focus{
+.btn-revolucion:focus {
   outline: none !important;
   box-shadow: none;
 }
-.refill-img{
+.refill-img {
   justify-content: end;
   margin-left: 120px;
-  width: 400px;
-  height: 600px;
-  margin-top: -40px;
-
+  width: 470px;
+  height: 550px;
+  margin-top: -5px;
 }
 
-.columna-main{
+.columna-main {
   z-index: -100;
 }
-
 
 /* 
 @media screen and (max-width: 280px) {
@@ -149,30 +136,29 @@
     font-size: 27px !important;
     text-align: center !important;
     line-height: 30px;
-
-  } .frase-mainx {
+  }
+  .frase-mainx {
     font-size: 28px !important;
     text-align: center !important;
     line-height: 20px;
-
   }
-  .contenedor-gif{
+  .contenedor-gif {
     width: auto;
     height: 400px;
     margin-top: 10px;
     margin-left: 35px;
   }
-  .howit{
+  .howit {
     font-size: 25px;
   }
-  
-  .div-btn{
+
+  .div-btn {
     display: flex;
     align-items: center !important;
     align-self: center !important;
     justify-content: center !important;
   }
-  .btn-revolucion{
+  .btn-revolucion {
     margin-left: 45px;
     margin-right: 20px;
     font-size: 13px;
@@ -197,13 +183,11 @@
     font-size: 20px !important;
     text-align: center !important;
     line-height: 40px;
-
   }
   .frase-mainx {
     font-size: 20px !important;
     text-align: center !important;
     line-height: 37px;
-
   }
   .refill-img {
     width: auto;
@@ -211,13 +195,13 @@
     margin-top: 10px;
     margin-left: 25px;
   }
-  .div-btn{
+  .div-btn {
     display: flex;
     align-items: center !important;
     align-self: center !important;
     justify-content: center !important;
   }
-  .btn-revolucion{
+  .btn-revolucion {
     margin-right: 45px;
     font-size: 13px;
     margin-bottom: 10px;
@@ -233,13 +217,11 @@
     font-size: 30px !important;
     text-align: center !important;
     line-height: 40px;
-
   }
   .frase-mainx {
     font-size: 30px !important;
     text-align: center !important;
     line-height: 30px !important;
-
   }
   .refill-img {
     width: auto;
@@ -247,13 +229,13 @@
     margin-top: 10px;
     margin-left: 35px;
   }
-  .div-btn{
+  .div-btn {
     display: flex;
     align-items: center !important;
     align-self: center !important;
     justify-content: center !important;
   }
-  .btn-revolucion{
+  .btn-revolucion {
     margin-right: 30px;
 
     margin-bottom: 10px;
@@ -269,21 +251,19 @@
     font-size: 40px !important;
     text-align: center !important;
     line-height: 40px;
-
   }
   .frase-mainx {
     font-size: 40px !important;
     text-align: center !important;
     line-height: 40px;
-
   }
-  .div-btn{
+  .div-btn {
     display: flex !important;
     align-items: center !important;
     align-self: center !important;
     justify-content: center !important;
   }
-  .btn-revolucion{
+  .btn-revolucion {
     margin-bottom: 20px;
     margin-right: 45px;
   }
@@ -296,34 +276,31 @@
 }
 
 @media screen and (device-width: 414px) {
-    .frase-main {
-      font-size: 35px !important;
-      text-align: center !important;
-      line-height: 40px;
-
-    }
-    .frase-mainx {
-      font-size: 35px !important;
-      text-align: center !important;
-      line-height: 40px;
-  
-    }
-    .div-btn{
-      display: flex !important;
-      align-items: center !important;
-      align-self: center !important;
-      justify-content: center !important;
-    }
-    .btn-revolucion{
-      margin-bottom: 20px;
-      margin-right: 60px;
-    }
-    .refill-img {
-      width:auto;
-      height: 550px;
-      padding-left: 0%;
-      margin-top: 10px;
-    margin-left: 45px;
-    }
-    
+  .frase-main {
+    font-size: 35px !important;
+    text-align: center !important;
+    line-height: 40px;
   }
+  .frase-mainx {
+    font-size: 35px !important;
+    text-align: center !important;
+    line-height: 40px;
+  }
+  .div-btn {
+    display: flex !important;
+    align-items: center !important;
+    align-self: center !important;
+    justify-content: center !important;
+  }
+  .btn-revolucion {
+    margin-bottom: 20px;
+    margin-right: 60px;
+  }
+  .refill-img {
+    width: auto;
+    height: 550px;
+    padding-left: 0%;
+    margin-top: 10px;
+    margin-left: 45px;
+  }
+}

@@ -9,11 +9,14 @@
     text-transform: uppercase;
     /* mas tarde position: fixed; */
 }
+.nav-link{
+    color: #000000 !important;
+}
 .nav-link :active{
-    color: #038910;
+    color: #009538;
 }
 Nav:active{
-    color: #038910;
+    color: #009538;
 
 }
 .dropdown-abajo{
@@ -21,7 +24,7 @@ Nav:active{
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #038910 !important;
+    color: #009538 !important;
 }
 @media (max-width: 1198px) {
     .nav-medio{

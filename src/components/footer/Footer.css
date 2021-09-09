@@ -1,8 +1,9 @@
 
 .footer {
     padding-top:30px ;
-    color:#f0f9ff;
-    background-color:#038910;
+    color:#000000;
+    background-image:url(../../assets/img/footer-08.jpg);
+    background-size: cover;
     font-family: gothamNarrowLight ;
       margin-top: 30px;
   }
@@ -20,7 +21,7 @@
   .iconos{
       padding-left: 30px;
       font-size: 40px;
-        color: white;
+        color: black;
         cursor: pointer;
   }
   

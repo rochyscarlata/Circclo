@@ -60,8 +60,8 @@
 
 
 
-    "count.envases" : "Envases evitados",
-    "count.hogares" : "Hogares que se sumaron",
+    "count.envases" : "ENVASES",
+    "count.hogares" : "HOGARES  ",
     "img.howit" : "../assets/img/howit.jpg"
 
 

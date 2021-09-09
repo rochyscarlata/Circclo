@@ -18,31 +18,23 @@
     width: 300px !important;
 } */
 .howit{
-    color: #038910;
-    font-family: gothamNarrowLight;
-    font-size: 40px;
+    color: #000000;
+    font-family: gothbold;
+    font-size: 50px;
 }
 .badge{
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     margin-bottom: 20px;
 }
 .paso1{
-    width: 200px;
-    height: 200px;
-}
-.paso2{
-    width: 250px;
-    height: 200px;
-}
-.paso3{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 .pasos-descrip{
-    font-size: 20px;
-    font-family: ace;
+    font-size: 30px;
+    font-family: gothbold;
 }
 .marquesina{
     color: white;
@@ -51,9 +43,9 @@
 }
 
 @media (max-width: 600px){
-    .howi-img{
-        width: 380px;
-        height: auto;
+    .paso1{
+        width: 180px !important;
+        height: 190px;
     }
     .howit{
         font-size: 30px !important;
@@ -72,8 +64,11 @@
     }
   }
  @media screen and (device-width: 320px) {
-     .howi-img{
-        width: 300px;
-      }
-     
+    .howit{
+        font-size: 20px !important;
+    }
+    .paso1{
+        width: 150px !important;
+        height: 170px;
+    }
  }

@@ -21,8 +21,8 @@ const Home = () => {
       
       <Main id="#home"/>
       <br />
-      <Secdos id="#img"/>
-
+      {/* <Secdos id="#img"/> */}
+        <h1 className="text-center">SECCION 2 </h1>
       <blockquote></blockquote>
       <br></br>
       <Funcionamiento id="#how"/>
@@ -47,18 +47,18 @@ const Home = () => {
       </Marquee>     
        <blockquote></blockquote>
 
-      <br />
-      <Vidriera/>
-      <br/>
-      <blockquote></blockquote>
+    
 
       <Count id="#calculadora"/>
       <br />
       <blockquote></blockquote>
       <Prodcutoras id="#empresas"/>
+      <blockquote></blockquote>
+
       <br></br>
-        <h6 className="text-center">Falta carousel de comentarios</h6>
-        <br/>
+      <br />
+      <Vidriera/>
+      <br/>
     </>
   );
 };

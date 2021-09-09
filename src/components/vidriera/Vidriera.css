@@ -1,13 +1,37 @@
-.nuestros-prod{
-    font-family: gothamNarrowBold;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+ @font-face {
+    font-family: gothbold;
+    src: url(../../assets/fonts/Gotham-Black_2.otf);
+    font-weight: bold !important;
+
+ }
+ @font-face {
+     font-family: bookbold;
+     src: url(../../assets/fonts/GOTHMMED_6.TTF);
+ }
+ .titulo-comentarios{
+     font-family: gothbold;
+     font-size: 50px;
+     color:black;
+ }
+.opiniones{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+    color:black;
+
+}
+.opiniones  p{
+    font-family: 'Montserrat', sans-serif;
+     font-weight: 200;
 }
 .carousel{
     width: auto;
-    height: 400px;
+    height: 350px;
 }
 
 .carousel-control-next-icon  {
-    color: black;
     background-image: url(../../assets/icon/right-arrow.png);
 }
 .carousel-control-prev-icon{
@@ -18,37 +42,29 @@
     background-color: black;
 }
 .img-jabon{
-    width: 700px !important;
-    margin-left: 300px;
-}
-.img-jabonliquido{
-    width: 400px !important;
-    height: 400px;
-    margin-left: 460px;
+    width: 950px !important;
+    height: auto;
+    margin-left: 200px;
 }
 
-.img-detergente{
-    width: 380px !important;
-    height: 400px;
-    margin-left: 460px;
-
-}
 
 @media (max-width: 600px){
     .carousel{
-        height: auto;
+        height: 250px;
     }
     .img-jabon{
         width: auto !important;
         height: 200px;
-        margin-left: 0px;
+        margin-left: 1px;
     }
-    .img-jabonliquido{
-        width: auto !important;
-        margin-left: 0px;
+    .card-comentarios{
+        font-family: gothbok;
+        text-align: center;
+        font-size: 18px;
+       
     }
-    .img-detergente{
-        width: auto !important;
-        margin-left: 0px;
+    .titulo-comentarios{
+        font-family: gothbold;
+        font-size: 30px;
     }
 }

@@ -3,7 +3,7 @@
 /* Nosotros */
 
 .nosotros {
-  color: #038910;
+  color: #009538;
   font-family: gothamNarrowBold ;
   text-align: center;
   margin-top: 40px;
@@ -22,7 +22,7 @@
   align-items: center;
 }
 .ecosocam {
-  color: #038910;
+  color: #009538;
   font-family: gothamNarrowBold;
   text-align: center;
   margin-top: 10px;
@@ -107,14 +107,14 @@
 }
 .vision-titulo {
   font-family: coco;
-  color: #038910;
+  color: #009538;
   font-weight: bold;
 }
 .vision-texto {
   font-family: Ace;
 }
 .objetivo {
-  color: #038910;
+  color: #009538;
   background-color: #deeaff;
   font-family: Ace;
   border: none;
@@ -157,6 +157,8 @@
     font-size: 20px;
     margin-top: 19px;
     text-align: center;
+    line-height:normal;
+
 }
   /* ..equipo-img{
         width: 200px;
