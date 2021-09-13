@@ -27,7 +27,7 @@ const Home = () => {
       <br></br>
       <Funcionamiento id="#how"/>
       <br />
-      <Marquee className="marque" gradientWidth="no">
+      {/* <Marquee className="marque" gradientWidth="no">
         <p className="text-marque">
           ¡Por el momento servicio disponible en Yerba Buena!
           <i class="fas fa-exclamation-circle"></i>
@@ -45,7 +45,7 @@ const Home = () => {
           <i class="fas fa-exclamation-circle"></i>{" "}
         </p>
       </Marquee>     
-       <blockquote></blockquote>
+       <blockquote></blockquote> */}
 
     
 

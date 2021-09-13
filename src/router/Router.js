@@ -18,6 +18,7 @@ function Router() {
   return (
     <BrowserRouter>
       <Fade top>
+      <br></br>
         {" "}
         <NavBar />
       </Fade>

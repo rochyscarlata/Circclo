@@ -1,7 +1,10 @@
-
+@font-face {
+    font-family: gohtbook;
+    src: url(../../assets/fonts/GOTHMBOK_6.TTF);
+}
 
 .contenedor-hiw{
-    font-family: gothamNarrowLight;
+    font-family: gohtbook;
     min-width: auto;
 }
 .howi-img{
@@ -23,8 +26,8 @@
     font-size: 50px;
 }
 .badge{
-    font-size: 20px;
-    color: white;
+    font-size: 30px;
+    color: #009538;
     margin-bottom: 20px;
 }
 .paso1{

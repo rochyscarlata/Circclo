@@ -43,7 +43,6 @@ function Main() {
 
   return (
     <Container fluid="md">
-      <br></br>
 
        <Row>
         <Col sm>

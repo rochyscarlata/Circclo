@@ -67,6 +67,8 @@ const Vidriera = () => {
           <Row>
             <Col md={{ span: 6, offset: 3 }}>
               <Card body className="opiniones">
+                <br></br>
+                <br></br>
               <p className="opiniones">              “ ¡Me encanta la propuesta! ”
 </p>
 
@@ -105,6 +107,7 @@ const Vidriera = () => {
           <Row>
             <Col md={{ span: 6, offset: 3 }}>
               <Card body className="opiniones">
+                <br></br>
                 <p className="opiniones">
                 “ La verdad estoy súper conforme, son súper cumplidos,
                 eficientes, educados y me resulta cómodo el sistema. ”
@@ -125,6 +128,7 @@ const Vidriera = () => {
           <Row>
             <Col md={{ span: 6, offset: 3 }}>
               <Card body className="opiniones">
+                <br></br>
                 <p className="opiniones">
                 “ Excelente equipo y sobretodo capos en comunicación. Prolijos en
                 todo. ”

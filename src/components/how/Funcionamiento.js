@@ -31,7 +31,7 @@ const Funcionamiento = () => {
         <img src={Paso1} className="paso1"></img>
         <br></br>
 
-          <span class="badge rounded-pill bg-success "> PASO 1</span>
+          <span class="badge"> PASO 1</span>
           <br></br>
 
           <h3 className="pasos-descrip">
@@ -45,7 +45,7 @@ const Funcionamiento = () => {
         <img src={Paso2} className="paso1"></img>
         <br></br>
 
-          <span class="badge rounded-pill bg-success"> PASO 2</span>
+          <span class="badge"> PASO 2</span>
           <br></br>
           <h3 className="pasos-descrip">
             <FormattedMessage
@@ -58,7 +58,7 @@ const Funcionamiento = () => {
         <img src={Paso3} className="paso1"></img>
         <br></br>
 
-          <span class="badge rounded-pill bg-success"> PASO 3</span>
+          <span class="badge"> PASO 3</span>
           <br></br>
           <h3 className="pasos-descrip">
             <FormattedMessage

@@ -22,6 +22,7 @@ function NavBar() {
   return (
     <Navbar expand="xl" className="navbar-c">
       <Container>
+        
       <Navbar.Brand href="/" className="nav-brand">
           <img
             src={LogoVyN}
