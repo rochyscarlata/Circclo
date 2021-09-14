@@ -17,15 +17,15 @@ const Prodcutoras = () => {
      <h1 className="titulo-productoras">
 
      <FormattedMessage 
-          id="empresas.titulo"
-          defaultMessage="MARCAS QUE NOS ACOMPAñAN" />
+          id="empresas.tituloUno"
+          defaultMessage="MARCAS QUE NOS ACOMPAÑAN" />
        </h1> 
       <br></br> 
      <br></br>
       <h3 className="textoProductoras">
         {" "}
         <FormattedMessage 
-          id="empresas.titulo"
+          id="empresas.tituloDos"
           defaultMessage="Buscamos fomentar y defender las economías locales para un comercio justo y sostenible. " />{" "}
       </h3>
       <h3 className="textoProductorash2"> <FormattedMessage 

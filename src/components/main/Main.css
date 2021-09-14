@@ -180,12 +180,12 @@
 
 @media screen and (device-width: 360px) {
   .frase-main {
-    font-size: 20px !important;
+    font-size: 30px !important;
     text-align: center !important;
     line-height: 40px;
   }
   .frase-mainx {
-    font-size: 20px !important;
+    font-size: 30px !important;
     text-align: center !important;
     line-height: 37px;
   }
@@ -202,7 +202,7 @@
     justify-content: center !important;
   }
   .btn-revolucion {
-    margin-right: 45px;
+    margin-left: 28px;
     font-size: 13px;
     margin-bottom: 10px;
     text-align: center !important;
@@ -236,7 +236,7 @@
     justify-content: center !important;
   }
   .btn-revolucion {
-    margin-right: 30px;
+    margin-left: 30px;
 
     margin-bottom: 10px;
     text-align: center !important;
@@ -265,7 +265,7 @@
   }
   .btn-revolucion {
     margin-bottom: 20px;
-    margin-right: 45px;
+    margin-left: 49px;
   }
   .refill-img {
     width: auto;
@@ -294,7 +294,7 @@
   }
   .btn-revolucion {
     margin-bottom: 20px;
-    margin-right: 60px;
+    margin-left: 50px;
   }
   .refill-img {
     width: auto;
