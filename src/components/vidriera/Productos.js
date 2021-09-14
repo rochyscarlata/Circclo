@@ -17,7 +17,7 @@ const Vidriera = () => {
     <Container fluid>
       <h1 className="text-center titulo-comentarios">HOGARES QUE FORMAN PARTE</h1>
       <br />
-      <Carousel variant="dark" controls="true">
+      <Carousel variant="dark" >
         <Carousel.Item>
           <Row>
             <Col md={{ span: 6, offset: 3 }}>
@@ -44,7 +44,7 @@ const Vidriera = () => {
           <Row>
             <Col md={{ span: 6, offset: 3 }}>
               <Card body className="opiniones">
-                <p className="opiniones">
+                <p className="opiniones-texto">
                 “ Felicitarlos y agradecerles por pensar en el futuro, por su
                 calidez y amabilidad. Son una esperanza y es una caricia al alma
                 comprarles.(Siempre los pongo como ejemplo de dedicacion,

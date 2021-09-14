@@ -38,6 +38,7 @@
     background-image: url(../../assets/icon/left-arrow.png);
 
 }
+
 .carousel-indicators li {
     background-color: black;
 }
@@ -50,12 +51,20 @@
 
 @media (max-width: 600px){
     .carousel{
-        height: auto;
+        height: 340px;
     }
     .img-jabon{
         width: auto !important;
         height: 200px;
         margin-left: 1px;
+    }
+    .opiniones{
+        font-size:18px;
+        margin: 10px;
+    }
+    .opiniones-texto{
+        font-size:16px;
+        margin: 10px;
     }
     .card-comentarios{
         font-family: gothbok;
