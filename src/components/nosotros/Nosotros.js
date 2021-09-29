@@ -2,10 +2,10 @@ import React, { useContext } from "react";
 import { FormattedMessage } from "react-intl";
 import { langContext } from "../../context/langContext";
 import { Col, Row, Card } from "react-bootstrap";
-import Equipo from "../../assets/img/equipo.jpg";
-import PiggyBank from "../../assets/icon/piggybank.png";
+import Equipo from "../../assets/img/equipoimg.jpg";
+import Economico from "../../assets/icon/hand.png";
 import HandShake from "../../assets/icon/handshake.png";
-import Planet from "../../assets/icon/planet.png";
+import Planet from "../../assets/icon/world.png";
 import Climate from '../../assets/logos/climate.png'
 import ClimateLaunch from '../../assets/logos/climate-launch.png'
 import Macro from '../../assets/logos/macro.png'
@@ -17,8 +17,7 @@ import Lagaceta from '../../assets/logos/lagaceta.png'
 import Fade from 'react-reveal/Fade';
 
 // Con color
-import HandsColor from "../../assets/icon/handshakeColor.png";
-import PlanetColor from "../../assets/icon/planetColor.png";
+import PlanetColor from "../../assets/icon/tierra-proposito.png";
 
 import "./Nosotros.css";
 
@@ -32,22 +31,22 @@ const Nosotros = () => {
         {" "}
         <FormattedMessage id="nos.nosotros" defaultMessage="Sobre nosotros" />
       </h6>
-      <hr width="100"></hr>
-      <br></br>
+      
       <div className="titulos-padre">
         <div className="titulos-centrados">
         <Fade bottom>
-          <h1 className="text-center howit">
+          <h4 className="text-center howit">
             
             <FormattedMessage
               id="nos.titulo"
               defaultMessage="Somos una empresa de jovenes que busca revolucionar la manera en que consumimos día a día."
             />
-          </h1>
+          </h4>
           
-          <blockquote> </blockquote>
+          <br></br>
+          <hr width="100" ></hr>
           <br />
-          <h5 className="text-center ">
+          <h5 className="text-center titulo-siguiente">
             <FormattedMessage
               id="nos.subtitulo"
               defaultMessage="Nuestra meta es acercar al consumidor mejores productos, con menos intermediarios y a un precio justo. Apostamos por el triple impacto y pronto nos certificaremos como Empresa B:"
@@ -62,7 +61,7 @@ const Nosotros = () => {
         <Col>
           <br></br>
           <Fade bottom>
-          <img src={PiggyBank} className="" width="100" height="80"></img>
+          <img src={Economico} className="" width="80" height="80"></img>
           <br></br>
           <h5 className="ecosocam">
             <FormattedMessage id="nos.economico" defaultMessage="Economico" />
@@ -75,26 +74,10 @@ const Nosotros = () => {
           </p>
           </Fade >
         </Col>
-        <Col>
+        <Col >
         <Fade bottom>
           <br></br>
-          <img src={HandShake} className="hand-shake" width="100" height="90"></img>
-          <br></br>
-          <h6 className="ecosocam">
-            <FormattedMessage id="nos.social" defaultMessage="Social" />
-          </h6>
-          <p className="descripciones">
-            <FormattedMessage
-              id="nos.socialDescrip"
-              defaultMessage="Fomentamos las economías locales y el comercio justo, eliminando las largas cadenas de intermediarios."
-            />
-          </p>
-          </Fade >
-        </Col>
-        <Col>
-        <Fade bottom>
-          <br></br>
-          <img src={Planet} className="mb-1" width="100" height="80"></img>
+          <img src={Planet} className="mb-1" width="90" height="80"></img>
           <br></br>
           <h5 className="ecosocam">
             <FormattedMessage id="nos.ambiental" defaultMessage="Ambiental" />
@@ -107,6 +90,23 @@ const Nosotros = () => {
           </p>
           </Fade >
         </Col>
+        <Col>
+        <Fade bottom>
+          <br></br>
+          <img src={HandShake} className="hand-shake" width="90" height="80"></img>
+          <br></br>
+          <h5 className="ecosocam">
+            <FormattedMessage id="nos.social" defaultMessage="Social" />
+          </h5>
+          <p className="descripciones">
+            <FormattedMessage
+              id="nos.socialDescrip"
+              defaultMessage="Fomentamos las economías locales y el comercio justo, eliminando las largas cadenas de intermediarios."
+            />
+          </p>
+          </Fade >
+        </Col>
+        
       </div>
       <br></br>
       <div className="proposito-padre">
@@ -116,30 +116,29 @@ const Nosotros = () => {
             <Fade left>
               <img
                 src={PlanetColor}
-                width="250"
-                height="200"
+                width="220"
+                height="220"
                 className="img-proposito"
               />
               </Fade>
             </Col>
             <Col>
             <Fade right>
-              <h1 className="text-center titulo-proposito">
+              <h3 className="titulo-pro">
                 <FormattedMessage
                   id="nos.proposito"
                   defaultMessage="Nuestro propósito"
                 />
-              </h1>
-              <Card className="text-center card-proposito">
-                <Card.Body className="card-body">
-                  <h5>
+              </h3>  
+              <hr width="100" className="propositohr"></hr>
+<br/>
+              <h5 className="descripcion-proposito">
                     <FormattedMessage
                       id="nos.propositoDescrip"
                       defaultMessage="Brindar soluciones inteligentes para productos de primera necesidad mediante la eliminación del plástico de un solo uso."
                     />
                   </h5>
-                </Card.Body>
-              </Card>
+             
               </Fade>
             </Col>
           </Row>
@@ -147,28 +146,27 @@ const Nosotros = () => {
       </div>
 
       <br />
-      <hr width="100"></hr>
+      {/* <hr width="100"></hr> */}
       <div className="equipo-padre">
         <div className="equipo">
           <Fade>
-          <h1 className="text-center ">
-            <FormattedMessage id="nos.equipo" defaultMessage="Equipo Circclo" />
-          </h1>
+         
           <blockquote> </blockquote>
           <br />
-          <Row className="equipo-bg">
-            <Col sm>
-            <div className="equipo-img">
+          <div className="equipo-img">
             <img
               src={Equipo}
-              width="550"
-              height="400"
+              width="670"
+              height="430"
               className="imagen-equipo"
             ></img>
           </div>
-            </Col>
-            <Col sm>
-            <h5 className="equipo-texto">
+          <h1 className="text-center titulo-equipo">
+            <FormattedMessage id="nos.equipo" defaultMessage="Equipo Circclo" />
+          </h1>
+          <br/>
+          <div className="equipo-textoPadre">
+          <h5 className="equipo-texto">
             <FormattedMessage
               id="nos.equipoDescrip1"
               defaultMessage="Somos un equipo de jóvenes profesionales con demasiadas ganas de cambiar lo que está mal. "
@@ -180,15 +178,15 @@ const Nosotros = () => {
               defaultMessage="Nos dimos cuenta de que si hay algo que no está en la agenda de las principales marcas a nivel mundial, es resolver el problema de los plásticos, así que decidimos hacernos cargo. "
             />
           </h5>
-          <h5 className="equipo-texto">
+          <h5 className="equipo-texto3">
             <FormattedMessage
               id="nos.equipoDescrip3"
               defaultMessage="Aunque sea muy difícil y parezca imposible, no vamos a bajar los brazos nunca porque el futuro de este planeta no puede ser descartable."
             />
           </h5>
-            </Col>
-          </Row>
-        
+         
+          </div>
+         
           <br></br>
           
           </Fade>
@@ -228,10 +226,9 @@ const Nosotros = () => {
       </Card>
       </Fade> */}
     <br></br>
-<hr></hr>
         <div className="reconocimientos-padre">
           <Fade>          <div className="reconocimientos">
-            <h4>
+            <h4 className="reconocimientos-titulo">
             <FormattedMessage
               id="nos.reconocimientos"
               defaultMessage="Reconocimientos"
