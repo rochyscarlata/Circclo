@@ -16,7 +16,7 @@
  }
 .opiniones{
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 700;
     border: none;
     color:black;
@@ -28,7 +28,7 @@
 }
 .carousel{
     width: auto;
-    height: 380px;
+    height: 360px;
 }
 
 .carousel-control-next-icon  {

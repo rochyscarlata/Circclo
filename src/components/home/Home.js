@@ -22,9 +22,9 @@ const Home = () => {
       <Main id="#home"/>
       <br />
       {/* <Secdos id="#img"/> */}
-        <h1 className="text-center">SECCION 2 </h1>
-      <blockquote></blockquote>
-      <br></br>
+        {/* <h1 className="text-center">SECCION 2 </h1> */}
+      {/* <blockquote></blockquote>
+      <br></br> */}
       <Funcionamiento id="#how"/>
       <br />
       {/* <Marquee className="marque" gradientWidth="no">
