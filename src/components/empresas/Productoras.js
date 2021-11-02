@@ -21,7 +21,7 @@ const Prodcutoras = () => {
           defaultMessage="MARCAS QUE NOS ACOMPAÑAN" />
        </h1> 
       <br></br> 
-     <br></br>
+      <br></br>
       <h3 className="textoProductoras">
         {" "}
         <FormattedMessage 
@@ -32,7 +32,7 @@ const Prodcutoras = () => {
           id="empresas.subtitulo"
           defaultMessage="Estos son los fabricantes con los que generamos una alianza" /></h3>
           <br/>
-    
+      
        <div className="contenedor-padre-productoras">
           <div className="contenedor-hijo-productoras">
                 <img src={Limplus} width="140" height="auto" className="empresas-produc"></img>

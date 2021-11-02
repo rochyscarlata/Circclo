@@ -13,7 +13,7 @@
 .titulos-count{
     font-family: gothbold;
     /* font-weight: 800; */
-    font-size: 70px;
+    font-size:40px !important;
     color: #009538;
     text-align: center;
 }
@@ -36,7 +36,7 @@
 
 }
 .contador{
-    font-size: 70px ;
+    font-size: 55px ;
     font-family: gothbold;
     color: black;
 

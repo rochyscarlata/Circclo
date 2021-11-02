@@ -48,15 +48,16 @@ const Home = () => {
        <blockquote></blockquote> */}
 
     
-
+       <br/>
       <Count id="#calculadora"/>
       <br />
-      <blockquote></blockquote>
+      <br/>
       <Prodcutoras id="#empresas"/>
-      <blockquote></blockquote>
+      
 
       <br></br>
       <br />
+      <br/>
       <Vidriera/>
       <br/>
     </>

@@ -36,7 +36,7 @@ const Count = () => {
 
           </div>
           <h3 className="titulos-count">
-          <FormattedMessage id="count.envases" defaultMessage="ENVASES" /></h3>
+          <FormattedMessage id="count.envases" defaultMessage="ENVASES EVITADOS" /></h3>
 
         </Col>
         <br/>
