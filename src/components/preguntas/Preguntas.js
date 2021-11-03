@@ -115,18 +115,7 @@ const Preguntas = () => {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-        <Card>
-          <Card.Header>
-            <Accordion.Toggle className="acor" variant="link" eventKey="7">
-              <h6 className="h6">¿Puedo elegir un horario?</h6>
-            </Accordion.Toggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="7">
-            <Card.Body>
-              <p className="respuestas">Siempre y cuando esté dentro de la franja horaria establecida, se puede solicitar un horario aproximado.</p>
-            </Card.Body>
-          </Accordion.Collapse>
-        </Card>
+        
         <Card>
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="8">
@@ -167,20 +156,7 @@ const Preguntas = () => {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-        <Card>
-          <Card.Header>
-            <Accordion.Toggle className="acor" variant="link" eventKey="11">
-              <h6 className="h6">¿Hasta dónde llegamos?</h6>
-            </Accordion.Toggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="11">
-            <Card.Body>
-              <p className="respuestas">
-                Los envíos se realizan únicamente dentro de Yerba Buena.
-              </p>
-            </Card.Body>
-          </Accordion.Collapse>
-        </Card>
+        
         <Card>
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="12">
@@ -229,22 +205,7 @@ const Preguntas = () => {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-        <Card>
-          <Card.Header>
-            <Accordion.Toggle className="acor" variant="link" eventKey="15">
-              <h6 className="h6">
-              ¿Puedo retirar los productos de algún lado?              </h6>
-            </Accordion.Toggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="15">
-            <Card.Body>
-              <p className="respuestas">
-              No. El servicio es unicamente a través de envios.
-
-              </p>
-            </Card.Body>
-          </Accordion.Collapse>
-        </Card>
+        
         <Card>
           <Card.Header>
             <Accordion.Toggle className="acor" variant="link" eventKey="16">

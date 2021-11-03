@@ -1,85 +1,27 @@
-import React from "react";
+import React, {useState} from "react";
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import "./Contacto.css";
 import Fade from "react-reveal";
 import axios from "axios";
-export default class Contacto extends React.Component {
+import emailjs from "emailjs-com"
 
 
-    state={
-      name: '',
-      phone:'',
-      email: '',
-      message:'',
-      sent:false
-    }
+const Contacto = () => {
 
-    // manejando los input 
-      handleName=(e)=>{
-        this.setState({
-          name: e.target.value
-        })
-      }
-      handlePhone=(e)=>{
-        this.setState({
-          phone: e.target.value
-        })
-      }
-      handleEmail=(e)=>{
-        this.setState({
-          email: e.target.value
-        })
-      }
-      handleMessage=(e)=>{
-        this.setState({
-          message: e.target.value
-        })
-      }
-    // fin de los input 
+  const [sent, setSent] = useState(false);
+
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm("service_vr7gbdk", "template_owzw9uj", e.target,
+     "user_uNcjRaKIXuCVT3opMq3Pe"
+     ).then(res=>{
+       console.log(res)
+       
+     }).catch(err=>console.error(err));
+  }
+   
 
 
-
-    // envio a la api
-    formSubmit=(e)=>{
-      e.preventDefault();
-
-      let data = {
-        name: this.state.name,
-        email: this.state.email,
-        phone: this.state.phone,
-        message: this.state.message
-      }
-
-
-      axios.post('/api/forma', data)
-      .then(res=>{
-        this.setState({
-          sent:true,
-        }, this.resetForm())
-      }).catch(()=>{
-        console.log('El mensaje no se pudo enviar, intente nuevamente mas tarde')
-      })
-
-    }
-
-    // para resetear el formulario
-
-    resetForm=()=>{
-      this.setState({
-        name: '',
-      phone:'',
-      email: '',
-      message:'',
-      })
-
-      setTimeout(()=>{
-        this.setState({
-          sent:false,
-        })
-      },3000)
-    }
-
-  render() {
     return (
       <div class="container contenedor-hiw">
       <Fade bottom>
@@ -129,14 +71,13 @@ export default class Contacto extends React.Component {
       </div>
       <br />
       <div className="contenido-form">
-        <Form className="formulario-contacto">
+        <Form className="formulario-contacto" onSubmit={sendEmail}>
           <Form.Group className="" controlId="exampleForm.ControlInput1">
             <Form.Control 
               type="name"
               name="name"
               placeholder="Nombre y apellido" 
-              value={this.state.name}
-              onChange={this.handleName}
+              
               />
           </Form.Group>
           <Form.Group className="" controlId="exampleForm.ControlTextarea1">
@@ -144,8 +85,7 @@ export default class Contacto extends React.Component {
             type="number"
             name="phone" 
             placeholder="Celular"
-            value={this.state.phone}
-            onChange={this.handlePhone}
+            
             />
           </Form.Group>
           <Form.Group className="" controlId="exampleForm.ControlInput1">
@@ -153,8 +93,7 @@ export default class Contacto extends React.Component {
             type="email" 
             name="email" 
             placeholder="Email" 
-            value={this.state.email}
-            onChange={this.handleEmail}
+            
             />
           </Form.Group>
         
@@ -163,19 +102,27 @@ export default class Contacto extends React.Component {
             as="textarea" 
             name="message" rows={3}  
             placeholder="Mensaje"
-            value={this.state.message}
-            onChange={this.handleMessage}
+           
             />
           </Form.Group>
-        </Form>
-      </div>
+          {/* <div className={setSent ?  'msg msgAppear' : 'msg'}>
+     <h6> Mensaje enviado con exito</h6>
+      </div> */}
       <div  className="btn-enviar">
-      <Button variant="success" className="btn-color-enviar">Enviar</Button>
+      <Button variant="success" type="submit" className="btn-color-enviar" >Enviar</Button>
         <br></br>
+        
       </div>
 
-  
+        </Form>
+        
+      </div>
+     
+
+     
     </div>
     )
   }
-}
+
+
+export default Contacto
