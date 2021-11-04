@@ -16,6 +16,8 @@ const Contacto = () => {
      "user_uNcjRaKIXuCVT3opMq3Pe"
      ).then(res=>{
        console.log(res)
+       e.target.reset();
+       this.setSent(true);
        
      }).catch(err=>console.error(err));
   }
@@ -105,9 +107,9 @@ const Contacto = () => {
            
             />
           </Form.Group>
-          {/* <div className={setSent ?  'msg msgAppear' : 'msg'}>
+          <div className={sent ?  'msg msgAppear' : 'msg'}>
      <h6> Mensaje enviado con exito</h6>
-      </div> */}
+      </div>
       <div  className="btn-enviar">
       <Button variant="success" type="submit" className="btn-color-enviar" >Enviar</Button>
         <br></br>

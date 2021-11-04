@@ -7,7 +7,7 @@ import {
   Form,
   FormControl,
 } from "react-bootstrap";
-import LogoVyN from "../../assets/logos/logobyv.png";
+import LogoVyN from "../../assets/logos/1.svg";
 import { FormattedMessage } from "react-intl";
 import { NavLink, Link } from "react-router-dom";
 

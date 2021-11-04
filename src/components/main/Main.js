@@ -7,6 +7,8 @@ import MensajesIngles from "../../lang/en-US.json";
 import MensajesEspañol from "../../lang/es-AR.json";
 import { langContext } from "../../context/langContext";
 import NavBar from "../navbar/Navbar";
+import emailjs from "emailjs-com"
+
 import Swal from "sweetalert2";
 
 import "./Main.css";
@@ -18,31 +20,19 @@ function Main() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  const mostrarAlerta = () => {
-    Swal.fire({
-      input: "email",
-      inputLabel: "Email (falta todo el form)",
-      inputPlaceholder: "Ingresa tu email...",
-      inputAttributes: {
-        "aria-label": "hola",
-      },
-      confirmButtonText: "Enviar",
-      confirmButtonColor: "#42893D",
-    });
-  };
 
-  // function Sumate(){
-  //     const { value: email } = await Swal.fire({
-  //         title: 'Input email address',
-  //         input: 'email',
-  //         inputLabel: 'Your email address',
-  //         inputPlaceholder: 'Enter your email address'
-  //       })
 
-  //       if (email) {
-  //         Swal.fire(`Entered email: ${email}`)
-  //       }
-  // }
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm("service_vr7gbdk", "template_owzw9uj", e.target,
+     "user_uNcjRaKIXuCVT3opMq3Pe"
+     ).then(res=>{
+       console.log(res)
+       
+     }).catch(err=>console.error(err));
+  }
+   
+ 
 
   return (
     <Container fluid="md">
@@ -104,14 +94,12 @@ function Main() {
             required
             />
           </Form.Group>
+          <Button variant="success" className="btn-color-enviar" onClick={handleClose}>Enviar</Button>
         </Form>
       </div>
      
             </Modal.Body>
-            <Modal.Footer>
-
-              <Button variant="success" className="btn-color-enviar" onClick={handleClose}>Enviar</Button>
-            </Modal.Footer>
+         
           </Modal>
           <br></br>
         </Col>
