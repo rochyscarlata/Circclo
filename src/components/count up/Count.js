@@ -22,7 +22,7 @@ const Count = () => {
        
         <Col sm className="col-contador">
           <div className="padre-count">
-           <h1 className="contador">-</h1> 
+           <h1 className="contador">+</h1> 
           <CountUp className="contador" start={focus ? 0 : null} end={28000} duration={4} z >
             
           {({ countUpRef }) => (
