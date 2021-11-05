@@ -7,7 +7,9 @@ import {
   Form,
   FormControl,
 } from "react-bootstrap";
-import LogoVyN from "../../assets/logos/1.svg";
+import LogoVyN from "../../assets/logos/circclovyn.png";
+import Logopeque from "../../assets/logos/logobicolor.svg";
+
 import { FormattedMessage } from "react-intl";
 import { NavLink, Link } from "react-router-dom";
 
@@ -25,7 +27,7 @@ function NavBar() {
         
       <Navbar.Brand href="/" className="nav-brand">
           <img
-            src={LogoVyN}
+            src={Logopeque}
             alt="logo"
             className="logonav"
             width="230"

@@ -2,7 +2,12 @@
     font-family: gothamNarrowBold;
     src: url(../../assets/fonts/GothamNarrow-Bold.otf);
 }
-
+.Logogrande{
+    width: 200px !important;
+}
+    /* .logonav{
+        display: none;
+    } */
 .navbar-c{
     background-color: white;
     font-family: gothamNarrowBold;

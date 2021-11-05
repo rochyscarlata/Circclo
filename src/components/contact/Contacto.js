@@ -4,6 +4,7 @@ import "./Contacto.css";
 import Fade from "react-reveal";
 import axios from "axios";
 import emailjs from "emailjs-com"
+import Swal from 'sweetalert2'
 
 
 const Contacto = () => {
@@ -16,8 +17,18 @@ const Contacto = () => {
      "user_uNcjRaKIXuCVT3opMq3Pe"
      ).then(res=>{
        console.log(res)
+       Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Mensaje enviado!',
+        showConfirmButton: false,
+        timer: 1500
+      })
+      //  if(res==200){
+      //   setSent(true);
+
+      //  }
        e.target.reset();
-       this.setSent(true);
        
      }).catch(err=>console.error(err));
   }
@@ -107,9 +118,9 @@ const Contacto = () => {
            
             />
           </Form.Group>
-          <div className={sent ?  'msg msgAppear' : 'msg'}>
+          {/* <div className={sent ?  'msg msgAppear' : 'msg'}>
      <h6> Mensaje enviado con exito</h6>
-      </div>
+      </div> */}
       <div  className="btn-enviar">
       <Button variant="success" type="submit" className="btn-color-enviar" >Enviar</Button>
         <br></br>
