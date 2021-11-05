@@ -1,42 +1,43 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import "./Contacto.css";
 import Fade from "react-reveal";
 import axios from "axios";
-import emailjs from "emailjs-com"
-import Swal from 'sweetalert2'
-
+import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
 
 const Contacto = () => {
-
   const [sent, setSent] = useState(false);
 
   function sendEmail(e) {
     e.preventDefault();
-    emailjs.sendForm("service_vr7gbdk", "template_owzw9uj", e.target,
-     "user_uNcjRaKIXuCVT3opMq3Pe"
-     ).then(res=>{
-       console.log(res)
-       Swal.fire({
-        position: 'center',
-        icon: 'success',
-        title: 'Mensaje enviado!',
-        showConfirmButton: false,
-        timer: 1500
+    emailjs
+      .sendForm(
+        "service_vr7gbdk",
+        "template_owzw9uj",
+        e.target,
+        "user_uNcjRaKIXuCVT3opMq3Pe"
+      )
+      .then((res) => {
+        console.log(res);
+        Swal.fire({
+          position: "center",
+          icon: "success",
+          title: "Mensaje enviado!",
+          showConfirmButton: false,
+          timer: 1500,
+        });
+        //  if(res==200){
+        //   setSent(true);
+
+        //  }
+        e.target.reset();
       })
-      //  if(res==200){
-      //   setSent(true);
-
-      //  }
-       e.target.reset();
-       
-     }).catch(err=>console.error(err));
+      .catch((err) => console.error(err));
   }
-   
 
-
-    return (
-      <div class="container contenedor-hiw">
+  return (
+    <div class="container contenedor-hiw">
       <Fade bottom>
         <h2 className="contacto-titulo">Estemos en contacto</h2>
         <hr width="100"></hr>
@@ -86,56 +87,44 @@ const Contacto = () => {
       <div className="contenido-form">
         <Form className="formulario-contacto" onSubmit={sendEmail}>
           <Form.Group className="" controlId="exampleForm.ControlInput1">
-            <Form.Control 
+            <Form.Control
               type="name"
               name="name"
-              placeholder="Nombre y apellido" 
-              
-              />
+              placeholder="Nombre y apellido"
+            />
           </Form.Group>
           <Form.Group className="" controlId="exampleForm.ControlTextarea1">
-            <Form.Control 
-            type="number"
-            name="phone" 
-            placeholder="Celular"
-            
-            />
+            <Form.Control type="number" name="phone" placeholder="Celular" />
           </Form.Group>
           <Form.Group className="" controlId="exampleForm.ControlInput1">
-            <Form.Control 
-            type="email" 
-            name="email" 
-            placeholder="Email" 
-            
-            />
+            <Form.Control type="email" name="email" placeholder="Email" />
           </Form.Group>
-        
+
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Control 
-            as="textarea" 
-            name="message" rows={3}  
-            placeholder="Mensaje"
-           
+            <Form.Control
+              as="textarea"
+              name="message"
+              rows={3}
+              placeholder="Mensaje"
             />
           </Form.Group>
           {/* <div className={sent ?  'msg msgAppear' : 'msg'}>
      <h6> Mensaje enviado con exito</h6>
       </div> */}
-      <div  className="btn-enviar">
-      <Button variant="success" type="submit" className="btn-color-enviar" >Enviar</Button>
-        <br></br>
-        
-      </div>
-
+          <div className="btn-enviar">
+            <Button
+              variant="success"
+              type="submit"
+              className="btn-color-enviar"
+            >
+              Enviar
+            </Button>
+            <br></br>
+          </div>
         </Form>
-        
       </div>
-     
-
-     
     </div>
-    )
-  }
+  );
+};
 
-
-export default Contacto
+export default Contacto;

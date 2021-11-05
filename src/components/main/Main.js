@@ -104,7 +104,7 @@ function Main() {
           <br></br>
         </Col>
         <Col sm className="columna-main">
-          <img src={Gif} className="refill-img"></img>
+          <img src={Gif}  alt="gif-refill" className="refill-img"></img>
         </Col>
       </Row>
       <br></br>

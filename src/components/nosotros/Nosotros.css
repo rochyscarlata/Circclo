@@ -2,23 +2,22 @@
   font-family: gohtbook;
   src: url(../../assets/fonts/GOTHMBOK_6.TTF);
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
 
 @font-face {
   font-family: gothbold;
   src: url(../../assets/fonts/Gotham-Black_2.otf);
   font-weight: bold !important;
-
 }
 @font-face {
-   font-family: bookbold;
-   src: url(../../assets/fonts/GOTHMMED_6.TTF);
+  font-family: bookbold;
+  src: url(../../assets/fonts/GOTHMMED_6.TTF);
 }
 /* Nosotros */
 
 .nosotros {
   color: #009538;
-  font-family:  bookbold;
+  font-family: bookbold;
   text-align: center;
   text-transform: uppercase;
   margin-top: 40px;
@@ -28,9 +27,9 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  font-family: gothamNarrowLight ;
+  font-family: gothamNarrowLight;
 }
-.howit{
+.howit {
   font-size: 30px;
   text-transform: uppercase;
 }
@@ -39,9 +38,8 @@
   justify-content: center;
   align-items: center;
 }
-hr{
+hr {
   background-color: rgba(0, 0, 0, 0.295);
-
 }
 .ecosocam {
   color: #009538;
@@ -52,12 +50,12 @@ hr{
 }
 .descripciones {
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: black;
 }
 
 .titulo-siguiente {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: black;
 }
 
@@ -66,7 +64,7 @@ hr{
   align-items: center;
   display: flex;
   justify-content: center;
-  font-family: gothamNarrowBold ;
+  font-family: gothamNarrowBold;
   margin-top: 50px;
 }
 .proposito {
@@ -75,12 +73,12 @@ hr{
   align-items: center;
 }
 
-.propositohr{
-  display: inline-block; 
+.propositohr {
+  display: inline-block;
 }
-.titulo-pro{
+.titulo-pro {
   color: #038910;
-  font-family:  gohtbook;
+  font-family: gohtbook;
   text-transform: uppercase;
 }
 
@@ -93,9 +91,8 @@ hr{
   margin-bottom: 10px;
 }
 
-
 .card-body {
-  font-family: gothamNarrowLight ;
+  font-family: gothamNarrowLight;
   font-weight: 300 !important;
 }
 
@@ -112,9 +109,9 @@ hr{
   width: auto;
   font-family: gothamNarrowBold;
 }
-.titulo-equipo{
+.titulo-equipo {
   font-family: gothamBold;
-  font-size:50px;
+  font-size: 50px;
   text-transform: uppercase;
 }
 .equipo-img {
@@ -122,13 +119,13 @@ hr{
   display: flex;
   justify-content: center;
 }
-.equipo-texto{
-    font-family: gohtbook;
-    font-size: 23px;
-    line-height: 1.3;
-    text-align: center;
+.equipo-texto {
+  font-family: gohtbook;
+  font-size: 23px;
+  line-height: 1.3;
+  text-align: center;
 }
-.equipo-texto3{
+.equipo-texto3 {
   font-family: gohtbook;
   font-size: 23px;
   line-height: 1.3;
@@ -138,9 +135,8 @@ hr{
 }
 .imagen-equipo {
   justify-content: center;
-
 }
-.equipo-textoPadre{
+.equipo-textoPadre {
   width: 800px;
 }
 
@@ -174,33 +170,29 @@ hr{
 
 /* Reconocimientos */
 
-.reconocimientos-padre{
-    align-items: center;
+.reconocimientos-padre {
+  align-items: center;
   display: flex;
   justify-content: center;
   margin-top: 30px;
 }
 
-.reconocimientos{
-    width: 700px;
+.reconocimientos {
+  width: 700px;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 20px;
- 
 }
-.reconocimientos-titulo{
+.reconocimientos-titulo {
   font-family: gothamBold;
-  font-size:50px;
+  font-size: 50px;
   color: black;
   text-transform: uppercase;
 }
-.lagaceta-img{
+.lagaceta-img {
   margin-top: -10px;
 }
-
-
-
 
 /* responsive */
 @media (max-width: 600px) {
@@ -211,44 +203,41 @@ hr{
     width: 200px;
     height: 180px;
   }
-  .equipo-texto{
+  .equipo-texto {
     font-size: 20px;
     margin-top: 19px;
     text-align: center;
-    line-height:normal;
-
-}
-.col{
-  flex-basis: auto;
-}
-.equipo-textoPadre{
-  width:auto;
-}
-.titulo-equipo{
-  font-size: 35px;
-}
-.reconocimientos{
-  width:auto;
-}
-.reconocimientos-titulo{
-  font-size:30px;
-}
+    line-height: normal;
+  }
+  .col {
+    flex-basis: auto;
+  }
+  .equipo-textoPadre {
+    width: auto;
+  }
+  .titulo-equipo {
+    font-size: 35px;
+  }
+  .reconocimientos {
+    width: auto;
+  }
+  .reconocimientos-titulo {
+    font-size: 30px;
+  }
   /* ..equipo-img{
         width: 200px;
     } */
-    .lagaceta-img{
-      margin-top: 10px;
-    }
+  .lagaceta-img {
+    margin-top: 10px;
+  }
   .imagen-equipo {
     width: 290px;
     height: auto;
   }
-    .jije-img{
-        margin-top: 0px;
-    }
-    .climate-launch{
-        margin-top: 30px;
-
-    }
-    
+  .jije-img {
+    margin-top: 0px;
+  }
+  .climate-launch {
+    margin-top: 30px;
+  }
 }

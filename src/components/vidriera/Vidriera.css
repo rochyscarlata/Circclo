@@ -1,79 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
- @font-face {
-    font-family: gothbold;
-    src: url(../../assets/fonts/Gotham-Black_2.otf);
-    font-weight: bold !important;
-
- }
- @font-face {
-     font-family: bookbold;
-     src: url(../../assets/fonts/GOTHMMED_6.TTF);
- }
- .titulo-comentarios{
-     font-family: gothbold;
-     font-size: 40px;
-     color:black;
- }
-.opiniones{
-    text-align: center;
-    font-size: 27px;
-    font-weight: 700;
-    border: none;
-    color:black;
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@font-face {
+  font-family: gothbold;
+  src: url(../../assets/fonts/Gotham-Black_2.otf);
+  font-weight: bold !important;
 }
-.opiniones  p{
-    font-family: 'Montserrat', sans-serif;
-     font-weight: 200;
+@font-face {
+  font-family: bookbold;
+  src: url(../../assets/fonts/GOTHMMED_6.TTF);
 }
-.carousel{
-    width: auto;
-    height: 360px;
+.titulo-comentarios {
+  font-family: gothbold;
+  font-size: 40px;
+  color: black;
+}
+.opiniones {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 700;
+  border: none;
+  color: black;
+}
+.opiniones p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+.carousel {
+  width: auto;
+  height: 360px;
 }
 
-.carousel-control-next-icon  {
-    background-image: url(../../assets/icon/right-arrow.png);
+.carousel-control-next-icon {
+  background-image: url(../../assets/icon/right-arrow.png);
 }
-.carousel-control-prev-icon{
-    background-image: url(../../assets/icon/left-arrow.png);
-
+.carousel-control-prev-icon {
+  background-image: url(../../assets/icon/left-arrow.png);
 }
 
 .carousel-indicators li {
-    background-color: black;
+  background-color: black;
 }
-.img-jabon{
-    width: 950px !important;
-    height: auto;
-    margin-left: 200px;
+.img-jabon {
+  width: 950px !important;
+  height: auto;
+  margin-left: 200px;
 }
 
-
-@media (max-width: 600px){
-    .carousel{
-        height: 340px;
-    }
-    .img-jabon{
-        width: auto !important;
-        height: 200px;
-        margin-left: 1px;
-    }
-    .opiniones{
-        font-size:18px;
-        margin: 10px;
-    }
-    .opiniones-texto{
-        font-size:16px;
-        margin: 10px;
-    }
-    .card-comentarios{
-        font-family: gothbok;
-        text-align: center;
-        font-size: 18px;
-       
-    }
-    .titulo-comentarios{
-        font-family: gothbold;
-        font-size: 30px;
-    }
+@media (max-width: 600px) {
+  .carousel {
+    height: 340px;
+  }
+  .img-jabon {
+    width: auto !important;
+    height: 200px;
+    margin-left: 1px;
+  }
+  .opiniones {
+    font-size: 18px;
+    margin: 10px;
+  }
+  .opiniones-texto {
+    font-size: 16px;
+    margin: 10px;
+  }
+  .card-comentarios {
+    font-family: gothbok;
+    text-align: center;
+    font-size: 18px;
+  }
+  .titulo-comentarios {
+    font-family: gothbold;
+    font-size: 30px;
+  }
 }

@@ -1,46 +1,41 @@
-
-
-.preguntas-padre{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-
+.preguntas-padre {
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
-.preguntas-hijo{
-   text-align: start;
-   width: 700px;
+.preguntas-hijo {
+  text-align: start;
+  width: 700px;
 }
-.preguntasfrec{
-    text-align: center;
-    font-family: gothamNarrowBold;
-    font-weight: bolder;
-
+.preguntasfrec {
+  text-align: center;
+  font-family: gothamNarrowBold;
+  font-weight: bolder;
 }
-.respuestas{
-    font-family: gothamNarrowLight;
-    font-weight: 600;
+.respuestas {
+  font-family: gothamNarrowLight;
+  font-weight: 600;
 }
 
-.acor{
-    border: none;
-    text-decoration: none;
-    background-color: #F7F7F7;
-    color: #009538;
-    font-weight: 900 !important;
+.acor {
+  border: none;
+  text-decoration: none;
+  background-color: #f7f7f7;
+  color: #009538;
+  font-weight: 900 !important;
 }
-.respuestasgrandes{
-    width: 700px;
+.respuestasgrandes {
+  width: 700px;
 }
-.h6{
-    color: #009538;
-    font-weight: 900;
-    font-family: gothamNarrowBold;
-    text-align: start;
+.h6 {
+  color: #009538;
+  font-weight: 900;
+  font-family: gothamNarrowBold;
+  text-align: start;
+}
 
-}
-
-@media (max-width: 600px){
-    .respuestasgrandes{
-        width: auto;
-    }
+@media (max-width: 600px) {
+  .respuestasgrandes {
+    width: auto;
+  }
 }

@@ -35,10 +35,10 @@ const Prodcutoras = () => {
       
        <div className="contenedor-padre-productoras">
           <div className="contenedor-hijo-productoras">
-                <img src={Limplus} width="140" height="auto" className="empresas-produc"></img>
-        <img src={Beleza} width="auto" height="100" className="empresas-produc"></img>
-        <img src={Clorosal} width="130" height="auto" className="empresas-produc"></img>
-        <img src={Frau} width="130" height="auto" className="empresas-produc"></img>
+                <img src={Limplus} width="140" alt="limplus" height="auto" className="empresas-produc"></img>
+        <img src={Beleza} width="auto" alt="beleza" height="100" className="empresas-produc"></img>
+        <img src={Clorosal} width="130" alt="clorosal" height="auto" className="empresas-produc"></img>
+        <img src={Frau} width="130" alt="frau" height="auto" className="empresas-produc"></img>
      
           </div>
        </div>

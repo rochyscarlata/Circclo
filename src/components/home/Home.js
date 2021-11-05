@@ -13,53 +13,32 @@ const Home = () => {
   return (
     <>
       <div className="icon-bar">
-        <a href="https://api.whatsapp.com/send?phone=543814620450&text=Hola!%20Quiero%20mas%20info%20sobre%20CIRCCLO" target="_blank" className="facebook">
+        <a
+          href="https://api.whatsapp.com/send?phone=543814620450&text=Hola!%20Quiero%20mas%20info%20sobre%20CIRCCLO"
+          target="_blank"
+          className="facebook"
+        >
           <i className="fab fa-whatsapp"></i>
         </a>
-        
       </div>
-      
-      <Main id="#home"/>
-      <br />
-      {/* <Secdos id="#img"/> */}
-        {/* <h1 className="text-center">SECCION 2 </h1> */}
-      {/* <blockquote></blockquote>
-      <br></br> */}
-      <Funcionamiento id="#how"/>
-      <br />
-      {/* <Marquee className="marque" gradientWidth="no">
-        <p className="text-marque">
-          ¡Por el momento servicio disponible en Yerba Buena!
-          <i class="fas fa-exclamation-circle"></i>
-        </p>{" "}
-        <p className="text-marque">
-          #RetornandoNuestrosEnvasesNuncaSeConviertenEnBasura{" "}
-          <i class="fas fa-exclamation-circle"></i>
-        </p>{" "}
-        <p className="text-marque">
-          ¡Por el momento servicio disponible en “Yerba Buena”!{" "}
-          <i class="fas fa-exclamation-circle"></i>{" "}
-        </p>{" "}
-        <p className="text-marque">
-          #RetornandoNuestrosEnvasesNuncaSeConviertenEnBasura
-          <i class="fas fa-exclamation-circle"></i>{" "}
-        </p>
-      </Marquee>     
-       <blockquote></blockquote> */}
 
-    
-       <br/>
-      <Count id="#calculadora"/>
+      <Main id="#home" />
       <br />
-      <br/>
-      <Prodcutoras id="#empresas"/>
-      
+
+      <Funcionamiento id="#how" />
+      <br />
+
+      <br />
+      <Count id="#calculadora" />
+      <br />
+      <br />
+      <Prodcutoras id="#empresas" />
 
       <br></br>
       <br />
-      <br/>
-      <Vidriera/>
-      <br/>
+      <br />
+      <Vidriera />
+      <br />
     </>
   );
 };
