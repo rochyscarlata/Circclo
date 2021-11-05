@@ -8,7 +8,7 @@ import {
   FormControl,
 } from "react-bootstrap";
 import LogoVyN from "../../assets/logos/circclovyn.png";
-import Logopeque from "../../assets/logos/logosnegro.png";
+import Logopeque from "../../assets/logos/logovyn.png";
 
 import { FormattedMessage } from "react-intl";
 import { NavLink, Link } from "react-router-dom";
