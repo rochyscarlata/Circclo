@@ -8,7 +8,7 @@ import {
   FormControl,
 } from "react-bootstrap";
 import LogoVyN from "../../assets/logos/circclovyn.png";
-import Logopeque from "../../assets/logos/logobicolor.svg";
+import Logopeque from "../../assets/logos/logosnegro.png";
 
 import { FormattedMessage } from "react-intl";
 import { NavLink, Link } from "react-router-dom";
@@ -30,7 +30,7 @@ function NavBar() {
             src={Logopeque}
             alt="logo"
             className="logonav"
-            width="230"
+            width="240"
             height="40"
           />
         </Navbar.Brand>
