@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import "./Contacto.css";
+import Navbar from "../navbar/Navbar"
+
 import Fade from "react-reveal";
 import axios from "axios";
 import emailjs from "emailjs-com";
@@ -37,6 +39,8 @@ const Contacto = () => {
   }
 
   return (
+    <>
+    <Navbar/>
     <div class="container contenedor-hiw">
       <Fade bottom>
         <h2 className="contacto-titulo">Estemos en contacto</h2>
@@ -124,6 +128,7 @@ const Contacto = () => {
         </Form>
       </div>
     </div>
+    </>
   );
 };
 

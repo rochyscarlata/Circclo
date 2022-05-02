@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { FormattedMessage } from "react-intl";
 import { langContext } from "../../context/langContext";
+import Navbar from "../navbar/Navbar"
 import { Col, Row, Card } from "react-bootstrap";
 import Equipo from "../../assets/img/equipoimg.jpg";
 import Economico from "../../assets/icon/hand.png";
@@ -26,6 +27,9 @@ const Nosotros = () => {
   console.log(idioma);
 
   return (
+    <>
+    <Navbar/>
+    
     <div class="container contenedor-hiw">
       <h6 className="nosotros">
         {" "}
@@ -328,6 +332,7 @@ const Nosotros = () => {
         </Fade>
       </div>
     </div>
+    </>
   );
 };
 

@@ -1,10 +1,13 @@
 import React from "react";
 import { Container, Card, Button } from "react-bootstrap";
+import Navbar from "../navbar/Navbar"
 import Accordion from "react-bootstrap/Accordion";
 import "./Preguntas.css";
 
 const Preguntas = () => {
-  return (
+  return ( <>
+    <Navbar/>
+
     <Container fluid="sm">
       <br></br>
       <h2 className="preguntasfrec">Preguntas frecuentes</h2>
@@ -273,6 +276,7 @@ const Preguntas = () => {
         </Accordion>
       </div>
     </Container>
+    </>
   );
 };
 

@@ -1,13 +1,22 @@
 import React, { useContext, useState } from "react";
-import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
-import Refill from "../../assets/img/refill.png";
-import Gif from "../../assets/img/gif.gif";
+import {
+  Container,
+  Row,
+  Col,
+  Button,
+  Modal,
+  Form,
+  Image,
+} from "react-bootstrap";
 import { IntlProvider, FormattedMessage } from "react-intl";
 import MensajesIngles from "../../lang/en-US.json";
 import MensajesEspañol from "../../lang/es-AR.json";
 import { langContext } from "../../context/langContext";
 import NavBar from "../navbar/Navbar";
-import emailjs from "emailjs-com"
+import Banner from "../../assets/img/hero_2.jpg";
+import Fade from "react-reveal";
+
+import emailjs from "emailjs-com";
 
 import Swal from "sweetalert2";
 
@@ -20,23 +29,93 @@ function Main() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-
-
   function sendEmail(e) {
     e.preventDefault();
-    emailjs.sendForm("service_vr7gbdk", "template_owzw9uj", e.target,
-     "user_uNcjRaKIXuCVT3opMq3Pe"
-     ).then(res=>{
-       console.log(res)
-       
-     }).catch(err=>console.error(err));
+    emailjs
+      .sendForm(
+        "service_vr7gbdk",
+        "template_owzw9uj",
+        e.target,
+        "user_uNcjRaKIXuCVT3opMq3Pe"
+      )
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => console.error(err));
   }
-   
- 
 
   return (
-    <Container fluid="md">
-      <Row>
+    <Container fluid className="bannerPrincipal">
+      <Fade top>
+      <NavBar />
+      </Fade>
+      <br />
+    
+      <div
+        class="site-blocks-cover overlay"
+        className="bannersecundario"
+        data-aos="fade"
+        id="home-section"
+      ><br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+              
+        <div className="container">
+        <Fade big>
+          <div className="row align-items-center justify-content-center">
+          
+            <div className="col-sm-5 col-md-6 mt-lg-5 text-center">
+              <h1 className="text-future" data-aos="fade-up">
+              <FormattedMessage
+              id="frase.main"
+          
+              
+              defaultMessage="El futuro de nuestro planeta, no 
+              puede ser descartable"
+            />
+              </h1>
+              
+              <br></br>
+              <br></br>
+              <br></br>
+              
+              <br></br>
+              <div data-aos="fade-up" data-aos-delay="100">
+              <Button className="btn-sumarse" onClick={() => handleShow()}>
+              {" "}
+              Quiero sumarme
+            </Button>
+
+            <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              </div>
+            </div>
+          </div>
+          </Fade>
+        </div>
+
+        <a href="#about-section" class="mouse smoothscroll">
+          <span className="mouse-icon">
+            <span className="mouse-wheel"></span>
+          </span>
+        </a>
+      </div>
+      {/* <h1 className="frase-mainx">
+            <FormattedMessage
+              id="frase.main"
+              defaultMessage="El futuro de nuestro planeta, no 
+              puede ser descartable"
+            />
+          </h1> */}
+      {/* <h1 className="frase-main">
+            <FormattedMessage id="frase.mainx" defaultMessage="descartable." />
+          </h1> */}
+      {/* <Row>
         <Col sm>
           <h1 className="frase-main">
             <FormattedMessage
@@ -106,7 +185,7 @@ function Main() {
         <Col sm className="columna-main">
           <img src={Gif}  alt="gif-refill" className="refill-img"></img>
         </Col>
-      </Row>
+      </Row> */}
       <br></br>
     </Container>
   );

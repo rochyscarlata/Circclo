@@ -9,13 +9,14 @@
         display: none;
     } */
 .navbar-c{
-    background-color: white;
+    background-color: transparent !important;
     font-family: gothamNarrowBold;
     text-transform: uppercase;
     /* mas tarde position: fixed; */
 }
 .nav-link{
     color: #000000 !important;
+
 }
 .nav-link :active{
     color: #009538;

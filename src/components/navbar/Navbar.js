@@ -7,7 +7,7 @@ import {
   Form,
   FormControl,
 } from "react-bootstrap";
-import LogoVyN from "../../assets/logos/circclovyn.png";
+import LogoVyN from "../../assets/logos/logovyn.png";
 import Logopeque from "../../assets/logos/logovyn.png";
 
 import { FormattedMessage } from "react-intl";

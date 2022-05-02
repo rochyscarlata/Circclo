@@ -7,6 +7,7 @@ import Nadando from "../../assets/img/nadando.png";
 import Reuso from "../../assets/img/reuso.png";
 import Circular from "../../assets/img/circcloprod.jpg";
 import Futuro from "../../assets/img/futuro.png";
+import Navbar from "../navbar/Navbar"
 
 import Fade from "react-reveal/Fade";
 
@@ -17,6 +18,8 @@ const Historia = () => {
   console.log(idioma);
 
   return (
+    <>
+    <Navbar/>
     <Container fluid="md">
       <div className="titulo-hist">
         <h3 className="historia">
@@ -221,6 +224,7 @@ const Historia = () => {
         </Col>
       </Row>
     </Container>
+    </>
   );
 };
 

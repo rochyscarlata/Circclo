@@ -8,7 +8,7 @@ import Count from "../components/count up/Count";
 import Prodcutoras from "../components/empresas/Productoras";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Preguntas from "../components/preguntas/Preguntas.js";
-import Secdos from "../components/secdos/Secdos";
+// import Secdos from "../components/secdos/Secdos";
 import Home from "../components/home/Home";
 import Nosotros from "../components/nosotros/Nosotros";
 import Historia from "../components/historia/Historia";
@@ -18,9 +18,7 @@ function Router() {
   return (
     <BrowserRouter>
       <Fade top>
-      <br></br>
-        {" "}
-        <NavBar />
+        {/* <NavBar /> */}
       </Fade>
 
       <Switch>

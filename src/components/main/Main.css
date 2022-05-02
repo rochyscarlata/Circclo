@@ -16,24 +16,39 @@
   src: url(../../assets/fonts/GothamNarrow-Bold.otf);
 }
 
-/* carrousel n */
-
-/* .contenedor-main{
-  width: auto;
-  height: auto;
-} */
-.frase-main {
-  font-family: gothamBold;
-  margin-top: 40px;
-  font-size: 60px;
-  text-transform: uppercase;
-  text-align: start;
-  line-height: 58px;
-  padding-left: 0px !important;
-  color: #000000;
+.bannerPrincipal{
+  padding:0px;
+  background-image: url('../../assets/img/circcloBanner.jpg') ;
+  background-size: cover;
+}
+.bannerSecundario{
+  background-image: url('../../assets/img/circcloBanner.jpg');
+}
+.btn-sumarse{
+  color: white;
+  background-color: #038910 !important;
+  border: #038910;
+  border-style: none !important;
+  border-radius: 10px;
+}
+.text-future{
+    color: white;
 }
 .frase-mainx {
   font-family: gothamBold;
+  font-size: 70px;
+  line-height: 90px !important; 
+  text-transform: uppercase;
+  vertical-align: text-top;
+  line-height: 22px;
+  padding-right: 60% !important;
+  margin-left: 50px;
+  position:absolute;
+  top: 200px;
+  color: #ffffff;
+}
+/* .frase-mainx {
+  font-family: gothamBold;
   font-size: 60px;
 
   text-transform: uppercase;
@@ -41,7 +56,7 @@
   text-align: start;
   color: #000000;
   padding-left: 0px !important;
-}
+} */
 .frase-mainz {
   padding-left: 0px !important;
 
@@ -137,6 +152,11 @@
     text-align: center !important;
     line-height: 30px;
   }
+  .bannersecundario{
+    background-background-image: url('../../assets/img/circcloBannercopia.jpg') ;
+    background-size: cover;
+  }
+
   .frase-mainx {
     font-size: 28px !important;
     text-align: center !important;
@@ -210,6 +230,10 @@
     align-content: center !important;
     align-items: center !important;
   }
+  .bannersecundario{
+    background-background-image: url('../../assets/img/circcloBannercopia.jpg') ;
+    background-size: cover;
+  }
 }
 
 @media screen and (device-width: 375px) {
@@ -244,6 +268,10 @@
     align-content: center !important;
     align-items: center !important;
   }
+  .bannersecundario{
+    background-background-image: url('../../assets/img/circcloBannercopia.jpg') ;
+    background-size: cover;
+  }
 }
 
 @media screen and (device-width: 411px) {
@@ -272,6 +300,10 @@
     height: 500px;
     margin-top: 10px;
     margin-left: 55px;
+  }
+  .bannersecundario{
+    background-background-image: url('../../assets/img/circcloBannercopia.jpg') ;
+    background-size: cover;
   }
 }
 
@@ -302,5 +334,9 @@
     padding-left: 0%;
     margin-top: 10px;
     margin-left: 45px;
+  }
+  .bannersecundario{
+    background-background-image: url('../../assets/img/circcloBannercopia.jpg') ;
+    background-size: cover;
   }
 }
